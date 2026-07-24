@@ -1,7 +1,7 @@
 {
   "meta": {
     "audio_base": "https://archive.org/download/Hesn_Al_Moslem_uP_bY_mUSLEm/Hesn_uP_bY_mUSLEm-134.mp3",
-    "source_note": "Teks Arab bervokal (berharakat) diambil dari www.imadislam.com/hisnulmuslim (kitab Hisnul Muslim, Syaikh Sa'id bin Ali bin Wahf Al-Qahthani). Audio & timestamp per kalimat mengikuti rekaman qira'ah \"Tasjilat Qurthubah Al-Islamiyyah\". Terjemahan Indonesia disusun ulang untuk aplikasi ini.",
+    "source_note": "Teks Arab bervokal (berharakat) diambil dari www.imadislam.com/hisnulmuslim (kitab Hisnul Muslim, Syaikh Sa'id bin Ali bin Wahf Al-Qahthani). Semua judul menu (title_ar) sudah diberi harakat lengkap. Timestamp/audio marker per menu mengikuti rekaman qira'ah \"Tasjilat Qurthubah Al-Islamiyyah\" berdasarkan transkripsi SRT; menu 131 dan 132 belum memiliki timestamp karena tidak ditemukan dalam rekaman/transkripsi yang tersedia saat ini. Teks Arab, terjemahan Indonesia, dan catatan kaki per kalimat baru dilengkapi untuk menu 1-5; menu lainnya baru memiliki judul + marker audio, isi lengkap menyusul.",
     "total_menu": 134,
     "menu_completed": 5
   },
@@ -13,7 +13,15 @@
       "title_id": "Pendahuluan",
       "source_url": "https://www.imadislam.com/hisnulmuslim/index.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "المُقَدِّمَةُ",
+          "title_id": "Pendahuluan",
+          "start": 7.73,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 0,
@@ -22,7 +30,15 @@
       "title_id": "Keutamaan Berdzikir",
       "source_url": "https://www.imadislam.com/hisnulmuslim/index.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "فَضْلُ الذِّكْرِ",
+          "title_id": "Keutamaan Berdzikir",
+          "start": 40.38,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 1,
@@ -180,1132 +196,2132 @@
     {
       "no": 6,
       "seq": 8,
-      "title_ar": "دعاء دخول الخلاء",
+      "title_ar": "دُعَاءُ دُخُولِ الخَلاَءِ",
       "title_id": "Doa Masuk WC / Kamar Mandi",
       "source_url": "https://www.imadislam.com/hisnulmuslim/006.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ دُخُولِ الخَلاَءِ",
+          "title_id": "Doa Masuk WC / Kamar Mandi",
+          "start": 214.02,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 7,
       "seq": 9,
-      "title_ar": "دعاء الخروج من الخلاء",
+      "title_ar": "دُعَاءُ الخُرُوجِ مِنَ الخَلاَءِ",
       "title_id": "Doa Keluar dari WC / Kamar Mandi",
       "source_url": "https://www.imadislam.com/hisnulmuslim/007.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ الخُرُوجِ مِنَ الخَلاَءِ",
+          "title_id": "Doa Keluar dari WC / Kamar Mandi",
+          "start": 227.866,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 8,
       "seq": 10,
-      "title_ar": "الذكر قبل الوضوء",
+      "title_ar": "الذِّكْرُ قَبْلَ الوُضُوءِ",
       "title_id": "Dzikir Sebelum Wudhu",
       "source_url": "https://www.imadislam.com/hisnulmuslim/008.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الذِّكْرُ قَبْلَ الوُضُوءِ",
+          "title_id": "Dzikir Sebelum Wudhu",
+          "start": 236.493,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 9,
       "seq": 11,
-      "title_ar": "الذكر بعد الفراغ من الوضوء",
+      "title_ar": "الذِّكْرُ بَعْدَ الفَرَاغِ مِنَ الوُضُوءِ",
       "title_id": "Dzikir Setelah Selesai Wudhu",
       "source_url": "https://www.imadislam.com/hisnulmuslim/009.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الذِّكْرُ بَعْدَ الفَرَاغِ مِنَ الوُضُوءِ",
+          "title_id": "Dzikir Setelah Selesai Wudhu",
+          "start": 244.839,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 10,
       "seq": 12,
-      "title_ar": "الذكر عند الخروج من المنزل",
+      "title_ar": "الذِّكْرُ عِنْدَ الخُرُوجِ مِنَ المَنْزِلِ",
       "title_id": "Dzikir Keluar Rumah",
       "source_url": "https://www.imadislam.com/hisnulmuslim/010.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الذِّكْرُ عِنْدَ الخُرُوجِ مِنَ المَنْزِلِ",
+          "title_id": "Dzikir Keluar Rumah",
+          "start": 286.093,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 11,
       "seq": 13,
-      "title_ar": "الذكر عند الدخول المنزل",
+      "title_ar": "الذِّكْرُ عِنْدَ الدُّخُولِ المَنْزِلَ",
       "title_id": "Dzikir Masuk Rumah",
       "source_url": "https://www.imadislam.com/hisnulmuslim/011.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الذِّكْرُ عِنْدَ الدُّخُولِ المَنْزِلَ",
+          "title_id": "Dzikir Masuk Rumah",
+          "start": 319.757,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 12,
       "seq": 14,
-      "title_ar": "دعاء الذهاب إلى المسجد",
+      "title_ar": "دُعَاءُ الذَّهَابِ إِلَى المَسْجِدِ",
       "title_id": "Doa Pergi ke Masjid",
       "source_url": "https://www.imadislam.com/hisnulmuslim/012.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ الذَّهَابِ إِلَى المَسْجِدِ",
+          "title_id": "Doa Pergi ke Masjid",
+          "start": 341.045,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 13,
       "seq": 15,
-      "title_ar": "دعاء دخول المسجد",
+      "title_ar": "دُعَاءُ دُخُولِ المَسْجِدِ",
       "title_id": "Doa Masuk Masjid",
       "source_url": "https://www.imadislam.com/hisnulmuslim/013.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ دُخُولِ المَسْجِدِ",
+          "title_id": "Doa Masuk Masjid",
+          "start": 432.75,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 14,
       "seq": 16,
-      "title_ar": "دعاء الخروج من المسجد",
+      "title_ar": "دُعَاءُ الخُرُوجِ مِنَ المَسْجِدِ",
       "title_id": "Doa Keluar dari Masjid",
       "source_url": "https://www.imadislam.com/hisnulmuslim/014.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ الخُرُوجِ مِنَ المَسْجِدِ",
+          "title_id": "Doa Keluar dari Masjid",
+          "start": 460.834,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 15,
       "seq": 17,
-      "title_ar": "أذكار الأذان",
+      "title_ar": "أَذْكَارُ الأَذَانِ",
       "title_id": "Dzikir Menjawab Adzan",
       "source_url": "https://www.imadislam.com/hisnulmuslim/015.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "أَذْكَارُ الأَذَانِ",
+          "title_id": "Dzikir Menjawab Adzan",
+          "start": 481.372,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 16,
       "seq": 18,
-      "title_ar": "دعاء الاستفتاح",
+      "title_ar": "دُعَاءُ الاسْتِفْتَاحِ",
       "title_id": "Doa Iftitah",
       "source_url": "https://www.imadislam.com/hisnulmuslim/016.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ الاسْتِفْتَاحِ",
+          "title_id": "Doa Iftitah",
+          "start": 559.684,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 17,
       "seq": 19,
-      "title_ar": "دعاء الركوع",
+      "title_ar": "دُعَاءُ الرُّكُوعِ",
       "title_id": "Doa Ruku'",
       "source_url": "https://www.imadislam.com/hisnulmuslim/017.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ الرُّكُوعِ",
+          "title_id": "Doa Ruku'",
+          "start": 843.667,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 18,
       "seq": 20,
-      "title_ar": "دعاء الرفع من الركوع",
+      "title_ar": "دُعَاءُ الرَّفْعِ مِنَ الرُّكُوعِ",
       "title_id": "Doa Bangkit dari Ruku'",
       "source_url": "https://www.imadislam.com/hisnulmuslim/018.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ الرَّفْعِ مِنَ الرُّكُوعِ",
+          "title_id": "Doa Bangkit dari Ruku'",
+          "start": 896.887,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 19,
       "seq": 21,
-      "title_ar": "دعاء السجود",
+      "title_ar": "دُعَاءُ السُّجُودِ",
       "title_id": "Doa Sujud",
       "source_url": "https://www.imadislam.com/hisnulmuslim/019.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ السُّجُودِ",
+          "title_id": "Doa Sujud",
+          "start": 948.638,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 20,
       "seq": 22,
-      "title_ar": "دعاء الجلسة بين السجدتين",
+      "title_ar": "دُعَاءُ الجَلْسَةِ بَيْنَ السَّجْدَتَيْنِ",
       "title_id": "Doa Duduk di Antara Dua Sujud",
       "source_url": "https://www.imadislam.com/hisnulmuslim/020.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ الجَلْسَةِ بَيْنَ السَّجْدَتَيْنِ",
+          "title_id": "Doa Duduk di Antara Dua Sujud",
+          "start": 1042.459,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 21,
       "seq": 23,
-      "title_ar": "دعاء سجود التلاوة",
+      "title_ar": "دُعَاءُ سُجُودِ التِّلاَوَةِ",
       "title_id": "Doa Sujud Tilawah",
       "source_url": "https://www.imadislam.com/hisnulmuslim/021.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ سُجُودِ التِّلاَوَةِ",
+          "title_id": "Doa Sujud Tilawah",
+          "start": 1067.837,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 22,
       "seq": 24,
-      "title_ar": "التشهد",
+      "title_ar": "التَّشَهُّدُ",
       "title_id": "Bacaan Tasyahud",
       "source_url": "https://www.imadislam.com/hisnulmuslim/022.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "التَّشَهُّدُ",
+          "title_id": "Bacaan Tasyahud",
+          "start": 1106.551,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 23,
       "seq": 25,
-      "title_ar": "الصلاة على النبي صلى الله عليه وسلم بعد التشهد",
+      "title_ar": "الصَّلاَةُ عَلَى النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ بَعْدَ التَّشَهُّدِ",
       "title_id": "Shalawat kepada Nabi ﷺ Setelah Tasyahud",
       "source_url": "https://www.imadislam.com/hisnulmuslim/023.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الصَّلاَةُ عَلَى النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ بَعْدَ التَّشَهُّدِ",
+          "title_id": "Shalawat kepada Nabi ﷺ Setelah Tasyahud",
+          "start": 1137.769,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 24,
       "seq": 26,
-      "title_ar": "الدعاء بعد التشهد الأخير وقبل السلام",
+      "title_ar": "الدُّعَاءُ بَعْدَ التَّشَهُّدِ الأَخِيرِ وَقَبْلَ السَّلاَمِ",
       "title_id": "Doa Setelah Tasyahud Akhir Sebelum Salam",
       "source_url": "https://www.imadislam.com/hisnulmuslim/024.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ بَعْدَ التَّشَهُّدِ الأَخِيرِ وَقَبْلَ السَّلاَمِ",
+          "title_id": "Doa Setelah Tasyahud Akhir Sebelum Salam",
+          "start": 1202.579,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 25,
       "seq": 27,
-      "title_ar": "الأذكار بعد السلام من الصلاة",
+      "title_ar": "الأَذْكَارُ بَعْدَ السَّلاَمِ مِنَ الصَّلاَةِ",
       "title_id": "Dzikir Setelah Salam dari Shalat",
       "source_url": "https://www.imadislam.com/hisnulmuslim/025.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الأَذْكَارُ بَعْدَ السَّلاَمِ مِنَ الصَّلاَةِ",
+          "title_id": "Dzikir Setelah Salam dari Shalat",
+          "start": 1478.384,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 26,
       "seq": 28,
-      "title_ar": "دعاء صلاة الاستخارة",
+      "title_ar": "دُعَاءُ صَلاَةِ الاسْتِخَارَةِ",
       "title_id": "Doa Shalat Istikharah",
       "source_url": "https://www.imadislam.com/hisnulmuslim/026.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ صَلاَةِ الاسْتِخَارَةِ",
+          "title_id": "Doa Shalat Istikharah",
+          "start": 1771.226,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 27,
       "seq": 29,
-      "title_ar": "أذكار الصباح والمساء",
+      "title_ar": "أَذْكَارُ الصَّبَاحِ وَالمَسَاءِ",
       "title_id": "Dzikir Pagi dan Petang",
       "source_url": "https://www.imadislam.com/hisnulmuslim/027.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "أَذْكَارُ الصَّبَاحِ وَالمَسَاءِ",
+          "title_id": "Dzikir Pagi dan Petang",
+          "start": 1883.078,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 28,
       "seq": 30,
-      "title_ar": "أذكار النوم",
+      "title_ar": "أَذْكَارُ النَّوْمِ",
       "title_id": "Dzikir Sebelum Tidur",
       "source_url": "https://www.imadislam.com/hisnulmuslim/028.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "أَذْكَارُ النَّوْمِ",
+          "title_id": "Dzikir Sebelum Tidur",
+          "start": 2396.398,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 29,
       "seq": 31,
-      "title_ar": "الدعاء إذا تقلب ليلاً",
+      "title_ar": "الدُّعَاءُ إِذَا تَقَلَّبَ لَيْلاً",
       "title_id": "Doa Jika Terbangun / Gelisah di Malam Hari",
       "source_url": "https://www.imadislam.com/hisnulmuslim/029.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ إِذَا تَقَلَّبَ لَيْلاً",
+          "title_id": "Doa Jika Terbangun / Gelisah di Malam Hari",
+          "start": 2748.479,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 30,
       "seq": 32,
-      "title_ar": "دعاء القلق والفزع في النوم ومن بلي بالوحشة",
+      "title_ar": "دُعَاءُ القَلَقِ وَالفَزَعِ فِي النَّوْمِ وَمَنْ بُلِيَ بِالوَحْشَةِ",
       "title_id": "Doa Cemas & Takut Saat Tidur, dan bagi yang Merasa Kesepian",
       "source_url": "https://www.imadislam.com/hisnulmuslim/030.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ القَلَقِ وَالفَزَعِ فِي النَّوْمِ وَمَنْ بُلِيَ بِالوَحْشَةِ",
+          "title_id": "Doa Cemas & Takut Saat Tidur, dan bagi yang Merasa Kesepian",
+          "start": 2767.329,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 31,
       "seq": 33,
-      "title_ar": "ما يفعل من رأى الرؤيا أو الحلم",
+      "title_ar": "مَا يَفْعَلُ مَنْ رَأَى الرُّؤْيَا أَوِ الحُلْمَ",
       "title_id": "Yang Dilakukan Jika Bermimpi Baik atau Buruk",
       "source_url": "https://www.imadislam.com/hisnulmuslim/031.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "مَا يَفْعَلُ مَنْ رَأَى الرُّؤْيَا أَوِ الحُلْمَ",
+          "title_id": "Yang Dilakukan Jika Bermimpi Baik atau Buruk",
+          "start": 2791.016,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 32,
       "seq": 34,
-      "title_ar": "دعاء قنوت الوتر",
+      "title_ar": "دُعَاءُ قُنُوتِ الوِتْرِ",
       "title_id": "Doa Qunut Witir",
       "source_url": "https://www.imadislam.com/hisnulmuslim/032.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ قُنُوتِ الوِتْرِ",
+          "title_id": "Doa Qunut Witir",
+          "start": 2820.831,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 33,
       "seq": 35,
-      "title_ar": "الذكر عقب السلام من الوتر",
+      "title_ar": "الذِّكْرُ عَقِبَ السَّلاَمِ مِنَ الوِتْرِ",
       "title_id": "Dzikir Setelah Salam Witir",
       "source_url": "https://www.imadislam.com/hisnulmuslim/033.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الذِّكْرُ عَقِبَ السَّلاَمِ مِنَ الوِتْرِ",
+          "title_id": "Dzikir Setelah Salam Witir",
+          "start": 2921.157,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 34,
       "seq": 36,
-      "title_ar": "دعاء الهم والحزن",
+      "title_ar": "دُعَاءُ الهَمِّ وَالحُزْنِ",
       "title_id": "Doa Menghilangkan Gundah dan Sedih",
       "source_url": "https://www.imadislam.com/hisnulmuslim/034.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ الهَمِّ وَالحُزْنِ",
+          "title_id": "Doa Menghilangkan Gundah dan Sedih",
+          "start": 2944.377,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 35,
       "seq": 37,
-      "title_ar": "دعاء الكرب",
+      "title_ar": "دُعَاءُ الكَرْبِ",
       "title_id": "Doa Menghadapi Kesulitan",
       "source_url": "https://www.imadislam.com/hisnulmuslim/035.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ الكَرْبِ",
+          "title_id": "Doa Menghadapi Kesulitan",
+          "start": 3011.254,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 36,
       "seq": 38,
-      "title_ar": "دعاء لقاء العدو وذي السلطان",
+      "title_ar": "دُعَاءُ لِقَاءِ العَدُوِّ وَذِي السُّلْطَانِ",
       "title_id": "Doa Bertemu Musuh dan Penguasa",
       "source_url": "https://www.imadislam.com/hisnulmuslim/036.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ لِقَاءِ العَدُوِّ وَذِي السُّلْطَانِ",
+          "title_id": "Doa Bertemu Musuh dan Penguasa",
+          "start": 3075.123,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 37,
       "seq": 39,
-      "title_ar": "دعاء من خاف ظلم السلطان",
+      "title_ar": "دُعَاءُ مَنْ خَافَ ظُلْمَ السُّلْطَانِ",
       "title_id": "Doa bagi yang Takut Kezaliman Penguasa",
       "source_url": "https://www.imadislam.com/hisnulmuslim/037.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ مَنْ خَافَ ظُلْمَ السُّلْطَانِ",
+          "title_id": "Doa bagi yang Takut Kezaliman Penguasa",
+          "start": 3109.169,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 38,
       "seq": 40,
-      "title_ar": "الدعاء على العدو",
+      "title_ar": "الدُّعَاءُ عَلَى العَدُوِّ",
       "title_id": "Doa untuk Melawan Musuh",
       "source_url": "https://www.imadislam.com/hisnulmuslim/038.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ عَلَى العَدُوِّ",
+          "title_id": "Doa untuk Melawan Musuh",
+          "start": 3194.583,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 39,
       "seq": 41,
-      "title_ar": "ما يقول من خاف قوماً",
+      "title_ar": "مَا يَقُولُ مَنْ خَافَ قَوْماً",
       "title_id": "Doa bagi yang Takut pada Suatu Kaum",
       "source_url": "https://www.imadislam.com/hisnulmuslim/039.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "مَا يَقُولُ مَنْ خَافَ قَوْماً",
+          "title_id": "Doa bagi yang Takut pada Suatu Kaum",
+          "start": 3212.964,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 40,
       "seq": 42,
-      "title_ar": "دعاء من أصابه شك في الإيمان",
+      "title_ar": "دُعَاءُ مَنْ أَصَابَهُ شَكٌّ فِي الإِيمَانِ",
       "title_id": "Doa bagi yang Diliputi Keraguan dalam Iman",
       "source_url": "https://www.imadislam.com/hisnulmuslim/040.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ مَنْ أَصَابَهُ شَكٌّ فِي الإِيمَانِ",
+          "title_id": "Doa bagi yang Diliputi Keraguan dalam Iman",
+          "start": 3219.988,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 41,
       "seq": 43,
-      "title_ar": "الدعاء قضاء الدين",
+      "title_ar": "الدُّعَاءُ قَضَاءُ الدَّيْنِ",
       "title_id": "Doa Melunasi Hutang",
       "source_url": "https://www.imadislam.com/hisnulmuslim/041.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ قَضَاءُ الدَّيْنِ",
+          "title_id": "Doa Melunasi Hutang",
+          "start": 3252.969,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 42,
       "seq": 44,
-      "title_ar": "دعاء الوسوسة في الصلاة والقراءة",
+      "title_ar": "دُعَاءُ الوَسْوَسَةِ فِي الصَّلاَةِ وَالقِرَاءَةِ",
       "title_id": "Doa Menghilangkan Was-was dalam Shalat dan Bacaan Al-Qur'an",
       "source_url": "https://www.imadislam.com/hisnulmuslim/042.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ الوَسْوَسَةِ فِي الصَّلاَةِ وَالقِرَاءَةِ",
+          "title_id": "Doa Menghilangkan Was-was dalam Shalat dan Bacaan Al-Qur'an",
+          "start": 3285.554,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 43,
       "seq": 45,
-      "title_ar": "دعاء من استصعب عليه أمر",
+      "title_ar": "دُعَاءُ مَنِ اسْتَصْعَبَ عَلَيْهِ أَمْرٌ",
       "title_id": "Doa bagi yang Merasa Kesulitan dalam Suatu Urusan",
       "source_url": "https://www.imadislam.com/hisnulmuslim/043.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ مَنِ اسْتَصْعَبَ عَلَيْهِ أَمْرٌ",
+          "title_id": "Doa bagi yang Merasa Kesulitan dalam Suatu Urusan",
+          "start": 3300.321,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 44,
       "seq": 46,
-      "title_ar": "ما يقول ويفعل من أذنب ذنباً",
+      "title_ar": "مَا يَقُولُ وَيَفْعَلُ مَنْ أَذْنَبَ ذَنْباً",
       "title_id": "Ucapan dan Sikap Ketika Berbuat Dosa",
       "source_url": "https://www.imadislam.com/hisnulmuslim/044.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "مَا يَقُولُ وَيَفْعَلُ مَنْ أَذْنَبَ ذَنْباً",
+          "title_id": "Ucapan dan Sikap Ketika Berbuat Dosa",
+          "start": 3316.684,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 45,
       "seq": 47,
-      "title_ar": "دعاء طرد الشيطان ووساوسه",
+      "title_ar": "دُعَاءُ طَرْدِ الشَّيْطَانِ وَوَسَاوِسِهِ",
       "title_id": "Doa Mengusir Setan dan Bisikannya",
       "source_url": "https://www.imadislam.com/hisnulmuslim/045.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ طَرْدِ الشَّيْطَانِ وَوَسَاوِسِهِ",
+          "title_id": "Doa Mengusir Setan dan Bisikannya",
+          "start": 3337.558,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 46,
       "seq": 48,
-      "title_ar": "الدعاء حينما يقع مالا يرضاه أو غلب على أمره",
+      "title_ar": "الدُّعَاءُ حِينَمَا يَقَعُ مَا لاَ يَرْضَاهُ أَوْ غُلِبَ عَلَى أَمْرِهِ",
       "title_id": "Doa Ketika Terjadi Sesuatu yang Tak Disukai atau Merasa Tak Berdaya",
       "source_url": "https://www.imadislam.com/hisnulmuslim/046.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ حِينَمَا يَقَعُ مَا لاَ يَرْضَاهُ أَوْ غُلِبَ عَلَى أَمْرِهِ",
+          "title_id": "Doa Ketika Terjadi Sesuatu yang Tak Disukai atau Merasa Tak Berdaya",
+          "start": 3350.803,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 47,
       "seq": 49,
-      "title_ar": "تهنئة المولود له وجوابه",
+      "title_ar": "تَهْنِئَةُ المَوْلُودِ لَهُ وَجَوَابُهُ",
       "title_id": "Ucapan Selamat atas Kelahiran Bayi dan Jawabannya",
       "source_url": "https://www.imadislam.com/hisnulmuslim/047.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "تَهْنِئَةُ المَوْلُودِ لَهُ وَجَوَابُهُ",
+          "title_id": "Ucapan Selamat atas Kelahiran Bayi dan Jawabannya",
+          "start": 3363.042,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 48,
       "seq": 50,
-      "title_ar": "ما يعوذ به الأولاد",
+      "title_ar": "مَا يُعَوَّذُ بِهِ الأَوْلاَدُ",
       "title_id": "Doa Perlindungan untuk Anak-anak",
       "source_url": "https://www.imadislam.com/hisnulmuslim/048.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "مَا يُعَوَّذُ بِهِ الأَوْلاَدُ",
+          "title_id": "Doa Perlindungan untuk Anak-anak",
+          "start": 3398.056,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 49,
       "seq": 51,
-      "title_ar": "الدعاء للمريض في عيادته",
+      "title_ar": "الدُّعَاءُ لِلْمَرِيضِ فِي عِيَادَتِهِ",
       "title_id": "Doa Menjenguk Orang Sakit",
       "source_url": "https://www.imadislam.com/hisnulmuslim/049.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ لِلْمَرِيضِ فِي عِيَادَتِهِ",
+          "title_id": "Doa Menjenguk Orang Sakit",
+          "start": 3420.926,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 50,
       "seq": 52,
-      "title_ar": "فضل عيادة المريض",
+      "title_ar": "فَضْلُ عِيَادَةِ المَرِيضِ",
       "title_id": "Keutamaan Menjenguk Orang Sakit",
       "source_url": "https://www.imadislam.com/hisnulmuslim/050.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "فَضْلُ عِيَادَةِ المَرِيضِ",
+          "title_id": "Keutamaan Menjenguk Orang Sakit",
+          "start": 3441.032,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 51,
       "seq": 53,
-      "title_ar": "دعاء المريض الذي يئس من حياته",
+      "title_ar": "دُعَاءُ المَرِيضِ الَّذِي يَئِسَ مِنْ حَيَاتِهِ",
       "title_id": "Doa bagi Orang Sakit yang Putus Asa dari Hidupnya",
       "source_url": "https://www.imadislam.com/hisnulmuslim/051.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ المَرِيضِ الَّذِي يَئِسَ مِنْ حَيَاتِهِ",
+          "title_id": "Doa bagi Orang Sakit yang Putus Asa dari Hidupnya",
+          "start": 3475.138,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 52,
       "seq": 54,
-      "title_ar": "تلقين المحتضر",
+      "title_ar": "تَلْقِينُ المُحْتَضَرِ",
       "title_id": "Menuntun Orang yang Sedang Sekarat (Talqin)",
       "source_url": "https://www.imadislam.com/hisnulmuslim/052.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "تَلْقِينُ المُحْتَضَرِ",
+          "title_id": "Menuntun Orang yang Sedang Sekarat (Talqin)",
+          "start": 3541.424,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 53,
       "seq": 55,
-      "title_ar": "دعاء من أصيب بمصيبة",
+      "title_ar": "دُعَاءُ مَنْ أُصِيبَ بِمُصِيبَةٍ",
       "title_id": "Doa bagi yang Tertimpa Musibah",
       "source_url": "https://www.imadislam.com/hisnulmuslim/053.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ مَنْ أُصِيبَ بِمُصِيبَةٍ",
+          "title_id": "Doa bagi yang Tertimpa Musibah",
+          "start": 3555.248,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 54,
       "seq": 56,
-      "title_ar": "الدعاء عند إغماض الميت",
+      "title_ar": "الدُّعَاءُ عِنْدَ إِغْمَاضِ المَيِّتِ",
       "title_id": "Doa Ketika Memejamkan Mata Mayit",
       "source_url": "https://www.imadislam.com/hisnulmuslim/054.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ عِنْدَ إِغْمَاضِ المَيِّتِ",
+          "title_id": "Doa Ketika Memejamkan Mata Mayit",
+          "start": 3575.343,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 55,
       "seq": 57,
-      "title_ar": "الدعاء للميت في الصلاة عليه",
+      "title_ar": "الدُّعَاءُ لِلْمَيِّتِ فِي الصَّلاَةِ عَلَيْهِ",
       "title_id": "Doa untuk Mayit dalam Shalat Jenazah",
       "source_url": "https://www.imadislam.com/hisnulmuslim/055.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ لِلْمَيِّتِ فِي الصَّلاَةِ عَلَيْهِ",
+          "title_id": "Doa untuk Mayit dalam Shalat Jenazah",
+          "start": 3607.455,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 56,
       "seq": 58,
-      "title_ar": "الدعاء للفرط في الصلاة عليه",
+      "title_ar": "الدُّعَاءُ لِلْفَرَطِ فِي الصَّلاَةِ عَلَيْهِ",
       "title_id": "Doa untuk Jenazah Anak Kecil dalam Shalat Jenazah",
       "source_url": "https://www.imadislam.com/hisnulmuslim/056.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ لِلْفَرَطِ فِي الصَّلاَةِ عَلَيْهِ",
+          "title_id": "Doa untuk Jenazah Anak Kecil dalam Shalat Jenazah",
+          "start": 3741.598,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 57,
       "seq": 59,
-      "title_ar": "دعاء التعزية",
+      "title_ar": "دُعَاءُ التَّعْزِيَةِ",
       "title_id": "Doa Ucapan Belasungkawa (Ta'ziyah)",
       "source_url": "https://www.imadislam.com/hisnulmuslim/057.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ التَّعْزِيَةِ",
+          "title_id": "Doa Ucapan Belasungkawa (Ta'ziyah)",
+          "start": 3805.455,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 58,
       "seq": 60,
-      "title_ar": "الدعاء عند إدخال الميت القبر",
+      "title_ar": "الدُّعَاءُ عِنْدَ إِدْخَالِ المَيِّتِ القَبْرَ",
       "title_id": "Doa Ketika Memasukkan Mayit ke Liang Kubur",
       "source_url": "https://www.imadislam.com/hisnulmuslim/058.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ عِنْدَ إِدْخَالِ المَيِّتِ القَبْرَ",
+          "title_id": "Doa Ketika Memasukkan Mayit ke Liang Kubur",
+          "start": 3835.079,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 59,
       "seq": 61,
-      "title_ar": "الدعاء بعد دفن الميت",
+      "title_ar": "الدُّعَاءُ بَعْدَ دَفْنِ المَيِّتِ",
       "title_id": "Doa Setelah Menguburkan Mayit",
       "source_url": "https://www.imadislam.com/hisnulmuslim/059.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ بَعْدَ دَفْنِ المَيِّتِ",
+          "title_id": "Doa Setelah Menguburkan Mayit",
+          "start": 3847.003,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 60,
       "seq": 62,
-      "title_ar": "دعاء زيارة القبور",
+      "title_ar": "دُعَاءُ زِيَارَةِ القُبُورِ",
       "title_id": "Doa Ziarah Kubur",
       "source_url": "https://www.imadislam.com/hisnulmuslim/060.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ زِيَارَةِ القُبُورِ",
+          "title_id": "Doa Ziarah Kubur",
+          "start": 3858.861,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 61,
       "seq": 63,
-      "title_ar": "دعاء الريح",
+      "title_ar": "دُعَاءُ الرِّيحِ",
       "title_id": "Doa Ketika Angin Bertiup",
       "source_url": "https://www.imadislam.com/hisnulmuslim/061.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ الرِّيحِ",
+          "title_id": "Doa Ketika Angin Bertiup",
+          "start": 3885.239,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 62,
       "seq": 64,
-      "title_ar": "دعاء الرعد",
+      "title_ar": "دُعَاءُ الرَّعْدِ",
       "title_id": "Doa Ketika Mendengar Petir",
       "source_url": "https://www.imadislam.com/hisnulmuslim/062.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ الرَّعْدِ",
+          "title_id": "Doa Ketika Mendengar Petir",
+          "start": 3918.426,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 63,
       "seq": 65,
-      "title_ar": "من أدعية الاستسقاء",
+      "title_ar": "مِنْ أَدْعِيَةِ الاسْتِسْقَاءِ",
       "title_id": "Di Antara Doa Meminta Hujan (Istisqa')",
       "source_url": "https://www.imadislam.com/hisnulmuslim/063.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "مِنْ أَدْعِيَةِ الاسْتِسْقَاءِ",
+          "title_id": "Di Antara Doa Meminta Hujan (Istisqa')",
+          "start": 3931.036,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 64,
       "seq": 66,
-      "title_ar": "الدعاء إذا نزل المطر",
+      "title_ar": "الدُّعَاءُ إِذَا نَزَلَ المَطَرُ",
       "title_id": "Doa Ketika Turun Hujan",
       "source_url": "https://www.imadislam.com/hisnulmuslim/064.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ إِذَا نَزَلَ المَطَرُ",
+          "title_id": "Doa Ketika Turun Hujan",
+          "start": 3976.997,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 65,
       "seq": 67,
-      "title_ar": "الذكر بعد نزول المطر",
+      "title_ar": "الذِّكْرُ بَعْدَ نُزُولِ المَطَرِ",
       "title_id": "Dzikir Setelah Hujan Turun",
       "source_url": "https://www.imadislam.com/hisnulmuslim/065.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الذِّكْرُ بَعْدَ نُزُولِ المَطَرِ",
+          "title_id": "Dzikir Setelah Hujan Turun",
+          "start": 3987.26,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 66,
       "seq": 68,
-      "title_ar": "من أدعية الاستصحاء",
+      "title_ar": "مِنْ أَدْعِيَةِ الاسْتِصْحَاءِ",
       "title_id": "Di Antara Doa Meminta Cuaca Cerah",
       "source_url": "https://www.imadislam.com/hisnulmuslim/066.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "مِنْ أَدْعِيَةِ الاسْتِصْحَاءِ",
+          "title_id": "Di Antara Doa Meminta Cuaca Cerah",
+          "start": 3998.444,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 67,
       "seq": 69,
-      "title_ar": "دعاء رؤية الهلال",
+      "title_ar": "دُعَاءُ رُؤْيَةِ الهِلاَلِ",
       "title_id": "Doa Melihat Hilal (Bulan Sabit)",
       "source_url": "https://www.imadislam.com/hisnulmuslim/067.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ رُؤْيَةِ الهِلاَلِ",
+          "title_id": "Doa Melihat Hilal (Bulan Sabit)",
+          "start": 4016.128,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 68,
       "seq": 70,
-      "title_ar": "الدعاء عند إفطار الصائم",
+      "title_ar": "الدُّعَاءُ عِنْدَ إِفْطَارِ الصَّائِمِ",
       "title_id": "Doa Ketika Berbuka Puasa",
       "source_url": "https://www.imadislam.com/hisnulmuslim/068.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ عِنْدَ إِفْطَارِ الصَّائِمِ",
+          "title_id": "Doa Ketika Berbuka Puasa",
+          "start": 4040.33,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 69,
       "seq": 71,
-      "title_ar": "الدعاء قبل الطعام",
+      "title_ar": "الدُّعَاءُ قَبْلَ الطَّعَامِ",
       "title_id": "Doa Sebelum Makan",
       "source_url": "https://www.imadislam.com/hisnulmuslim/069.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ قَبْلَ الطَّعَامِ",
+          "title_id": "Doa Sebelum Makan",
+          "start": 4064.701,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 70,
       "seq": 72,
-      "title_ar": "الدعاء عند الفراغ من الطعام",
+      "title_ar": "الدُّعَاءُ عِنْدَ الفَرَاغِ مِنَ الطَّعَامِ",
       "title_id": "Doa Setelah Selesai Makan",
       "source_url": "https://www.imadislam.com/hisnulmuslim/070.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ عِنْدَ الفَرَاغِ مِنَ الطَّعَامِ",
+          "title_id": "Doa Setelah Selesai Makan",
+          "start": 4105.254,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 71,
       "seq": 73,
-      "title_ar": "دعاء الضيف لصاحب الطعام",
+      "title_ar": "دُعَاءُ الضَّيْفِ لِصَاحِبِ الطَّعَامِ",
       "title_id": "Doa Tamu untuk Tuan Rumah / Penjamu",
       "source_url": "https://www.imadislam.com/hisnulmuslim/071.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ الضَّيْفِ لِصَاحِبِ الطَّعَامِ",
+          "title_id": "Doa Tamu untuk Tuan Rumah / Penjamu",
+          "start": 4139.355,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 72,
       "seq": 74,
-      "title_ar": "الدعاء لمن سقاه أو إذا أراد ذلك",
+      "title_ar": "الدُّعَاءُ لِمَنْ سَقَاهُ أَوْ إِذَا أَرَادَ ذَلِكَ",
       "title_id": "Doa untuk yang Memberi Minum, atau Ketika Hendak Melakukannya",
       "source_url": "https://www.imadislam.com/hisnulmuslim/072.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ لِمَنْ سَقَاهُ أَوْ إِذَا أَرَادَ ذَلِكَ",
+          "title_id": "Doa untuk yang Memberi Minum, atau Ketika Hendak Melakukannya",
+          "start": 4156.651,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 73,
       "seq": 75,
-      "title_ar": "الدعاء إذا أفطر عند أهل بيت",
+      "title_ar": "الدُّعَاءُ إِذَا أَفْطَرَ عِنْدَ أَهْلِ بَيْتٍ",
       "title_id": "Doa Ketika Berbuka di Rumah Orang Lain",
       "source_url": "https://www.imadislam.com/hisnulmuslim/073.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ إِذَا أَفْطَرَ عِنْدَ أَهْلِ بَيْتٍ",
+          "title_id": "Doa Ketika Berbuka di Rumah Orang Lain",
+          "start": 4171.063,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 74,
       "seq": 76,
-      "title_ar": "دعاء الصائم إذا حضر الطعام ولم يفطر",
+      "title_ar": "دُعَاءُ الصَّائِمِ إِذَا حَضَرَ الطَّعَامُ وَلَمْ يُفْطِرْ",
       "title_id": "Doa Orang Berpuasa Saat Dihidangkan Makanan namun Tak Berbuka",
       "source_url": "https://www.imadislam.com/hisnulmuslim/074.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ الصَّائِمِ إِذَا حَضَرَ الطَّعَامُ وَلَمْ يُفْطِرْ",
+          "title_id": "Doa Orang Berpuasa Saat Dihidangkan Makanan namun Tak Berbuka",
+          "start": 4190.423,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 75,
       "seq": 77,
-      "title_ar": "ما يقول الصائم إذا سابه أحد",
+      "title_ar": "مَا يَقُولُ الصَّائِمُ إِذَا سَابَّهُ أَحَدٌ",
       "title_id": "Ucapan Orang Berpuasa Jika Dicaci Seseorang",
       "source_url": "https://www.imadislam.com/hisnulmuslim/075.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "مَا يَقُولُ الصَّائِمُ إِذَا سَابَّهُ أَحَدٌ",
+          "title_id": "Ucapan Orang Berpuasa Jika Dicaci Seseorang",
+          "start": 4212.061,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 76,
       "seq": 78,
-      "title_ar": "الدعاء عند رؤية باكورة الثمر",
+      "title_ar": "الدُّعَاءُ عِنْدَ رُؤْيَةِ بَاكُورَةِ الثَّمَرِ",
       "title_id": "Doa Ketika Melihat Buah Pertama Musim",
       "source_url": "https://www.imadislam.com/hisnulmuslim/076.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ عِنْدَ رُؤْيَةِ بَاكُورَةِ الثَّمَرِ",
+          "title_id": "Doa Ketika Melihat Buah Pertama Musim",
+          "start": 4224.04,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 77,
       "seq": 79,
-      "title_ar": "دعاء العطاس",
+      "title_ar": "دُعَاءُ العُطَاسِ",
       "title_id": "Doa Ketika Bersin",
       "source_url": "https://www.imadislam.com/hisnulmuslim/077.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ العُطَاسِ",
+          "title_id": "Doa Ketika Bersin",
+          "start": 4247.066,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 78,
       "seq": 80,
-      "title_ar": "ما يقالُ للكافر إذا عطس فحمد الله",
+      "title_ar": "مَا يُقَالُ لِلْكَافِرِ إِذَا عَطَسَ فَحَمِدَ اللهَ",
       "title_id": "Ucapan bagi Orang Kafir yang Bersin lalu Memuji Allah",
       "source_url": "https://www.imadislam.com/hisnulmuslim/078.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "مَا يُقَالُ لِلْكَافِرِ إِذَا عَطَسَ فَحَمِدَ اللهَ",
+          "title_id": "Ucapan bagi Orang Kafir yang Bersin lalu Memuji Allah",
+          "start": 4272.853,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 79,
       "seq": 81,
-      "title_ar": "الدعاء للمتزوج",
+      "title_ar": "الدُّعَاءُ لِلْمُتَزَوِّجِ",
       "title_id": "Doa untuk Orang yang Menikah",
       "source_url": "https://www.imadislam.com/hisnulmuslim/079.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ لِلْمُتَزَوِّجِ",
+          "title_id": "Doa untuk Orang yang Menikah",
+          "start": 4286.433,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 80,
       "seq": 82,
-      "title_ar": "دعاء المتزوج لنفسه ودعاء شراء الدابة",
+      "title_ar": "دُعَاءُ المُتَزَوِّجِ لِنَفْسِهِ وَدُعَاءُ شِرَاءِ الدَّابَّةِ",
       "title_id": "Doa Mempelai untuk Diri Sendiri & Doa Membeli Hewan/Kendaraan",
       "source_url": "https://www.imadislam.com/hisnulmuslim/080.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ المُتَزَوِّجِ لِنَفْسِهِ وَدُعَاءُ شِرَاءِ الدَّابَّةِ",
+          "title_id": "Doa Mempelai untuk Diri Sendiri & Doa Membeli Hewan/Kendaraan",
+          "start": 4302.458,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 81,
       "seq": 83,
-      "title_ar": "الدعاء قبل إتيان الزوجة",
+      "title_ar": "الدُّعَاءُ قَبْلَ إِتْيَانِ الزَّوْجَةِ",
       "title_id": "Doa Sebelum Menggauli Istri",
       "source_url": "https://www.imadislam.com/hisnulmuslim/081.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ قَبْلَ إِتْيَانِ الزَّوْجَةِ",
+          "title_id": "Doa Sebelum Menggauli Istri",
+          "start": 4336.279,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 82,
       "seq": 84,
-      "title_ar": "دعاء الغضب",
+      "title_ar": "دُعَاءُ الغَضَبِ",
       "title_id": "Doa Meredam Marah",
       "source_url": "https://www.imadislam.com/hisnulmuslim/082.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ الغَضَبِ",
+          "title_id": "Doa Meredam Marah",
+          "start": 4351.185,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 83,
       "seq": 85,
-      "title_ar": "دعاء من رأى مبتلى",
+      "title_ar": "دُعَاءُ مَنْ رَأَى مُبْتَلًى",
       "title_id": "Doa Ketika Melihat Orang yang Tertimpa Ujian",
       "source_url": "https://www.imadislam.com/hisnulmuslim/083.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ مَنْ رَأَى مُبْتَلًى",
+          "title_id": "Doa Ketika Melihat Orang yang Tertimpa Ujian",
+          "start": 4361.57,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 84,
       "seq": 86,
-      "title_ar": "ما يقال في المجلس",
+      "title_ar": "مَا يُقَالُ فِي المَجْلِسِ",
       "title_id": "Doa yang Diucapkan dalam Suatu Majelis",
       "source_url": "https://www.imadislam.com/hisnulmuslim/084.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "مَا يُقَالُ فِي المَجْلِسِ",
+          "title_id": "Doa yang Diucapkan dalam Suatu Majelis",
+          "start": 4377.378,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 85,
       "seq": 87,
-      "title_ar": "كفارة المجلس ومايختم به المجالس",
+      "title_ar": "كَفَّارَةُ المَجْلِسِ وَمَا يُخْتَمُ بِهِ المَجَالِسُ",
       "title_id": "Kafarat Majelis dan Penutup Suatu Majelis",
       "source_url": "https://www.imadislam.com/hisnulmuslim/085.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "كَفَّارَةُ المَجْلِسِ وَمَا يُخْتَمُ بِهِ المَجَالِسُ",
+          "title_id": "Kafarat Majelis dan Penutup Suatu Majelis",
+          "start": 4400.766,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 86,
       "seq": 88,
-      "title_ar": "الدعاء لمن قال غفر الله لك",
+      "title_ar": "الدُّعَاءُ لِمَنْ قَالَ غَفَرَ اللهُ لَكَ",
       "title_id": "Doa bagi yang Mengucapkan 'Semoga Allah Mengampunimu'",
       "source_url": "https://www.imadislam.com/hisnulmuslim/086.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ لِمَنْ قَالَ غَفَرَ اللهُ لَكَ",
+          "title_id": "Doa bagi yang Mengucapkan 'Semoga Allah Mengampunimu'",
+          "start": 4417.773,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 87,
       "seq": 89,
-      "title_ar": "الدعاء لمن صنع إليك معروفاً",
+      "title_ar": "الدُّعَاءُ لِمَنْ صَنَعَ إِلَيْكَ مَعْرُوفاً",
       "title_id": "Doa untuk yang Berbuat Baik Kepadamu",
       "source_url": "https://www.imadislam.com/hisnulmuslim/087.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ لِمَنْ صَنَعَ إِلَيْكَ مَعْرُوفاً",
+          "title_id": "Doa untuk yang Berbuat Baik Kepadamu",
+          "start": 4426.053,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 88,
       "seq": 90,
-      "title_ar": "ما يعصم به من الدجال",
+      "title_ar": "مَا يُعْصَمُ بِهِ مِنَ الدَّجَّالِ",
       "title_id": "Doa Perlindungan dari Fitnah Dajjal",
       "source_url": "https://www.imadislam.com/hisnulmuslim/088.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "مَا يُعْصَمُ بِهِ مِنَ الدَّجَّالِ",
+          "title_id": "Doa Perlindungan dari Fitnah Dajjal",
+          "start": 4436.7,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 89,
       "seq": 91,
-      "title_ar": "الدعاء لمن قال إني أحبك في الله",
+      "title_ar": "الدُّعَاءُ لِمَنْ قَالَ إِنِّي أُحِبُّكَ فِي اللهِ",
       "title_id": "Doa bagi yang Berkata 'Aku Mencintaimu karena Allah'",
       "source_url": "https://www.imadislam.com/hisnulmuslim/089.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ لِمَنْ قَالَ إِنِّي أُحِبُّكَ فِي اللهِ",
+          "title_id": "Doa bagi yang Berkata 'Aku Mencintaimu karena Allah'",
+          "start": 4454.49,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 90,
       "seq": 92,
-      "title_ar": "الدعاء لمن عرض عليك ماله",
+      "title_ar": "الدُّعَاءُ لِمَنْ عَرَضَ عَلَيْكَ مَالَهُ",
       "title_id": "Doa untuk yang Menawarkan Hartanya Kepadamu",
       "source_url": "https://www.imadislam.com/hisnulmuslim/090.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ لِمَنْ عَرَضَ عَلَيْكَ مَالَهُ",
+          "title_id": "Doa untuk yang Menawarkan Hartanya Kepadamu",
+          "start": 4465.597,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 91,
       "seq": 93,
-      "title_ar": "الدعاء لمن أقرض عند القضاء",
+      "title_ar": "الدُّعَاءُ لِمَنْ أَقْرَضَ عِنْدَ القَضَاءِ",
       "title_id": "Doa bagi yang Melunasi Pinjaman / Utang",
       "source_url": "https://www.imadislam.com/hisnulmuslim/091.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ لِمَنْ أَقْرَضَ عِنْدَ القَضَاءِ",
+          "title_id": "Doa bagi yang Melunasi Pinjaman / Utang",
+          "start": 4476.501,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 92,
       "seq": 94,
-      "title_ar": "دعاء الخوف من الشرك",
+      "title_ar": "دُعَاءُ الخَوْفِ مِنَ الشِّرْكِ",
       "title_id": "Doa Takut dari Kesyirikan",
       "source_url": "https://www.imadislam.com/hisnulmuslim/092.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ الخَوْفِ مِنَ الشِّرْكِ",
+          "title_id": "Doa Takut dari Kesyirikan",
+          "start": 4492.068,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 93,
       "seq": 95,
-      "title_ar": "الدعاء لمن قال بارك الله فيك",
+      "title_ar": "الدُّعَاءُ لِمَنْ قَالَ بَارَكَ اللهُ فِيكَ",
       "title_id": "Doa bagi yang Mengucapkan 'Semoga Allah Memberkahimu'",
       "source_url": "https://www.imadislam.com/hisnulmuslim/093.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ لِمَنْ قَالَ بَارَكَ اللهُ فِيكَ",
+          "title_id": "Doa bagi yang Mengucapkan 'Semoga Allah Memberkahimu'",
+          "start": 4508.516,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 94,
       "seq": 96,
-      "title_ar": "دعاء كراهية الطيرة",
+      "title_ar": "دُعَاءُ كَرَاهِيَةِ الطِّيَرَةِ",
       "title_id": "Doa Menolak Perasaan Sial (Thiyarah)",
       "source_url": "https://www.imadislam.com/hisnulmuslim/094.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ كَرَاهِيَةِ الطِّيَرَةِ",
+          "title_id": "Doa Menolak Perasaan Sial (Thiyarah)",
+          "start": 4516.421,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 95,
       "seq": 97,
-      "title_ar": "دعاء ركوب الدابة",
+      "title_ar": "دُعَاءُ رُكُوبِ الدَّابَّةِ",
       "title_id": "Doa Menaiki Kendaraan",
       "source_url": "https://www.imadislam.com/hisnulmuslim/095.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ رُكُوبِ الدَّابَّةِ",
+          "title_id": "Doa Menaiki Kendaraan",
+          "start": 4533.836,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 96,
       "seq": 98,
-      "title_ar": "دعاء السفر",
+      "title_ar": "دُعَاءُ السَّفَرِ",
       "title_id": "Doa Bepergian (Safar)",
       "source_url": "https://www.imadislam.com/hisnulmuslim/096.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ السَّفَرِ",
+          "title_id": "Doa Bepergian (Safar)",
+          "start": 4580.806,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 97,
       "seq": 99,
-      "title_ar": "دعاء دخول القرية أو البلدة",
+      "title_ar": "دُعَاءُ دُخُولِ القَرْيَةِ أَوِ البَلْدَةِ",
       "title_id": "Doa Memasuki Desa atau Kota",
       "source_url": "https://www.imadislam.com/hisnulmuslim/097.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ دُخُولِ القَرْيَةِ أَوِ البَلْدَةِ",
+          "title_id": "Doa Memasuki Desa atau Kota",
+          "start": 4649.889,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 98,
       "seq": 100,
-      "title_ar": "دعاء دخول السوق",
+      "title_ar": "دُعَاءُ دُخُولِ السُّوقِ",
       "title_id": "Doa Memasuki Pasar",
       "source_url": "https://www.imadislam.com/hisnulmuslim/098.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ دُخُولِ السُّوقِ",
+          "title_id": "Doa Memasuki Pasar",
+          "start": 4690.092,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 99,
       "seq": 101,
-      "title_ar": "الدعاء إذا تعس المركوب",
+      "title_ar": "الدُّعَاءُ إِذَا تَعِسَ المَرْكُوبُ",
       "title_id": "Doa Ketika Kendaraan Tersandung / Bermasalah",
       "source_url": "https://www.imadislam.com/hisnulmuslim/099.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ إِذَا تَعِسَ المَرْكُوبُ",
+          "title_id": "Doa Ketika Kendaraan Tersandung / Bermasalah",
+          "start": 4716.111,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 100,
       "seq": 102,
-      "title_ar": "دعاء المسافر للمقيم",
+      "title_ar": "دُعَاءُ المُسَافِرِ لِلْمُقِيمِ",
       "title_id": "Doa Musafir untuk yang Ditinggalkan (Mukim)",
       "source_url": "https://www.imadislam.com/hisnulmuslim/100.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ المُسَافِرِ لِلْمُقِيمِ",
+          "title_id": "Doa Musafir untuk yang Ditinggalkan (Mukim)",
+          "start": 4726.013,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 101,
       "seq": 103,
-      "title_ar": "دعاء المقيم للمسافر",
+      "title_ar": "دُعَاءُ المُقِيمِ لِلْمُسَافِرِ",
       "title_id": "Doa yang Ditinggalkan (Mukim) untuk Musafir",
       "source_url": "https://www.imadislam.com/hisnulmuslim/101.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ المُقِيمِ لِلْمُسَافِرِ",
+          "title_id": "Doa yang Ditinggalkan (Mukim) untuk Musafir",
+          "start": 4737.9,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 102,
       "seq": 104,
-      "title_ar": "التكبير والتسبيح في سير السفر",
+      "title_ar": "التَّكْبِيرُ وَالتَّسْبِيحُ فِي سَيْرِ السَّفَرِ",
       "title_id": "Takbir dan Tasbih dalam Perjalanan",
       "source_url": "https://www.imadislam.com/hisnulmuslim/102.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "التَّكْبِيرُ وَالتَّسْبِيحُ فِي سَيْرِ السَّفَرِ",
+          "title_id": "Takbir dan Tasbih dalam Perjalanan",
+          "start": 4761.652,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 103,
       "seq": 105,
-      "title_ar": "دعاء المسافر إذا أسحر",
+      "title_ar": "دُعَاءُ المُسَافِرِ إِذَا أَسْحَرَ",
       "title_id": "Doa Musafir di Waktu Sahur",
       "source_url": "https://www.imadislam.com/hisnulmuslim/103.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ المُسَافِرِ إِذَا أَسْحَرَ",
+          "title_id": "Doa Musafir di Waktu Sahur",
+          "start": 4777.426,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 104,
       "seq": 106,
-      "title_ar": "الدعاء إذا نزل منزلا في سفر أو غيره",
+      "title_ar": "الدُّعَاءُ إِذَا نَزَلَ مَنْزِلاً فِي سَفَرٍ أَوْ غَيْرِهِ",
       "title_id": "Doa Ketika Singgah di Suatu Tempat",
       "source_url": "https://www.imadislam.com/hisnulmuslim/104.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ إِذَا نَزَلَ مَنْزِلاً فِي سَفَرٍ أَوْ غَيْرِهِ",
+          "title_id": "Doa Ketika Singgah di Suatu Tempat",
+          "start": 4798.158,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 105,
       "seq": 107,
-      "title_ar": "ذكر الرجوع من السفر",
+      "title_ar": "ذِكْرُ الرُّجُوعِ مِنَ السَّفَرِ",
       "title_id": "Dzikir Kembali dari Safar",
       "source_url": "https://www.imadislam.com/hisnulmuslim/105.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "ذِكْرُ الرُّجُوعِ مِنَ السَّفَرِ",
+          "title_id": "Dzikir Kembali dari Safar",
+          "start": 4812.96,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 106,
       "seq": 108,
-      "title_ar": "ما يقول ويفعل من أتاه أمر يسره أو يكرهه",
+      "title_ar": "مَا يَقُولُ وَيَفْعَلُ مَنْ أَتَاهُ أَمْرٌ يَسُرُّهُ أَوْ يَكْرَهُهُ",
       "title_id": "Ucapan & Sikap Saat Mendapat Hal yang Menyenangkan atau Tidak",
       "source_url": "https://www.imadislam.com/hisnulmuslim/106.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "مَا يَقُولُ وَيَفْعَلُ مَنْ أَتَاهُ أَمْرٌ يَسُرُّهُ أَوْ يَكْرَهُهُ",
+          "title_id": "Ucapan & Sikap Saat Mendapat Hal yang Menyenangkan atau Tidak",
+          "start": 4849.454,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 107,
       "seq": 109,
-      "title_ar": "فضل الصلاة على النبي صلى الله عليه وسلم",
+      "title_ar": "فَضْلُ الصَّلاَةِ عَلَى النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ",
       "title_id": "Keutamaan Bershalawat kepada Nabi ﷺ",
       "source_url": "https://www.imadislam.com/hisnulmuslim/107.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "فَضْلُ الصَّلاَةِ عَلَى النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ",
+          "title_id": "Keutamaan Bershalawat kepada Nabi ﷺ",
+          "start": 4879.326,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 108,
       "seq": 110,
-      "title_ar": "إفشاء السلام",
+      "title_ar": "إِفْشَاءُ السَّلاَمِ",
       "title_id": "Menyebarkan Salam",
       "source_url": "https://www.imadislam.com/hisnulmuslim/108.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "إِفْشَاءُ السَّلاَمِ",
+          "title_id": "Menyebarkan Salam",
+          "start": 4947.181,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 109,
       "seq": 111,
-      "title_ar": "كيف يرد السلام على الكافر إذا سلم",
+      "title_ar": "كَيْفَ يُرَدُّ السَّلاَمُ عَلَى الكَافِرِ إِذَا سَلَّمَ",
       "title_id": "Cara Menjawab Salam dari Orang Kafir",
       "source_url": "https://www.imadislam.com/hisnulmuslim/109.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "كَيْفَ يُرَدُّ السَّلاَمُ عَلَى الكَافِرِ إِذَا سَلَّمَ",
+          "title_id": "Cara Menjawab Salam dari Orang Kafir",
+          "start": 5010.704,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 110,
       "seq": 112,
-      "title_ar": "دعاء صياح الديك ونهيق الحمار",
+      "title_ar": "دُعَاءُ صِيَاحِ الدِّيكِ وَنَهِيقِ الحِمَارِ",
       "title_id": "Doa Mendengar Ayam Berkokok dan Keledai Meringkik",
       "source_url": "https://www.imadislam.com/hisnulmuslim/110.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ صِيَاحِ الدِّيكِ وَنَهِيقِ الحِمَارِ",
+          "title_id": "Doa Mendengar Ayam Berkokok dan Keledai Meringkik",
+          "start": 5022.314,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 111,
       "seq": 113,
-      "title_ar": "دعاء نباح الكلاب بالليل",
+      "title_ar": "دُعَاءُ نُبَاحِ الكِلاَبِ بِاللَّيْلِ",
       "title_id": "Doa Mendengar Anjing Menggonggong di Malam Hari",
       "source_url": "https://www.imadislam.com/hisnulmuslim/111.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ نُبَاحِ الكِلاَبِ بِاللَّيْلِ",
+          "title_id": "Doa Mendengar Anjing Menggonggong di Malam Hari",
+          "start": 5047.298,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 112,
       "seq": 114,
-      "title_ar": "الدعاء لمن سببته",
+      "title_ar": "الدُّعَاءُ لِمَنْ سَبَبْتَهُ",
       "title_id": "Doa bagi Orang yang Kau Cela",
       "source_url": "https://www.imadislam.com/hisnulmuslim/112.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ لِمَنْ سَبَبْتَهُ",
+          "title_id": "Doa bagi Orang yang Kau Cela",
+          "start": 5066.173,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 113,
       "seq": 115,
-      "title_ar": "ما يقول المسلم إذا مدح المسلم",
+      "title_ar": "مَا يَقُولُ المُسْلِمُ إِذَا مُدِحَ المُسْلِمُ",
       "title_id": "Ucapan Muslim Ketika Dipuji Sesama Muslim",
       "source_url": "https://www.imadislam.com/hisnulmuslim/113.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "مَا يَقُولُ المُسْلِمُ إِذَا مُدِحَ المُسْلِمُ",
+          "title_id": "Ucapan Muslim Ketika Dipuji Sesama Muslim",
+          "start": 5084.052,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 114,
       "seq": 116,
-      "title_ar": "ما يقول المسلم إذا زكي",
+      "title_ar": "مَا يَقُولُ المُسْلِمُ إِذَا زُكِّيَ",
       "title_id": "Ucapan Muslim Ketika Disanjung",
       "source_url": "https://www.imadislam.com/hisnulmuslim/114.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "مَا يَقُولُ المُسْلِمُ إِذَا زُكِّيَ",
+          "title_id": "Ucapan Muslim Ketika Disanjung",
+          "start": 5115.742,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 115,
       "seq": 117,
-      "title_ar": "كيف يلبي المحرم في الحج أو العمرة",
+      "title_ar": "كَيْفَ يُلَبِّي المُحْرِمُ فِي الحَجِّ أَوِ العُمْرَةِ",
       "title_id": "Cara Bertalbiyah bagi yang Berihram Haji atau Umrah",
       "source_url": "https://www.imadislam.com/hisnulmuslim/115.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "كَيْفَ يُلَبِّي المُحْرِمُ فِي الحَجِّ أَوِ العُمْرَةِ",
+          "title_id": "Cara Bertalbiyah bagi yang Berihram Haji atau Umrah",
+          "start": 5135.865,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 116,
       "seq": 118,
-      "title_ar": "التكبيرة إذا أتي الركن الأسود",
+      "title_ar": "التَّكْبِيرَةُ إِذَا أُتِيَ الرُّكْنُ الأَسْوَدُ",
       "title_id": "Takbir Ketika Sampai di Hajar Aswad",
       "source_url": "https://www.imadislam.com/hisnulmuslim/116.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "التَّكْبِيرَةُ إِذَا أُتِيَ الرُّكْنُ الأَسْوَدُ",
+          "title_id": "Takbir Ketika Sampai di Hajar Aswad",
+          "start": 5158.654,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 117,
       "seq": 119,
-      "title_ar": "الدعاء بين الركن اليماني والحجر الأسود",
+      "title_ar": "الدُّعَاءُ بَيْنَ الرُّكْنِ اليَمَانِيِّ وَالحَجَرِ الأَسْوَدِ",
       "title_id": "Doa Antara Rukun Yamani dan Hajar Aswad",
       "source_url": "https://www.imadislam.com/hisnulmuslim/117.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ بَيْنَ الرُّكْنِ اليَمَانِيِّ وَالحَجَرِ الأَسْوَدِ",
+          "title_id": "Doa Antara Rukun Yamani dan Hajar Aswad",
+          "start": 5175.068,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 118,
       "seq": 120,
-      "title_ar": "دعاء الوقوف على الصفا والمروة",
+      "title_ar": "دُعَاءُ الوُقُوفِ عَلَى الصَّفَا وَالمَرْوَةِ",
       "title_id": "Doa Berdiri di Shafa dan Marwah",
       "source_url": "https://www.imadislam.com/hisnulmuslim/118.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ الوُقُوفِ عَلَى الصَّفَا وَالمَرْوَةِ",
+          "title_id": "Doa Berdiri di Shafa dan Marwah",
+          "start": 5193.532,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 119,
       "seq": 121,
-      "title_ar": "الدعاء يوم عرفة",
+      "title_ar": "الدُّعَاءُ يَوْمَ عَرَفَةَ",
       "title_id": "Doa pada Hari Arafah",
       "source_url": "https://www.imadislam.com/hisnulmuslim/119.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الدُّعَاءُ يَوْمَ عَرَفَةَ",
+          "title_id": "Doa pada Hari Arafah",
+          "start": 5262.711,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 120,
       "seq": 122,
-      "title_ar": "الذكر عند المشعر الحرام",
+      "title_ar": "الذِّكْرُ عِنْدَ المَشْعَرِ الحَرَامِ",
       "title_id": "Dzikir di Masy'aril Haram (Muzdalifah)",
       "source_url": "https://www.imadislam.com/hisnulmuslim/120.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الذِّكْرُ عِنْدَ المَشْعَرِ الحَرَامِ",
+          "title_id": "Dzikir di Masy'aril Haram (Muzdalifah)",
+          "start": 5288.404,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 121,
       "seq": 123,
-      "title_ar": "التكبيرة عند رمي الجمار مع كل حصاة",
+      "title_ar": "التَّكْبِيرَةُ عِنْدَ رَمْيِ الجِمَارِ مَعَ كُلِّ حَصَاةٍ",
       "title_id": "Takbir Setiap Melempar Jumrah",
       "source_url": "https://www.imadislam.com/hisnulmuslim/121.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "التَّكْبِيرَةُ عِنْدَ رَمْيِ الجِمَارِ مَعَ كُلِّ حَصَاةٍ",
+          "title_id": "Takbir Setiap Melempar Jumrah",
+          "start": 5315.871,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 122,
       "seq": 124,
-      "title_ar": "ما يقول عند التعجب والأمر السار",
+      "title_ar": "مَا يَقُولُ عِنْدَ التَّعَجُّبِ وَالأَمْرِ السَّارِّ",
       "title_id": "Ucapan Ketika Kagum dan Mendapat Hal Menyenangkan",
       "source_url": "https://www.imadislam.com/hisnulmuslim/122.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "مَا يَقُولُ عِنْدَ التَّعَجُّبِ وَالأَمْرِ السَّارِّ",
+          "title_id": "Ucapan Ketika Kagum dan Mendapat Hal Menyenangkan",
+          "start": 5349.417,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 123,
       "seq": 125,
-      "title_ar": "ما يفعل من أتاه أمر يسره",
+      "title_ar": "مَا يَفْعَلُ مَنْ أَتَاهُ أَمْرٌ يَسُرُّهُ",
       "title_id": "Sikap Ketika Mendapat Sesuatu yang Menyenangkan",
       "source_url": "https://www.imadislam.com/hisnulmuslim/123.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "مَا يَفْعَلُ مَنْ أَتَاهُ أَمْرٌ يَسُرُّهُ",
+          "title_id": "Sikap Ketika Mendapat Sesuatu yang Menyenangkan",
+          "start": 5361.9,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 124,
       "seq": 126,
-      "title_ar": "ما يقول من أحس وجعاً في جسده",
+      "title_ar": "مَا يَقُولُ مَنْ أَحَسَّ وَجَعاً فِي جَسَدِهِ",
       "title_id": "Doa bagi yang Merasakan Sakit di Tubuhnya",
       "source_url": "https://www.imadislam.com/hisnulmuslim/124.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "مَا يَقُولُ مَنْ أَحَسَّ وَجَعاً فِي جَسَدِهِ",
+          "title_id": "Doa bagi yang Merasakan Sakit di Tubuhnya",
+          "start": 5378.905,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 125,
       "seq": 127,
-      "title_ar": "دعاء من خشي أن يصيب شيئاً بعينه",
+      "title_ar": "دُعَاءُ مَنْ خَشِيَ أَنْ يُصِيبَ شَيْئاً بِعَيْنِهِ",
       "title_id": "Doa bagi yang Khawatir Terkena 'Ain (Pandangan Mata Jahat)",
       "source_url": "https://www.imadislam.com/hisnulmuslim/125.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "دُعَاءُ مَنْ خَشِيَ أَنْ يُصِيبَ شَيْئاً بِعَيْنِهِ",
+          "title_id": "Doa bagi yang Khawatir Terkena 'Ain (Pandangan Mata Jahat)",
+          "start": 5400.935,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 126,
       "seq": 128,
-      "title_ar": "ما يقال عند الفزع",
+      "title_ar": "مَا يُقَالُ عِنْدَ الفَزَعِ",
       "title_id": "Ucapan Ketika Terkejut / Ketakutan",
       "source_url": "https://www.imadislam.com/hisnulmuslim/126.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "مَا يُقَالُ عِنْدَ الفَزَعِ",
+          "title_id": "Ucapan Ketika Terkejut / Ketakutan",
+          "start": 5420.263,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 127,
       "seq": 129,
-      "title_ar": "ما يقول عند الذبح أو النحر",
+      "title_ar": "مَا يَقُولُ عِنْدَ الذَّبْحِ أَوِ النَّحْرِ",
       "title_id": "Ucapan Ketika Menyembelih",
       "source_url": "https://www.imadislam.com/hisnulmuslim/127.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "مَا يَقُولُ عِنْدَ الذَّبْحِ أَوِ النَّحْرِ",
+          "title_id": "Ucapan Ketika Menyembelih",
+          "start": 5428.489,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 128,
       "seq": 130,
-      "title_ar": "ما يقول لرد كيد مردة الشياطين",
+      "title_ar": "مَا يَقُولُ لِرَدِّ كَيْدِ مَرَدَةِ الشَّيَاطِينِ",
       "title_id": "Doa Menolak Tipu Daya Setan Pembangkang",
       "source_url": "https://www.imadislam.com/hisnulmuslim/128.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "مَا يَقُولُ لِرَدِّ كَيْدِ مَرَدَةِ الشَّيَاطِينِ",
+          "title_id": "Doa Menolak Tipu Daya Setan Pembangkang",
+          "start": 5443.929,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 129,
       "seq": 131,
-      "title_ar": "الاستغفار والتوبة",
+      "title_ar": "الاسْتِغْفَارُ وَالتَّوْبَةُ",
       "title_id": "Istighfar dan Taubat",
       "source_url": "https://www.imadislam.com/hisnulmuslim/129.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "الاسْتِغْفَارُ وَالتَّوْبَةُ",
+          "title_id": "Istighfar dan Taubat",
+          "start": 5489.184,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 130,
       "seq": 132,
-      "title_ar": "فضل التسبيح والتحميد، والتهليل، والتكبير",
+      "title_ar": "فَضْلُ التَّسْبِيحِ وَالتَّحْمِيدِ، وَالتَّهْلِيلِ، وَالتَّكْبِيرِ",
       "title_id": "Keutamaan Tasbih, Tahmid, Tahlil, dan Takbir",
       "source_url": "https://www.imadislam.com/hisnulmuslim/130.htm",
       "audio_file": "",
-      "sections": []
+      "sections": [
+        {
+          "type": "bab",
+          "title_ar": "فَضْلُ التَّسْبِيحِ وَالتَّحْمِيدِ، وَالتَّهْلِيلِ، وَالتَّكْبِيرِ",
+          "title_id": "Keutamaan Tasbih, Tahmid, Tahlil, dan Takbir",
+          "start": 5580.929,
+          "paragraphs": []
+        }
+      ]
     },
     {
       "no": 131,
       "seq": 133,
-      "title_ar": "كيف كان النبي صلى الله عليه وسلم يسبح؟",
+      "title_ar": "كَيْفَ كَانَ النَّبِيُّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يُسَبِّحُ؟",
       "title_id": "Cara Nabi ﷺ Bertasbih",
       "source_url": "https://www.imadislam.com/hisnulmuslim/131.htm",
       "audio_file": "",
@@ -1314,7 +2330,7 @@
     {
       "no": 132,
       "seq": 134,
-      "title_ar": "من أنواع الخير والآداب الجامعة",
+      "title_ar": "مِنْ أَنْوَاعِ الخَيْرِ وَالآدَابِ الجَامِعَةِ",
       "title_id": "Beragam Jenis Kebaikan dan Adab yang Menyeluruh",
       "source_url": "https://www.imadislam.com/hisnulmuslim/132.htm",
       "audio_file": "",
