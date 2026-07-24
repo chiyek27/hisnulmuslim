@@ -1,9 +1,9 @@
 {
   "meta": {
     "audio_base": "https://archive.org/download/Hesn_Al_Moslem_uP_bY_mUSLEm/Hesn_uP_bY_mUSLEm-134.mp3",
-    "source_note": "Teks Arab bervokal (berharakat) diambil dari www.imadislam.com/hisnulmuslim (kitab Hisnul Muslim, Syaikh Sa'id bin Ali bin Wahf Al-Qahthani). Semua judul menu (title_ar) sudah diberi harakat lengkap. Timestamp/audio marker per menu mengikuti rekaman qira'ah \"Tasjilat Qurthubah Al-Islamiyyah\" berdasarkan transkripsi SRT; menu 131 dan 132 belum memiliki timestamp karena tidak ditemukan dalam rekaman/transkripsi yang tersedia saat ini. Teks Arab, terjemahan Indonesia, dan catatan kaki per kalimat baru dilengkapi untuk menu 1-20; menu lainnya baru memiliki judul + marker audio, isi lengkap menyusul.",
+    "source_note": "Teks Arab bervokal (berharakat) diambil dari www.imadislam.com/hisnulmuslim (kitab Hisnul Muslim, Syaikh Sa'id bin Ali bin Wahf Al-Qahthani). Semua judul menu (title_ar) sudah diberi harakat lengkap. Timestamp/audio marker per menu mengikuti rekaman qira'ah \"Tasjilat Qurthubah Al-Islamiyyah\" berdasarkan transkripsi SRT; menu 131 dan 132 belum memiliki timestamp karena tidak ditemukan dalam rekaman/transkripsi yang tersedia saat ini. Teks Arab, terjemahan Indonesia, dan catatan kaki per kalimat telah dilengkapi untuk menu 1-26; menu lainnya baru memiliki judul + marker audio, isi lengkap menyusul.",
     "total_menu": 134,
-    "menu_completed": 20
+    "menu_completed": 26
   },
   "books": [
     {
@@ -770,7 +770,22 @@
           "title_ar": "دُعَاءُ سُجُودِ التِّلاَوَةِ",
           "title_id": "Doa Sujud Tilawah",
           "start": 1067.837,
-          "paragraphs": []
+          "paragraphs": [
+            {
+              "ar": "سَجَدَ وَجْهِي لِلَّذِي خَلَقَهُ، وَشَقَّ سَمْعَهُ وَبَصَرَهُ بِحَوْلِهِ وَقُوَّتِهِ، فَتَبَارَكَ اللهُ أَحْسَنُ الخَالِقِينَ",
+              "id": "Wajahku bersujud kepada (Rabb) yang menciptakannya, dan yang membuka pendengaran dan penglihatannya dengan daya dan kekuatan-Nya, maka Maha Suci Allah, sebaik-baik Pencipta.",
+              "footnote": "HR. Tirmidzi (2/474) dan Ahmad (6/30); dinilai shahih oleh Al-Hakim dan disetujui Adz-Dzahabi (1/220). Tambahan lafal \"fatabarakallahu ahsanul khaliqin\" berasal dari riwayat Al-Hakim.",
+              "start": 1074.239,
+              "end": 1085.683
+            },
+            {
+              "ar": "اللَّهُمَّ اكْتُبْ لِي بِهَا عِنْدَكَ أَجْراً، وَضَعْ عَنِّي بِهَا وِزْراً، وَاجْعَلْهَا لِي عِنْدَكَ ذُخْراً، وَتَقَبَّلْهَا مِنِّي كَمَا تَقَبَّلْتَهَا مِنْ عَبْدِكَ دَاوُدَ",
+              "id": "Ya Allah, catatlah untukku dengan (sujud) ini suatu pahala di sisi-Mu, gugurkanlah dariku dengannya suatu dosa, jadikanlah ia simpanan bagiku di sisi-Mu, dan terimalah ia dariku sebagaimana Engkau menerimanya dari hamba-Mu, Daud.",
+              "footnote": "HR. Tirmidzi (2/473); dinilai shahih oleh Al-Hakim dan disetujui Adz-Dzahabi (1/219).",
+              "start": 1089.464,
+              "end": 1104.75
+            }
+          ]
         }
       ]
     },
@@ -787,7 +802,15 @@
           "title_ar": "التَّشَهُّدُ",
           "title_id": "Bacaan Tasyahud",
           "start": 1106.551,
-          "paragraphs": []
+          "paragraphs": [
+            {
+              "ar": "التَّحِيَّاتُ للهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، السَّلاَمُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ، السَّلاَمُ عَلَيْنَا وَعَلَى عِبَادِ اللهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللهُ وَأَشْهَدُ أَنَّ مُحَمَّداً عَبْدُهُ وَرَسُولُهُ",
+              "id": "Segala penghormatan, shalawat (kebaikan), dan kalimat-kalimat yang baik hanya milik Allah. Semoga keselamatan, rahmat Allah, dan berkah-Nya tercurah kepadamu wahai Nabi. Semoga keselamatan tercurah kepada kami dan kepada hamba-hamba Allah yang shalih. Aku bersaksi bahwa tidak ada sesembahan yang berhak disembah selain Allah, dan aku bersaksi bahwa Muhammad adalah hamba dan utusan-Nya.",
+              "footnote": "HR. Bukhari dalam Fathul Bari (1/13) dan Muslim (1/301).",
+              "start": 1111.833,
+              "end": 1136.708
+            }
+          ]
         }
       ]
     },
@@ -804,7 +827,22 @@
           "title_ar": "الصَّلاَةُ عَلَى النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ بَعْدَ التَّشَهُّدِ",
           "title_id": "Shalawat kepada Nabi ﷺ Setelah Tasyahud",
           "start": 1137.769,
-          "paragraphs": []
+          "paragraphs": [
+            {
+              "ar": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ، اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ",
+              "id": "Ya Allah, limpahkanlah shalawat kepada Muhammad dan keluarga Muhammad, sebagaimana Engkau telah melimpahkan shalawat kepada Ibrahim dan keluarga Ibrahim, sesungguhnya Engkau Maha Terpuji lagi Maha Mulia. Ya Allah, berkahilah Muhammad dan keluarga Muhammad, sebagaimana Engkau telah memberkahi Ibrahim dan keluarga Ibrahim, sesungguhnya Engkau Maha Terpuji lagi Maha Mulia.",
+              "footnote": "HR. Bukhari dalam Fathul Bari (6/408).",
+              "start": 1146.711,
+              "end": 1173.215
+            },
+            {
+              "ar": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى أَزْوَاجِهِ وَذُرِّيَّتِهِ، كَمَا صَلَّيْتَ عَلَى آلِ إِبْرَاهِيمَ، وَبَارِكْ عَلَى مُحَمَّدٍ وَعَلَى أَزْوَاجِهِ وَذُرِّيَّتِهِ، كَمَا بَارَكْتَ عَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ",
+              "id": "Ya Allah, limpahkanlah shalawat kepada Muhammad, istri-istri, dan keturunannya, sebagaimana Engkau telah melimpahkan shalawat kepada keluarga Ibrahim, dan berkahilah Muhammad, istri-istri, dan keturunannya, sebagaimana Engkau telah memberkahi keluarga Ibrahim, sesungguhnya Engkau Maha Terpuji lagi Maha Mulia.",
+              "footnote": "HR. Bukhari dalam Fathul Bari (6/407) dan Muslim (1/306); lafal ini menurut riwayat Muslim.",
+              "start": 1177.418,
+              "end": 1198.644
+            }
+          ]
         }
       ]
     },
@@ -821,7 +859,85 @@
           "title_ar": "الدُّعَاءُ بَعْدَ التَّشَهُّدِ الأَخِيرِ وَقَبْلَ السَّلاَمِ",
           "title_id": "Doa Setelah Tasyahud Akhir Sebelum Salam",
           "start": 1202.579,
-          "paragraphs": []
+          "paragraphs": [
+            {
+              "ar": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ عَذَابِ القَبْرِ، وَمِنْ عَذَابِ جَهَنَّمَ، وَمِنْ فِتْنَةِ المَحْيَا وَالمَمَاتِ، وَمِنْ شَرِّ فِتْنَةِ المَسِيحِ الدَّجَّالِ",
+              "id": "Ya Allah, aku berlindung kepada-Mu dari siksa kubur, dari siksa Jahannam, dari fitnah kehidupan dan kematian, serta dari keburukan fitnah Al-Masih Dajjal.",
+              "footnote": "HR. Bukhari (2/102) dan Muslim (1/412); lafal ini menurut riwayat Muslim.",
+              "start": 1210.703,
+              "end": 1224.931
+            },
+            {
+              "ar": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ عَذَابِ القَبْرِ، وَأَعُوذُ بِكَ مِنْ فِتْنَةِ المَسِيحِ الدَّجَّالِ، وَأَعُوذُ بِكَ مِنْ فِتْنَةِ المَحْيَا وَالمَمَاتِ، اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ المَأْثَمِ وَالمَغْرَمِ",
+              "id": "Ya Allah, aku berlindung kepada-Mu dari siksa kubur, aku berlindung kepada-Mu dari fitnah Al-Masih Dajjal, aku berlindung kepada-Mu dari fitnah kehidupan dan kematian. Ya Allah, aku berlindung kepada-Mu dari dosa dan lilitan hutang.",
+              "footnote": "HR. Bukhari (1/202) dan Muslim (1/412).",
+              "start": 1229.875,
+              "end": 1248.083
+            },
+            {
+              "ar": "اللَّهُمَّ إِنِّي ظَلَمْتُ نَفْسِي ظُلْماً كَثِيراً، وَلاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ، فَاغْفِرْ لِي مَغْفِرَةً مِنْ عِنْدِكَ وَارْحَمْنِي إِنَّكَ أَنْتَ الغَفُورُ الرَّحِيمُ",
+              "id": "Ya Allah, sesungguhnya aku telah banyak menzalimi diriku sendiri, dan tidak ada yang mengampuni dosa-dosa kecuali Engkau. Maka ampunilah aku dengan ampunan dari sisi-Mu, dan sayangilah aku, sesungguhnya Engkau Maha Pengampun lagi Maha Penyayang.",
+              "footnote": "HR. Bukhari (8/168) dan Muslim (4/2078).",
+              "start": 1252.025,
+              "end": 1267.442
+            },
+            {
+              "ar": "اللَّهُمَّ اغْفِرْ لِي مَا قَدَّمْتُ وَمَا أَخَّرْتُ، وَمَا أَسْرَرْتُ وَمَا أَعْلَنْتُ، وَمَا أَسْرَفْتُ، وَمَا أَنْتَ أَعْلَمُ بِهِ مِنِّي، أَنْتَ المُقَدِّمُ وَأَنْتَ المُؤَخِّرُ، لاَ إِلَهَ إِلاَّ أَنْتَ",
+              "id": "Ya Allah, ampunilah dosaku yang telah lalu dan yang akan datang, yang aku sembunyikan dan yang aku tampakkan, yang aku lakukan secara berlebihan, dan apa yang lebih Engkau ketahui daripada aku. Engkaulah yang mendahulukan dan yang mengakhirkan, tidak ada sesembahan yang berhak disembah selain Engkau.",
+              "footnote": "HR. Muslim (1/534).",
+              "start": 1271.285,
+              "end": 1291.721
+            },
+            {
+              "ar": "اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ",
+              "id": "Ya Allah, tolonglah aku untuk berdzikir kepada-Mu, bersyukur kepada-Mu, dan beribadah kepada-Mu dengan baik.",
+              "footnote": "HR. Abu Dawud (2/86) dan An-Nasa'i (3/53); dinilai shahih oleh Al-Albani dalam Shahih Abu Dawud (1/284).",
+              "start": 1296.083,
+              "end": 1300.366
+            },
+            {
+              "ar": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ البُخْلِ، وَأَعُوذُ بِكَ مِنَ الجُبْنِ، وَأَعُوذُ بِكَ مِنْ أَنْ أُرَدَّ إِلَى أَرْذَلِ العُمُرِ، وَأَعُوذُ بِكَ مِنْ فِتْنَةِ الدُّنْيَا وَعَذَابِ القَبْرِ",
+              "id": "Ya Allah, aku berlindung kepada-Mu dari sifat kikir, aku berlindung kepada-Mu dari sifat pengecut, aku berlindung kepada-Mu dari dikembalikan kepada usia yang paling hina (pikun), dan aku berlindung kepada-Mu dari fitnah dunia dan siksa kubur.",
+              "footnote": "HR. Bukhari (6/35) dan Abu Dawud; lihat Shahih Ibnu Majah (2/328).",
+              "start": 1303.928,
+              "end": 1320.091
+            },
+            {
+              "ar": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الجَنَّةَ وَأَعُوذُ بِكَ مِنَ النَّارِ",
+              "id": "Ya Allah, sesungguhnya aku memohon kepada-Mu surga, dan aku berlindung kepada-Mu dari neraka.",
+              "footnote": "Doa ini masyhur diriwayatkan dari Nabi ﷺ dengan sanad hasan (Ahmad, Abu Dawud, dan Ibnu Majah); pada halaman sumber asli, nomor catatan kaki untuk doa ini tidak tercetak secara terpisah (loncat dari catatan ke-6 ke ke-8).",
+              "start": 1324.634,
+              "end": 1328.758
+            },
+            {
+              "ar": "اللَّهُمَّ بِعِلْمِكَ الغَيْبَ وَقُدْرَتِكَ عَلَى الخَلْقِ، أَحْيِنِي مَا عَلِمْتَ الحَيَاةَ خَيْراً لِي، وَتَوَفَّنِي إِذَا عَلِمْتَ الوَفَاةَ خَيْراً لِي، اللَّهُمَّ إِنِّي أَسْأَلُكَ خَشْيَتَكَ فِي الغَيْبِ وَالشَّهَادَةِ، وَأَسْأَلُكَ كَلِمَةَ الحَقِّ فِي الرِّضَا وَالغَضَبِ، وَأَسْأَلُكَ القَصْدَ فِي الغِنَى وَالفَقْرِ، وَأَسْأَلُكَ نَعِيماً لاَ يَنْفَدُ، وَأَسْأَلُكَ قُرَّةَ عَيْنٍ لاَ تَنْقَطِعُ، وَأَسْأَلُكَ الرِّضَا بَعْدَ القَضَاءِ، وَأَسْأَلُكَ بَرْدَ العَيْشِ بَعْدَ المَوْتِ، وَأَسْأَلُكَ لَذَّةَ النَّظَرِ إِلَى وَجْهِكَ وَالشَّوْقَ إِلَى لِقَائِكَ، فِي غَيْرِ ضَرَّاءَ مُضِرَّةٍ وَلاَ فِتْنَةٍ مُضِلَّةٍ، اللَّهُمَّ زَيِّنَّا بِزِينَةِ الإِيمَانِ، وَاجْعَلْنَا هُدَاةً مُهْتَدِينَ",
+              "id": "Ya Allah, dengan ilmu-Mu tentang yang gaib dan kekuasaan-Mu atas makhluk, hidupkanlah aku selama Engkau mengetahui bahwa kehidupan itu baik bagiku, dan wafatkanlah aku bila Engkau mengetahui bahwa kematian itu baik bagiku. Ya Allah, aku memohon kepada-Mu rasa takut kepada-Mu baik dalam keadaan sembunyi maupun terang-terangan, aku memohon kepada-Mu kalimat kebenaran dalam keadaan ridha maupun marah, aku memohon kepada-Mu sikap pertengahan dalam kekayaan maupun kefakiran, aku memohon kepada-Mu kenikmatan yang tidak pernah habis, aku memohon kepada-Mu kesejukan mata yang tidak pernah putus, aku memohon kepada-Mu keridhaan setelah ketetapan-Mu, aku memohon kepada-Mu kehidupan yang nyaman setelah kematian, aku memohon kepada-Mu kenikmatan memandang wajah-Mu dan kerinduan untuk berjumpa dengan-Mu, tanpa kemudaratan yang membahayakan dan tanpa fitnah yang menyesatkan. Ya Allah, hiasilah kami dengan keindahan iman, dan jadikanlah kami penunjuk yang mendapat petunjuk.",
+              "footnote": "HR. An-Nasa'i (4/54-55) dan Ahmad (4/364); dinilai shahih oleh Al-Albani dalam Shahih An-Nasa'i (1/281).",
+              "start": 1332.381,
+              "end": 1400.223
+            },
+            {
+              "ar": "اللَّهُمَّ إِنِّي أَسْأَلُكَ يَا اللهُ بِأَنَّكَ الوَاحِدُ الأَحَدُ الصَّمَدُ الَّذِي لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُنْ لَهُ كُفُواً أَحَدٌ، أَنْ تَغْفِرَ لِي ذُنُوبِي إِنَّكَ أَنْتَ الغَفُورُ الرَّحِيمُ",
+              "id": "Ya Allah, sesungguhnya aku memohon kepada-Mu, Ya Allah, dengan (menyebut) bahwa Engkau Yang Maha Esa, tempat bergantung segala sesuatu, yang tidak beranak dan tidak diperanakkan, serta tidak ada satu pun yang setara dengan-Nya, agar Engkau mengampuni dosa-dosaku, sesungguhnya Engkau Maha Pengampun lagi Maha Penyayang.",
+              "footnote": "HR. An-Nasa'i (3/52) dengan lafal ini, dan Ahmad (4/338); dinilai shahih oleh Al-Albani dalam Shahih An-Nasa'i (1/280).",
+              "start": 1404.889,
+              "end": 1423.363
+            },
+            {
+              "ar": "اللَّهُمَّ إِنِّي أَسْأَلُكَ بِأَنَّ لَكَ الحَمْدَ، لاَ إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، المَنَّانُ، يَا بَدِيعَ السَّمَاوَاتِ وَالأَرْضِ، يَا ذَا الجَلاَلِ وَالإِكْرَامِ، يَا حَيُّ يَا قَيُّومُ، إِنِّي أَسْأَلُكَ الجَنَّةَ وَأَعُوذُ بِكَ مِنَ النَّارِ",
+              "id": "Ya Allah, sesungguhnya aku memohon kepada-Mu, karena bagi-Mu segala puji, tidak ada sesembahan yang berhak disembah selain Engkau semata, tidak ada sekutu bagi-Mu, Yang Maha Pemberi Karunia, wahai Pencipta langit dan bumi tanpa contoh sebelumnya, wahai Yang memiliki keagungan dan kemuliaan, wahai Yang Maha Hidup lagi Maha Berdiri Sendiri, sesungguhnya aku memohon kepada-Mu surga dan berlindung kepada-Mu dari neraka.",
+              "footnote": "HR. Ashabus Sunan (penyusun kitab-kitab Sunan); lihat Shahih Ibnu Majah (2/329).",
+              "start": 1428.286,
+              "end": 1454.368
+            },
+            {
+              "ar": "اللَّهُمَّ إِنِّي أَسْأَلُكَ بِأَنِّي أَشْهَدُ أَنَّكَ أَنْتَ اللهُ لاَ إِلَهَ إِلاَّ أَنْتَ، الأَحَدُ الصَّمَدُ، الَّذِي لَمْ يَلِدْ وَلَمْ يُولَدْ، وَلَمْ يَكُنْ لَهُ كُفُواً أَحَدٌ",
+              "id": "Ya Allah, sesungguhnya aku memohon kepada-Mu dengan (kesaksianku) bahwa aku bersaksi Engkaulah Allah, tidak ada sesembahan yang berhak disembah selain Engkau, Yang Maha Esa, tempat bergantung segala sesuatu, yang tidak beranak dan tidak diperanakkan, serta tidak ada satu pun yang setara dengan-Nya.",
+              "footnote": "HR. Abu Dawud (2/62), Tirmidzi (5/515), Ibnu Majah (2/1267), dan Ahmad (5/360); lihat Shahih Ibnu Majah (2/329) dan Shahih Tirmidzi (3/163).",
+              "start": 1460.096,
+              "end": 1475.243
+            }
+          ]
         }
       ]
     },
@@ -838,7 +954,64 @@
           "title_ar": "الأَذْكَارُ بَعْدَ السَّلاَمِ مِنَ الصَّلاَةِ",
           "title_id": "Dzikir Setelah Salam dari Shalat",
           "start": 1478.384,
-          "paragraphs": []
+          "paragraphs": [
+            {
+              "ar": "أَسْتَغْفِرُ اللهَ (ثَلاَثاً)، اللَّهُمَّ أَنْتَ السَّلاَمُ وَمِنْكَ السَّلاَمُ، تَبَارَكْتَ يَا ذَا الجَلاَلِ وَالإِكْرَامِ",
+              "id": "Aku memohon ampun kepada Allah (dibaca tiga kali). Ya Allah, Engkau Maha Sejahtera, dan dari-Mu segala kesejahteraan. Maha Suci Engkau, wahai Pemilik keagungan dan kemuliaan.",
+              "footnote": "HR. Muslim (1/414).",
+              "start": 1484.247,
+              "end": 1495.136
+            },
+            {
+              "ar": "لاَ إِلَهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ المُلْكُ وَلَهُ الحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، اللَّهُمَّ لاَ مَانِعَ لِمَا أَعْطَيْتَ وَلاَ مُعْطِيَ لِمَا مَنَعْتَ وَلاَ يَنْفَعُ ذَا الجَدِّ مِنْكَ الجَدُّ",
+              "id": "Tidak ada sesembahan yang berhak disembah selain Allah, Yang Maha Esa, tidak ada sekutu bagi-Nya. Milik-Nya seluruh kerajaan dan milik-Nya segala puji, dan Dia Maha Kuasa atas segala sesuatu. Ya Allah, tidak ada yang dapat mencegah apa yang Engkau berikan, dan tidak ada yang dapat memberi apa yang Engkau cegah, serta kekayaan seseorang tidak bermanfaat baginya (untuk menyelamatkannya) dari (siksa)-Mu.",
+              "footnote": "HR. Bukhari (1/255) dan Muslim (1/414).",
+              "start": 1496.798,
+              "end": 1519.645
+            },
+            {
+              "ar": "لاَ إِلَهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ المُلْكُ وَلَهُ الحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللهِ، لاَ إِلَهَ إِلاَّ اللهُ، وَلاَ نَعْبُدُ إِلاَّ إِيَّاهُ، لَهُ النِّعْمَةُ وَلَهُ الفَضْلُ وَلَهُ الثَّنَاءُ الحَسَنُ، لاَ إِلَهَ إِلاَّ اللهُ مُخْلِصِينَ لَهُ الدِّينَ وَلَوْ كَرِهَ الكَافِرُونَ",
+              "id": "Tidak ada sesembahan yang berhak disembah selain Allah, Yang Maha Esa, tidak ada sekutu bagi-Nya. Milik-Nya seluruh kerajaan dan milik-Nya segala puji, dan Dia Maha Kuasa atas segala sesuatu. Tidak ada daya dan kekuatan kecuali dengan (pertolongan) Allah. Tidak ada sesembahan yang berhak disembah selain Allah, dan kami tidak menyembah kecuali hanya kepada-Nya. Milik-Nya segala nikmat, milik-Nya segala karunia, dan milik-Nya segala pujian yang baik. Tidak ada sesembahan yang berhak disembah selain Allah, dengan memurnikan ketaatan hanya kepada-Nya, sekalipun orang-orang kafir membencinya.",
+              "footnote": "HR. Muslim (1/415).",
+              "start": 1524.567,
+              "end": 1557.56
+            },
+            {
+              "ar": "سُبْحَانَ اللهِ، وَالحَمْدُ للهِ، وَاللهُ أَكْبَرُ (ثَلاَثاً وَثَلاَثِينَ مَرَّةً)، لاَ إِلَهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ المُلْكُ وَلَهُ الحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+              "id": "Maha Suci Allah, segala puji bagi Allah, dan Allah Maha Besar (masing-masing dibaca tiga puluh tiga kali). Tidak ada sesembahan yang berhak disembah selain Allah, Yang Maha Esa, tidak ada sekutu bagi-Nya. Milik-Nya seluruh kerajaan dan milik-Nya segala puji, dan Dia Maha Kuasa atas segala sesuatu.",
+              "footnote": "HR. Muslim (1/418). Barangsiapa mengucapkannya setiap selesai shalat, dosa-dosanya akan diampuni sekalipun sebanyak buih di lautan.",
+              "start": 1562.0,
+              "end": 1584.027
+            },
+            {
+              "ar": "بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ {قُلْ هُوَ اللهُ أَحَدٌ * اللهُ الصَّمَدُ * لَمْ يَلِدْ وَلَمْ يُولَدْ * وَلَمْ يَكُنْ لَهُ كُفُواً أَحَدٌ}، بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ {قُلْ أَعُوذُ بِرَبِّ الفَلَقِ * مِنْ شَرِّ مَا خَلَقَ * وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ * وَمِنْ شَرِّ النَّفَّاثَاتِ فِي العُقَدِ * وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ}، بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ {قُلْ أَعُوذُ بِرَبِّ النَّاسِ * مَلِكِ النَّاسِ * إِلَهِ النَّاسِ * مِنْ شَرِّ الوَسْوَاسِ الخَنَّاسِ * الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ * مِنَ الجِنَّةِ وَالنَّاسِ}",
+              "id": "Dengan menyebut nama Allah Yang Maha Pengasih lagi Maha Penyayang. \"Katakanlah: Dialah Allah, Yang Maha Esa. Allah adalah Rabb yang bergantung kepada-Nya segala sesuatu. Dia tidak beranak dan tidak pula diperanakkan. Dan tidak ada seorang pun yang setara dengan-Nya.\" Dengan menyebut nama Allah Yang Maha Pengasih lagi Maha Penyayang. \"Katakanlah: Aku berlindung kepada Rabb yang menguasai waktu subuh, dari kejahatan makhluk-Nya, dan dari kejahatan malam apabila telah gelap gulita, dan dari kejahatan wanita-wanita tukang sihir yang menghembus pada buhul-buhul, dan dari kejahatan orang yang dengki apabila ia dengki.\" Dengan menyebut nama Allah Yang Maha Pengasih lagi Maha Penyayang. \"Katakanlah: Aku berlindung kepada Rabb (yang memelihara dan menguasai) manusia, Raja manusia, sesembahan manusia, dari kejahatan (bisikan) setan yang biasa bersembunyi, yang membisikkan (kejahatan) ke dalam dada manusia, dari (golongan) jin dan manusia.\" Dibaca sekali setelah setiap shalat, dan tiga kali setelah shalat Maghrib dan Subuh.",
+              "footnote": "HR. Abu Dawud (2/86) dan An-Nasa'i (3/68); lihat Shahih Tirmidzi (2/8). Ketiga surah ini disebut Al-Mu'awwidzat (surah-surah pelindung); lihat juga Fathul Bari (9/62).",
+              "start": 1587.147,
+              "end": 1672.923
+            },
+            {
+              "ar": "اللهُ لاَ إِلَهَ إِلاَّ هُوَ الحَيُّ القَيُّومُ، لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ، لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الأَرْضِ، مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلاَّ بِإِذْنِهِ، يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ، وَلاَ يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلاَّ بِمَا شَاءَ، وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالأَرْضَ، وَلاَ يَؤُودُهُ حِفْظُهُمَا، وَهُوَ العَلِيُّ العَظِيمُ",
+              "id": "Allah, tidak ada sesembahan yang berhak disembah selain Dia, Yang Maha Hidup lagi terus-menerus mengurus makhluk-Nya. Tidak mengantuk dan tidak pula tidur. Milik-Nya apa yang ada di langit dan apa yang ada di bumi. Tiada yang dapat memberi syafaat di sisi-Nya tanpa izin-Nya. Dia mengetahui apa yang di hadapan mereka dan apa yang di belakang mereka, sedang mereka tidak mengetahui sesuatu apa pun dari ilmu-Nya melainkan apa yang Dia kehendaki. Kursi-Nya meliputi langit dan bumi, dan Dia tidak merasa berat memelihara keduanya, dan Dialah Yang Maha Tinggi lagi Maha Besar. (Ayat Kursi, dibaca setiap selesai shalat)",
+              "footnote": "Barangsiapa membacanya setiap selesai shalat, tidak ada yang menghalanginya masuk surga kecuali kematian. HR. An-Nasa'i dalam 'Amalul Yaum wal Lailah no. 100 dan Ibnus Sunni no. 121; dinilai shahih oleh Al-Albani dalam Shahih Al-Jami' (5/339) dan Silsilah Al-Ahadits Ash-Shahihah (2/697) no. 972.",
+              "start": 1678.065,
+              "end": 1733.17
+            },
+            {
+              "ar": "لاَ إِلَهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ المُلْكُ وَلَهُ الحَمْدُ، يُحْيِي وَيُمِيتُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ (عَشْرَ مَرَّاتٍ بَعْدَ صَلاَةِ المَغْرِبِ وَالصُّبْحِ)",
+              "id": "Tidak ada sesembahan yang berhak disembah selain Allah, Yang Maha Esa, tidak ada sekutu bagi-Nya. Milik-Nya seluruh kerajaan dan milik-Nya segala puji. Dia yang menghidupkan dan mematikan, dan Dia Maha Kuasa atas segala sesuatu. (Dibaca sepuluh kali setelah shalat Maghrib dan Subuh)",
+              "footnote": "HR. Tirmidzi (5/515) dan Ahmad (4/227); lihat takhrijnya dalam Zadul Ma'ad (1/300).",
+              "start": 1737.75,
+              "end": 1749.958
+            },
+            {
+              "ar": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْماً نَافِعاً، وَرِزْقاً طَيِّباً، وَعَمَلاً مُتَقَبَّلاً",
+              "id": "Ya Allah, sesungguhnya aku memohon kepada-Mu ilmu yang bermanfaat, rezeki yang baik, dan amal yang diterima. (Dibaca setelah salam dari shalat Subuh)",
+              "footnote": "HR. Ibnu Majah dan lainnya; lihat Shahih Ibnu Majah (1/152) dan Majma'uz Zawa'id (10/111).",
+              "start": 1758.463,
+              "end": 1766.223
+            }
+          ]
         }
       ]
     },
@@ -855,7 +1028,22 @@
           "title_ar": "دُعَاءُ صَلاَةِ الاسْتِخَارَةِ",
           "title_id": "Doa Shalat Istikharah",
           "start": 1771.226,
-          "paragraphs": []
+          "paragraphs": [
+            {
+              "ar": "قَالَ جَابِرُ بْنُ عَبْدِ اللهِ رَضِيَ اللهُ عَنْهُمَا: كَانَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يُعَلِّمُنَا الاسْتِخَارَةَ فِي الأُمُورِ كُلِّهَا كَمَا يُعَلِّمُنَا السُّورَةَ مِنَ القُرْآنِ، يَقُولُ: إِذَا هَمَّ أَحَدُكُمْ بِالأَمْرِ فَلْيَرْكَعْ رَكْعَتَيْنِ مِنْ غَيْرِ الفَرِيضَةِ، ثُمَّ لِيَقُلْ: اللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ، وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ، وَأَسْأَلُكَ مِنْ فَضْلِكَ العَظِيمِ، فَإِنَّكَ تَقْدِرُ وَلاَ أَقْدِرُ، وَتَعْلَمُ وَلاَ أَعْلَمُ، وَأَنْتَ عَلاَّمُ الغُيُوبِ، اللَّهُمَّ إِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الأَمْرَ -وَيُسَمِّي حَاجَتَهُ- خَيْرٌ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي -أَوْ قَالَ: عَاجِلِهِ وَآجِلِهِ- فَاقْدُرْهُ لِي وَيَسِّرْهُ لِي، ثُمَّ بَارِكْ لِي فِيهِ، وَإِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الأَمْرَ شَرٌّ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي -أَوْ قَالَ: عَاجِلِهِ وَآجِلِهِ- فَاصْرِفْهُ عَنِّي وَاصْرِفْنِي عَنْهُ، وَاقْدُرْ لِيَ الخَيْرَ حَيْثُ كَانَ، ثُمَّ أَرْضِنِي بِهِ",
+              "id": "Jabir bin Abdillah radhiyallahu 'anhuma berkata: Dahulu Rasulullah ﷺ mengajarkan kepada kami cara beristikharah dalam segala urusan, sebagaimana beliau mengajarkan kami surah dari Al-Qur'an. Beliau bersabda: \"Apabila salah seorang di antara kalian berkeinginan melakukan suatu urusan, hendaklah ia shalat dua rakaat selain shalat fardhu, kemudian mengucapkan: 'Ya Allah, sesungguhnya aku memohon pilihan kepada-Mu dengan ilmu-Mu, aku memohon kemampuan kepada-Mu dengan kekuasaan-Mu, dan aku memohon kepada-Mu dari karunia-Mu yang besar. Sesungguhnya Engkau Maha Kuasa sedangkan aku tidak berkuasa, Engkau Maha Mengetahui sedangkan aku tidak mengetahui, dan Engkau Maha Mengetahui hal-hal yang gaib. Ya Allah, jika Engkau mengetahui bahwa urusan ini -lalu ia menyebutkan keperluannya- baik bagiku dalam agamaku, penghidupanku, dan akibat urusanku -atau beliau bersabda: cepat maupun lambatnya- maka takdirkanlah ia untukku, mudahkanlah bagiku, kemudian berkahilah aku di dalamnya. Namun jika Engkau mengetahui bahwa urusan ini buruk bagiku dalam agamaku, penghidupanku, dan akibat urusanku -atau cepat maupun lambatnya- maka palingkanlah ia dariku dan palingkanlah aku darinya, serta takdirkanlah kebaikan untukku di mana pun kebaikan itu berada, kemudian jadikanlah aku ridha dengannya.'\"",
+              "footnote": "HR. Bukhari (7/162).",
+              "start": 1774.866,
+              "end": 1866.531
+            },
+            {
+              "ar": "وَمَا نَدِمَ مَنِ اسْتَخَارَ الخَالِقَ، وَشَاوَرَ المَخْلُوقِينَ المُؤْمِنِينَ، وَتَثَبَّتَ فِي أَمْرِهِ، فَقَدْ قَالَ سُبْحَانَهُ: {وَشَاوِرْهُمْ فِي الأَمْرِ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى اللهِ}",
+              "id": "Tidaklah menyesal orang yang meminta pilihan kepada Sang Pencipta, bermusyawarah dengan sesama makhluk yang beriman, dan bersikap tenang (tidak tergesa-gesa) dalam urusannya. Sungguh Allah Yang Maha Suci telah berfirman: \"Dan bermusyawarahlah dengan mereka dalam urusan itu, kemudian apabila engkau telah membulatkan tekad, maka bertawakallah kepada Allah.\"",
+              "footnote": "QS. Ali 'Imran: 159.",
+              "start": 1868.692,
+              "end": 1881.438
+            }
+          ]
         }
       ]
     },
