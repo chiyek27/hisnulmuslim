@@ -1,7 +1,7 @@
 {
   "meta": {
     "audio_base": "https://archive.org/download/Hesn_Al_Moslem_uP_bY_mUSLEm/Hesn_uP_bY_mUSLEm-134.mp3",
-    "source_note": "Teks Arab bervokal (berharakat) diambil dari www.imadislam.com/hisnulmuslim (kitab Hisnul Muslim, Syaikh Sa'id bin Ali bin Wahf Al-Qahthani). Semua judul menu (title_ar) sudah diberi harakat lengkap. Timestamp/audio marker per menu mengikuti rekaman qira'ah \"Tasjilat Qurthubah Al-Islamiyyah\" berdasarkan transkripsi SRT; menu 131 dan 132 belum memiliki timestamp karena tidak ditemukan dalam rekaman/transkripsi yang tersedia saat ini. Teks Arab, terjemahan Indonesia, dan catatan kaki per kalimat telah dilengkapi untuk menu 1-26; menu lainnya baru memiliki judul + marker audio, isi lengkap menyusul."
+    "source_note": "Teks Arab bervokal (berharakat) diambil dari www.imadislam.com/hisnulmuslim (kitab Hisnul Muslim, Syaikh Sa'id bin Ali bin Wahf Al-Qahthani)."
   },
   "books": [
     {
@@ -3265,8 +3265,8 @@
           "footnote_id": [
             "HR. Muslim (2/1000)"
           ],
-          "start": null,
-          "end": null
+          "start": 4230.68,
+          "end": 4244.25
         }
       ]
     },
@@ -3285,8 +3285,8 @@
           "footnote_id": [
             "HR. Al-Bukhari (7/125)"
           ],
-          "start": null,
-          "end": null
+          "start": 4250.97,
+          "end": 4269.71
         }
       ]
     },
@@ -3305,8 +3305,8 @@
           "footnote_id": [
             "HR. At-Tirmidzi (5/82), Ahmad (4/400) dan Abu Dawud (4/308), lihat Shahih At-Tirmidzi (2/354)"
           ],
-          "start": null,
-          "end": null
+          "start": 4279.49,
+          "end": 4282.35
         }
       ]
     },
@@ -3325,8 +3325,8 @@
           "footnote_id": [
             "HR. para penyusun kitab Sunan kecuali An-Nasa'i, lihat Shahih At-Tirmidzi (1/316)"
           ],
-          "start": null,
-          "end": null
+          "start": 4292.19,
+          "end": 4299.6
         }
       ]
     },
@@ -3345,8 +3345,8 @@
           "footnote_id": [
             "HR. Abu Dawud (2/248) dan Ibnu Majah (1/617), lihat Shahih Ibnu Majah (1/324)"
           ],
-          "start": null,
-          "end": null
+          "start": 4307.72,
+          "end": 4333.49
         }
       ]
     },
@@ -3365,8 +3365,8 @@
           "footnote_id": [
             "HR. Al-Bukhari (6/141) dan Muslim (2/1028)"
           ],
-          "start": null,
-          "end": null
+          "start": 4341.64,
+          "end": 4348.32
         }
       ]
     },
@@ -3385,8 +3385,8 @@
           "footnote_id": [
             "HR. Al-Bukhari (6/99) dan Muslim (4/2015)"
           ],
-          "start": null,
-          "end": null
+          "start": 4356.11,
+          "end": 4358.89
         }
       ]
     },
@@ -3405,8 +3405,8 @@
           "footnote_id": [
             "HR. At-Tirmidzi (5/494 dan 5/493), lihat Shahih At-Tirmidzi (3/153)"
           ],
-          "start": null,
-          "end": null
+          "start": 4367.49,
+          "end": 4376.28
         }
       ]
     },
@@ -3425,8 +3425,8 @@
           "footnote_id": [
             "HR. At-Tirmidzi dan lainnya, lihat Shahih At-Tirmidzi (3/153) dan Shahih Ibnu Majah (2/321), lafazh ini dari At-Tirmidzi"
           ],
-          "start": null,
-          "end": null
+          "start": 4381.22,
+          "end": 4398.36
         }
       ]
     },
@@ -3445,8 +3445,8 @@
           "footnote_id": [
             "HR. para penyusun kitab Sunan, lihat Shahih At-Tirmidzi (3/153). Telah shahih dari Aisyah radhiyallahu 'anha, ia berkata: 'Tidaklah Rasulullah shallallahu 'alaihi wa sallam duduk dalam suatu majelis, membaca Al-Qur'an, atau melaksanakan shalat, kecuali beliau menutupnya dengan beberapa kalimat ... (hadits).' HR. An-Nasa'i dalam 'Amalul Yaum wal Lailah no. 308, dan Ahmad (6/77), dishahihkan oleh Dr. Farouk Hamadah dalam tahqiqnya atas 'Amalul Yaum wal Lailah karya An-Nasa'i hal. 273"
           ],
-          "start": null,
-          "end": null
+          "start": 4404.87,
+          "end": 4415.49
         }
       ]
     },
@@ -3465,8 +3465,8 @@
           "footnote_id": [
             "HR. Ahmad (5/28) dan An-Nasa'i dalam 'Amalul Yaum wal Lailah hal. 218 no. 421, tahqiq Dr. Farouk Hamadah"
           ],
-          "start": null,
-          "end": null
+          "start": 4423.37,
+          "end": 4423.81
         }
       ]
     },
@@ -3485,8 +3485,8 @@
           "footnote_id": [
             "HR. At-Tirmidzi no. 2035, lihat Shahih Al-Jami' no. 6244 dan Shahih At-Tirmidzi (2/200)"
           ],
-          "start": null,
-          "end": null
+          "start": 4432.22,
+          "end": 4433.88
         }
       ]
     },
@@ -3507,8 +3507,8 @@
             "HR. Muslim (1/555), dan dalam riwayat lain disebutkan 'dari akhir surat Al-Kahfi' (1/556)",
             "Lihat hadits nomor 55 dan hadits 56"
           ],
-          "start": null,
-          "end": null
+          "start": 4441.54,
+          "end": 4453.73
         }
       ]
     },
@@ -3527,8 +3527,8 @@
           "footnote_id": [
             "HR. Abu Dawud (4/333), dihasankan oleh Al-Albani dalam Shahih Sunan Abu Dawud (3/965)"
           ],
-          "start": null,
-          "end": null
+          "start": 4460.81,
+          "end": 4463.19
         }
       ]
     },
@@ -3547,8 +3547,8 @@
           "footnote_id": [
             "HR. Al-Bukhari (Fathul Bari 4/88)"
           ],
-          "start": null,
-          "end": null
+          "start": 4470.68,
+          "end": 4473.66
         }
       ]
     },
@@ -3567,8 +3567,8 @@
           "footnote_id": [
             "HR. An-Nasa'i dalam 'Amalul Yaum wal Lailah hal. 300 dan Ibnu Majah (2/809), lihat Shahih Ibnu Majah (2/55)"
           ],
-          "start": null,
-          "end": null
+          "start": 4481.64,
+          "end": 4489.33
         }
       ]
     },
@@ -3587,8 +3587,8 @@
           "footnote_id": [
             "HR. Ahmad (4/403) dan lainnya, lihat Shahih Al-Jami' (3/333) dan Shahih At-Targhib wat Tarhib karya Al-Albani"
           ],
-          "start": null,
-          "end": null
+          "start": 4497.73,
+          "end": 4505.84
         }
       ]
     },
@@ -3607,8 +3607,8 @@
           "footnote_id": [
             "Diriwayatkan oleh Ibnu As-Sunni hal. 138 no. 278, lihat Al-Wabilush Shayyib karya Ibnul Qayyim hal. 304, tahqiq Basyir Muhammad 'Uyun"
           ],
-          "start": null,
-          "end": null
+          "start": 4513.84,
+          "end": 4515.46
         }
       ]
     },
@@ -3627,8 +3627,8 @@
           "footnote_id": [
             "HR. Ahmad (2/220) dan Ibnu As-Sunni no. 292, dishahihkan oleh Al-Albani dalam Al-Ahadits Ash-Shahihah (3/54) no. 1065. Adapun al-fa'lu (optimisme), Nabi shallallahu 'alaihi wa sallam menyukainya. Ketika beliau mendengar suatu perkataan yang baik dari seseorang, beliau merasa senang dan bersabda: 'Kami mengambil pertanda baik darimu.' HR. Abu Dawud dan Ahmad, dishahihkan oleh Al-Albani dalam Ash-Shahihah (2/363), riwayat Abusy Syaikh dalam Akhlaqun Nabi"
           ],
-          "start": null,
-          "end": null
+          "start": 4521.7,
+          "end": 4531.03
         }
       ]
     },
@@ -3636,7 +3636,7 @@
       "id": "095",
       "title_ar": "دُعَاءُ رُكُوبِ الدَّابَّةِ",
       "title_id": "Doa Menaiki Kendaraan",
-      "start": null,
+      "start": 4533.84,
       "text": [
         {
           "ar": "بِسْمِ اللَّهِ. الْحَمْدُ لِلَّهِ. {سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَٰذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ * وَإِنَّا إِلَىٰ رَبِّنَا لَمُنْقَلِبُونَ} الْحَمْدُ لِلَّهِ، الْحَمْدُ لِلَّهِ، الْحَمْدُ لِلَّهِ، اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، سُبْحَانَكَ اللَّهُمَّ إِنِّي ظَلَمْتُ نَفْسِي فَاغْفِرْ لِي، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ",
@@ -3647,8 +3647,8 @@
           "footnote_id": [
             "HR. Abu Dawud (3/34) dan At-Tirmidzi (5/501), lihat Shahih At-Tirmidzi (3/156)"
           ],
-          "start": null,
-          "end": null
+          "start": 4539.42,
+          "end": 4577.24
         }
       ]
     },
@@ -3667,8 +3667,8 @@
           "footnote_id": [
             "HR. Muslim (2/978)"
           ],
-          "start": null,
-          "end": null
+          "start": 4584.49,
+          "end": 4646.55
         }
       ]
     },
@@ -3687,8 +3687,8 @@
           "footnote_id": [
             "HR. Al-Hakim dan beliau menshahihkannya serta disepakati oleh Adz-Dzahabi (2/100), dan Ibnu As-Sunni no. 524, dihasankan oleh Al-Hafizh dalam tahqiq Al-Adzkar (5/154). Ibnu Baz berkata: diriwayatkan pula oleh An-Nasa'i dengan sanad hasan. Lihat Tuhfatul Akhyar hal. 37"
           ],
-          "start": null,
-          "end": null
+          "start": 4656.15,
+          "end": 4687.87
         }
       ]
     },
@@ -3707,8 +3707,8 @@
           "footnote_id": [
             "HR. At-Tirmidzi (5/491) dan Al-Hakim (1/538), dihasankan oleh Al-Albani dalam Shahih Ibnu Majah (2/21) dan dalam Shahih At-Tirmidzi (3/152)"
           ],
-          "start": null,
-          "end": null
+          "start": 4695.5,
+          "end": 4713.63
         }
       ]
     },
@@ -3727,8 +3727,8 @@
           "footnote_id": [
             "HR. Abu Dawud (4/296), dishahihkan oleh Al-Albani dalam Shahih Abu Dawud (3/941)"
           ],
-          "start": null,
-          "end": null
+          "start": 4722.58,
+          "end": 4723.34
         }
       ]
     },
@@ -3747,8 +3747,8 @@
           "footnote_id": [
             "HR. Ahmad (2/403) dan Ibnu Majah (2/943), lihat Shahih Ibnu Majah (2/133)"
           ],
-          "start": null,
-          "end": null
+          "start": 4731.82,
+          "end": 4735.62
         }
       ]
     },
@@ -3767,8 +3767,8 @@
           "footnote_id": [
             "HR. Ahmad (2/7) dan At-Tirmidzi (5/499), lihat Shahih At-Tirmidzi (3/155)"
           ],
-          "start": null,
-          "end": null
+          "start": 4743.44,
+          "end": 4748.25
         },
         {
           "ar": "زَوَّدَكَ اللَّهُ التَّقْوَىٰ، وَغَفَرَ ذَنْبَكَ وَيَسَّرَ لَكَ الْخَيْرَ حَيْثُ مَا كُنْتَ",
@@ -3779,8 +3779,8 @@
           "footnote_id": [
             "HR. At-Tirmidzi, lihat Shahih At-Tirmidzi (3/155)"
           ],
-          "start": null,
-          "end": null
+          "start": 4751.67,
+          "end": 4759.23
         }
       ]
     },
@@ -3799,8 +3799,8 @@
           "footnote_id": [
             "HR. Al-Bukhari (Fathul Bari 6/135)"
           ],
-          "start": null,
-          "end": null
+          "start": 4769.92,
+          "end": 4776.01
         }
       ]
     },
@@ -3819,8 +3819,8 @@
           "footnote_id": [
             "HR. Muslim (4/2086). Makna 'sami'a saami'un' adalah: seorang saksi telah menyaksikan pujian kami kepada Allah Ta'ala atas nikmat-nikmat-Nya dan kebaikan ujian-Nya. Ada pula makna lain: seorang pendengar telah menyampaikan ucapanku ini kepada orang lain dan mengucapkan yang serupa, sebagai peringatan untuk berzikir di waktu sahur dan berdoa. Adapun ucapan 'Rabbanaa shaahibnaa wa afdhil 'alainaa' bermakna: peliharalah kami, jagalah kami, lindungilah kami, dan berilah kelebihan kepada kami dengan nikmat-Mu yang banyak, serta hindarkanlah dari kami segala yang tidak disukai. Syarah An-Nawawi (17/39)"
           ],
-          "start": null,
-          "end": null
+          "start": 4783.29,
+          "end": 4795.22
         }
       ]
     },
@@ -3839,8 +3839,8 @@
           "footnote_id": [
             "HR. Muslim (4/2080)"
           ],
-          "start": null,
-          "end": null
+          "start": 4805.47,
+          "end": 4810.41
         }
       ]
     },
@@ -3859,8 +3859,8 @@
           "footnote_id": [
             "Nabi shallallahu 'alaihi wa sallam mengucapkannya apabila kembali dari peperangan atau haji. HR. Al-Bukhari (7/163) dan Muslim (2/980)"
           ],
-          "start": null,
-          "end": null
+          "start": 4816.44,
+          "end": 4847.01
         }
       ]
     },
@@ -3879,8 +3879,8 @@
           "footnote_id": [
             "HR. Ibnu As-Sunni dalam 'Amalul Yaum wal Lailah dan Al-Hakim, beliau menshahihkannya (1/499), dishahihkan pula oleh Al-Albani dalam Shahih Al-Jami' (4/201)"
           ],
-          "start": null,
-          "end": null
+          "start": 4855.84,
+          "end": 4876.72
         }
       ]
     },
@@ -3899,8 +3899,8 @@
           "footnote_id": [
             "HR. Muslim (1/288)"
           ],
-          "start": null,
-          "end": null
+          "start": 4884.87,
+          "end": 4893.01
         },
         {
           "ar": "وَقَالَ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «لَا تَجْعَلُوا قَبْرِي عِيدًا وَصَلُّوا عَلَيَّ؛ فَإِنَّ صَلَاتَكُمْ تَبْلُغُنِي حَيْثُ كُنْتُمْ»",
@@ -3911,8 +3911,8 @@
           "footnote_id": [
             "HR. Abu Dawud (2/218) dan Ahmad (2/367), dishahihkan oleh Al-Albani dalam Shahih Abu Dawud (2/383)"
           ],
-          "start": null,
-          "end": null
+          "start": 4895.01,
+          "end": 4907.76
         },
         {
           "ar": "وَقَالَ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «الْبَخِيلُ مَنْ ذُكِرْتُ عِنْدَهُ فَلَمْ يُصَلِّ عَلَيَّ»",
@@ -3923,8 +3923,8 @@
           "footnote_id": [
             "HR. At-Tirmidzi (5/551) dan lainnya, lihat Shahih Al-Jami' (3/25) dan Shahih At-Tirmidzi (3/177)"
           ],
-          "start": null,
-          "end": null
+          "start": 4909.68,
+          "end": 4917.16
         },
         {
           "ar": "وَقَالَ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «إِنَّ لِلَّهِ مَلَائِكَةً سَيَّاحِينَ فِي الْأَرْضِ يُبَلِّغُونِي مِنْ أُمَّتِي السَّلَامَ»",
@@ -3935,8 +3935,8 @@
           "footnote_id": [
             "HR. An-Nasa'i dan Al-Hakim (2/421), dishahihkan oleh Al-Albani dalam Shahih An-Nasa'i (1/274)"
           ],
-          "start": null,
-          "end": null
+          "start": 4918.96,
+          "end": 4930.13
         },
         {
           "ar": "وَقَالَ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «مَا مِنْ أَحَدٍ يُسَلِّمُ عَلَيَّ إِلَّا رَدَّ اللَّهُ عَلَيَّ رُوحِي حَتَّىٰ أَرُدَّ عَلَيْهِ السَّلَامَ»",
@@ -3947,8 +3947,8 @@
           "footnote_id": [
             "HR. Abu Dawud no. 2041, dihasankan oleh Al-Albani dalam Shahih Abu Dawud (1/383)"
           ],
-          "start": null,
-          "end": null
+          "start": 4932.05,
+          "end": 4943.92
         }
       ]
     },
@@ -3967,8 +3967,8 @@
           "footnote_id": [
             "HR. Muslim (1/74) dan lainnya"
           ],
-          "start": null,
-          "end": null
+          "start": 4950.7,
+          "end": 4971.45
         },
         {
           "ar": "ثَلَاثٌ مَنْ جَمَعَهُنَّ فَقَدْ جَمَعَ الْإِيمَانَ: الْإِنْصَافُ مِنْ نَفْسِكَ، وَبَذْلُ السَّلَامِ لِلْعَالَمِ، وَالْإِنْفَاقُ مِنَ الْإِقْتَارِ",
@@ -3979,8 +3979,8 @@
           "footnote_id": [
             "HR. Al-Bukhari (Fathul Bari 1/82) dari 'Ammar radhiyallahu 'anhu secara mauquf mu'allaq"
           ],
-          "start": null,
-          "end": null
+          "start": 4974.67,
+          "end": 4988.46
         },
         {
           "ar": "وَعَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو رَضِيَ اللَّهُ عَنْهُمَا: أَنَّ رَجُلًا سَأَلَ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَيُّ الْإِسْلَامِ خَيْرٌ قَالَ: «تُطْعِمُ الطَّعَامَ وَتَقْرَأُ السَّلَامَ عَلَىٰ مَنْ عَرَفْتَ وَمَنْ لَمْ تَعْرِفْ»",
@@ -3991,8 +3991,8 @@
           "footnote_id": [
             "HR. Al-Bukhari (Fathul Bari 1/55) dan Muslim (1/65)"
           ],
-          "start": null,
-          "end": null
+          "start": 4990.84,
+          "end": 5009.61
         }
       ]
     },
@@ -4011,8 +4011,8 @@
           "footnote_id": [
             "HR. Al-Bukhari (Fathul Bari 11/42) dan Muslim (4/1705)"
           ],
-          "start": null,
-          "end": null
+          "start": 5015.87,
+          "end": 5021.25
         }
       ]
     },
@@ -4031,8 +4031,8 @@
           "footnote_id": [
             "HR. Al-Bukhari (Fathul Bari 6/350) dan Muslim (4/2092)"
           ],
-          "start": null,
-          "end": null
+          "start": 5027.4,
+          "end": 5044.39
         }
       ]
     },
@@ -4051,8 +4051,8 @@
           "footnote_id": [
             "HR. Abu Dawud (4/327) dan Ahmad (3/306), dishahihkan oleh Al-Albani dalam Shahih Abu Dawud (3/961)"
           ],
-          "start": null,
-          "end": null
+          "start": 5051.82,
+          "end": 5063.43
         }
       ]
     },
@@ -4071,8 +4071,8 @@
           "footnote_id": [
             "HR. Al-Bukhari (Fathul Bari 11/171) dan Muslim (4/2007), dengan lafazh 'maka jadikanlah itu sebagai penyuci dan rahmat baginya'"
           ],
-          "start": null,
-          "end": null
+          "start": 5073.75,
+          "end": 5081.25
         }
       ]
     },
@@ -4091,8 +4091,8 @@
           "footnote_id": [
             "HR. Muslim (4/2296)"
           ],
-          "start": null,
-          "end": null
+          "start": 5092.14,
+          "end": 5112.58
         }
       ]
     },
@@ -4111,8 +4111,8 @@
           "footnote_id": [
             "HR. Al-Bukhari dalam Al-Adab Al-Mufrad no. 761, sanadnya dishahihkan oleh Al-Albani dalam Shahih Al-Adab Al-Mufrad no. 585, tambahan dalam kurung siku adalah tambahan dari Al-Baihaqi dalam Syu'abul Iman (4/228) melalui jalur lain"
           ],
-          "start": null,
-          "end": null
+          "start": 5122.3,
+          "end": 5133.44
         }
       ]
     },
@@ -4131,8 +4131,8 @@
           "footnote_id": [
             "HR. Al-Bukhari (Fathul Bari 3/408) dan Muslim (2/841)"
           ],
-          "start": null,
-          "end": null
+          "start": 5144.59,
+          "end": 5156.38
         }
       ]
     },
@@ -4151,8 +4151,8 @@
           "footnote_id": [
             "HR. Al-Bukhari (Fathul Bari 3/476). Yang dimaksud dengan 'sesuatu' adalah tongkat bengkok (mihjan), lihat Al-Bukhari (Fathul Bari 3/472)"
           ],
-          "start": null,
-          "end": null
+          "start": 5162.9,
+          "end": 5171.73
         }
       ]
     },
@@ -4171,8 +4171,8 @@
           "footnote_id": [
             "HR. Abu Dawud (2/179), Ahmad (3/411), dan Al-Baghawi dalam Syarhus Sunnah (7/128), dihasankan oleh Al-Albani dalam Shahih Abu Dawud (1/354). Ayat ini dari QS. Al-Baqarah: 201"
           ],
-          "start": null,
-          "end": null
+          "start": 5182.15,
+          "end": 5191.07
         }
       ]
     },
@@ -4191,8 +4191,8 @@
           "footnote_id": [
             "HR. Muslim (2/888)"
           ],
-          "start": null,
-          "end": null
+          "start": 5198.41,
+          "end": 5259.99
         }
       ]
     },
@@ -4211,8 +4211,8 @@
           "footnote_id": [
             "HR. At-Tirmidzi, dihasankan oleh Al-Albani dalam Shahih At-Tirmidzi (3/184), dan dalam Al-Ahadits Ash-Shahihah (4/6)"
           ],
-          "start": null,
-          "end": null
+          "start": 5267.76,
+          "end": 5285.98
         }
       ]
     },
@@ -4231,8 +4231,8 @@
           "footnote_id": [
             "HR. Muslim (2/891)"
           ],
-          "start": null,
-          "end": null
+          "start": 5292.91,
+          "end": 5314.55
         }
       ]
     },
@@ -4251,8 +4251,8 @@
           "footnote_id": [
             "HR. Al-Bukhari (dengan Fathul Bari) 3/583 dan 3/584, lihat lafazhnya di sana. Al-Bukhari (dengan Fathul Bari) 3/581, diriwayatkan juga oleh Muslim."
           ],
-          "start": null,
-          "end": null
+          "start": 5321.49,
+          "end": 5346.52
         }
       ]
     },
@@ -4271,8 +4271,8 @@
           "footnote_id": [
             "HR. Al-Bukhari (dengan Fathul Bari) 1/210, 390, dan 414; Muslim 4/1857"
           ],
-          "start": null,
-          "end": null
+          "start": 5355.06,
+          "end": 5356.04
         },
         {
           "ar": "اللَّهُ أَكْبَرُ",
@@ -4283,8 +4283,8 @@
           "footnote_id": [
             "HR. Al-Bukhari (Fathul Bari) 8/441, lihat pula Shahih At-Tirmidzi 2/103 dan 2/235, serta Musnad Ahmad 5/218"
           ],
-          "start": null,
-          "end": null
+          "start": 5358.88,
+          "end": 5359.82
         }
       ]
     },
@@ -4303,8 +4303,8 @@
           "footnote_id": [
             "Diriwayatkan oleh penyusun kitab-kitab Sunan kecuali An-Nasa'i. Lihat Shahih Ibnu Majah 1/233 dan Irwa'ul Ghalil 2/226."
           ],
-          "start": null,
-          "end": null
+          "start": 5366.3,
+          "end": 5377.94
         }
       ]
     },
@@ -4323,8 +4323,8 @@
           "footnote_id": [
             "HR. Muslim 4/1728"
           ],
-          "start": null,
-          "end": null
+          "start": 5383.79,
+          "end": 5398.25
         }
       ]
     },
@@ -4343,8 +4343,8 @@
           "footnote_id": [
             "HR. Musnad Ahmad 4/447, Ibnu Majah, dan Malik; dishahihkan oleh Al-Albani dalam Shahihul Jami' 1/212. Lihat pula tahqiq Zadul Ma'ad oleh Al-Arnauth 4/170."
           ],
-          "start": null,
-          "end": null
+          "start": 5406.13,
+          "end": 5417.86
         }
       ]
     },
@@ -4363,8 +4363,8 @@
           "footnote_id": [
             "HR. Al-Bukhari (dengan Fathul Bari) 6/181; Muslim 4/2208"
           ],
-          "start": null,
-          "end": null
+          "start": 5423.89,
+          "end": 5426.87
         }
       ]
     },
@@ -4383,8 +4383,8 @@
           "footnote_id": [
             "HR. Muslim 3/1557 dan Al-Baihaqi 9/287. Bagian yang berada di antara tanda kurung siku berasal dari riwayat Al-Baihaqi 9/287 dan lainnya, sedangkan kalimat terakhir disebutkan sesuai makna dari riwayat Muslim."
           ],
-          "start": null,
-          "end": null
+          "start": 5434.02,
+          "end": 5441.71
         }
       ]
     },
@@ -4403,8 +4403,8 @@
           "footnote_id": [
             "HR. Ahmad 3/419 dengan sanad sahih, Ibnus Sunni no. 637; sanadnya dishahihkan oleh Al-Arnauth dalam takhrijnya terhadap Ath-Thahawiyyah hlm. 133. Lihat pula Majma'uz Zawa'id 10/127."
           ],
-          "start": null,
-          "end": null
+          "start": 5450.61,
+          "end": 5487.54
         }
       ]
     },
@@ -4423,8 +4423,8 @@
           "footnote_id": [
             "HR. Al-Bukhari (dengan Fathul Bari) 11/101"
           ],
-          "start": null,
-          "end": null
+          "start": 5497.23,
+          "end": 5504.12
         },
         {
           "ar": "وَقَالَ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «يَا أَيُّهَا النَّاسُ تُوبُوا إِلَى اللَّهِ فَإِنِّي أَتُوبُ فِي الْيَوْمِ إِلَيْهِ مِائَةَ مَرَّةٍ»",
@@ -4435,8 +4435,8 @@
           "footnote_id": [
             "HR. Muslim 4/2076"
           ],
-          "start": null,
-          "end": null
+          "start": 5510.1,
+          "end": 5518.06
         },
         {
           "ar": "وَقَالَ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «مَنْ قَالَ: أَسْتَغْفِرُ اللَّهَ الْعَظِيمَ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ وَأَتُوبُ إِلَيْهِ، غَفَرَ اللَّهُ لَهُ وَإِنْ كَانَ فَرَّ مِنَ الزَّحْفِ»",
@@ -4447,8 +4447,8 @@
           "footnote_id": [
             "HR. Abu Dawud 2/85 dan At-Tirmidzi 5/569; Al-Hakim menshahihkannya dan disepakati oleh Adz-Dzahabi 1/511, serta dishahihkan pula oleh Al-Albani. Lihat Shahih At-Tirmidzi 3/182 dan Jami'ul Ushul li Ahadits Ar-Rasul shallallahu 'alaihi wa sallam 4/389-390 dengan tahqiq Al-Arnauth."
           ],
-          "start": null,
-          "end": null
+          "start": 5523.0,
+          "end": 5536.77
         },
         {
           "ar": "وَقَالَ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «أَقْرَبُ مَا يَكُونُ الرَّبُّ مِنَ الْعَبْدِ فِي جَوْفِ اللَّيْلِ الْآخِرِ فَإِنِ اسْتَطَعْتَ أَنْ تَكُونَ مِمَّنْ يَذْكُرُ اللَّهَ فِي تِلْكَ السَّاعَةِ فَكُنْ»",
@@ -4459,8 +4459,8 @@
           "footnote_id": [
             "HR. At-Tirmidzi, An-Nasa'i 1/279, dan Al-Hakim. Lihat Shahih At-Tirmidzi 3/183 dan Jami'ul Ushul dengan tahqiq Al-Arnauth 4/144."
           ],
-          "start": null,
-          "end": null
+          "start": 5541.13,
+          "end": 5552.43
         },
         {
           "ar": "وَقَالَ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «أَقْرَبُ مَا يَكُونُ الْعَبْدُ مِنْ رَبِّهِ وَهُوَ سَاجِدٌ فَأَكْثِرُوا الدُّعَاءَ»",
@@ -4471,8 +4471,8 @@
           "footnote_id": [
             "HR. Muslim 1/350"
           ],
-          "start": null,
-          "end": null
+          "start": 5558.57,
+          "end": 5565.33
         },
         {
           "ar": "وَقَالَ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «إِنَّهُ لَيُغَانُ عَلَىٰ قَلْبِي وَإِنِّي لَأَسْتَغْفِرُ اللَّهَ فِي الْيَوْمِ مِائَةَ مَرَّةٍ»",
@@ -4483,8 +4483,8 @@
           "footnote_id": [
             "HR. Muslim 4/2075. Ibnul Atsir berkata: makna '(diliputi kelalaian pada hatiku)' adalah tertutup dan terselubung, yang dimaksud adalah kelalaian sesaat; karena beliau shallallahu 'alaihi wa sallam senantiasa dalam keadaan berdzikir, mendekatkan diri, dan terus-menerus mengawasi diri, sehingga apabila beliau lalai sejenak dari sebagian hal tersebut atau lupa, beliau menganggapnya sebagai dosa bagi dirinya sehingga segera beristighfar. Lihat Jami'ul Ushul 4/386."
           ],
-          "start": null,
-          "end": null
+          "start": 5570.4,
+          "end": 5578.37
         }
       ]
     },
@@ -4503,8 +4503,8 @@
           "footnote_id": [
             "HR. Al-Bukhari 7/168 dan Muslim 4/2071; lihat pula keutamaan mengucapkannya seratus kali di waktu pagi dan petang."
           ],
-          "start": null,
-          "end": null
+          "start": 5590.98,
+          "end": 5601.18
         },
         {
           "ar": "وَقَالَ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «مَنْ قَالَ لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ، وَلَهُ الْحَمْدُ، وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ عَشْرَ مَرَّاتٍ. كَانَ كَمَنْ أَعْتَقَ أَرْبَعَةَ أَنْفُسٍ مِنْ وَلَدِ إِسْمَاعِيلَ»",
@@ -4515,8 +4515,8 @@
           "footnote_id": [
             "HR. Al-Bukhari 7/67 dan Muslim dengan lafazh yang sama 4/2071; lihat pula keutamaan mengucapkannya seratus kali dalam sehari."
           ],
-          "start": null,
-          "end": null
+          "start": 5605.71,
+          "end": 5622.86
         },
         {
           "ar": "وَقَالَ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «كَلِمَتَانِ خَفِيفَتَانِ عَلَى اللِّسَانِ، ثَقِيلَتَانِ فِي الْمِيزَانِ حَبِيبَتَانِ إِلَى الرَّحْمَٰنِ: سُبْحَانَ اللَّهِ وَبِحَمْدِهِ سُبْحَانَ اللَّهِ الْعَظِيمِ»",
@@ -4527,8 +4527,8 @@
           "footnote_id": [
             "HR. Al-Bukhari 7/167 dan Muslim 4/2072"
           ],
-          "start": null,
-          "end": null
+          "start": 5627.92,
+          "end": 5643.33
         },
         {
           "ar": "وَقَالَ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «لَأَنْ أَقُولَ سُبْحَانَ اللَّهِ، وَالْحَمْدُ لِلَّهِ، وَلَا إِلَٰهَ إِلَّا اللَّهُ، وَاللَّهُ أَكْبَرُ، أَحَبُّ إِلَيَّ مِمَّا طَلَعَتْ عَلَيْهِ الشَّمْسُ»",
@@ -4539,8 +4539,8 @@
           "footnote_id": [
             "HR. Muslim 4/2072"
           ],
-          "start": null,
-          "end": null
+          "start": 5648.24,
+          "end": 5661.13
         },
         {
           "ar": "وَقَالَ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «أَيَعْجِزُ أَحَدُكُمْ أَنْ يَكْسِبَ كُلَّ يَوْمٍ أَلْفَ حَسَنَةٍ» فَسَأَلَهُ سَائِلٌ مِنْ جُلَسَائِهِ كَيْفَ يَكْسِبُ أَحَدُنَا أَلْفَ حَسَنَةٍ؟ قَالَ: «يُسَبِّحُ مِائَةَ تَسْبِيحَةٍ، فَيُكْتَبُ لَهُ أَلْفُ حَسَنَةٍ أَوْ يُحَطُّ عَنْهُ أَلْفُ خَطِيئَةٍ»",
