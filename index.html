@@ -436,7 +436,7 @@
           '<span class="book-name-id">' + book.title_id + '</span>' +
         '</span>';
       btn.addEventListener("click", function(){
-        renderBook(idx);
+        selectBookFromSidebar(idx);
         closeSidebarMobile();
       });
       li.appendChild(btn);
@@ -470,6 +470,18 @@
       return String(parseInt(book.id, 10)).padStart(2, "0");
     }
     return "•";
+  }
+
+  function selectBookFromSidebar(idx){
+    var book = DATA.books[idx];
+    var audioEl = document.getElementById("bookAudio");
+    if(audioEl){
+      audioEl.pause();
+      if(book.start !== null && book.start !== undefined && !isNaN(book.start)){
+        audioEl.currentTime = book.start;
+      }
+    }
+    renderBook(idx);
   }
 
   function renderBook(idx){
