@@ -151,9 +151,10 @@
     font-family:var(--font-ui);font-size:.7rem;letter-spacing:.12em;
     text-transform:uppercase;color:var(--gold-soft);margin-bottom:6px;
   }
+  .book-title-row{display:flex;align-items:center;gap:12px;}
   .book-title-ar{
     font-family:var(--font-ar);font-size:2.1rem;font-weight:700;
-    direction:rtl;color:var(--ink-text);margin:0 0 4px;
+    direction:rtl;color:var(--ink-text);margin:0 0 4px;flex:1;min-width:0;
   }
   .book-title-id{font-family:var(--font-id);font-style:italic;color:#3d6560;font-size:1rem;margin:0;}
 
@@ -164,9 +165,9 @@
   .book-source-link:hover{color:var(--rubric);border-color:var(--rubric);}
 
   .sec-play-btn{
-    flex:0 0 auto;width:30px;height:30px;border-radius:50%;
+    flex:0 0 auto;width:34px;height:34px;border-radius:50%;
     background:var(--rubric);color:#fff;border:none;cursor:pointer;
-    font-size:.75rem;display:flex;align-items:center;justify-content:center;
+    font-size:.8rem;display:flex;align-items:center;justify-content:center;
     box-shadow:0 2px 6px rgba(28,125,120,.3);
     transition:background .15s, transform .1s;padding:0;
   }
@@ -174,19 +175,8 @@
   .sec-play-btn:active{transform:scale(.92);}
   .sec-play-btn.active{background:var(--gold);box-shadow:0 2px 6px rgba(63,164,160,.4);}
 
-  .section-block{margin:30px 0 38px;}
-  .section-marker{display:flex;align-items:center;gap:12px;margin-bottom:14px;cursor:pointer;}
-  .roundel{flex:0 0 auto;width:30px;height:30px;transition:transform .15s;}
-  .section-marker:hover .roundel{transform:scale(1.08);}
-  .section-titles{flex:1;min-width:0;}
-  .section-title-ar{
-    font-family:var(--font-ar);font-size:1.4rem;color:var(--rubric);
-    direction:rtl;font-weight:700;line-height:1.3;
-  }
-  .section-title-id{font-family:var(--font-id);font-size:.85rem;color:#2f6b64;font-style:italic;}
-  .section-rule{height:1px;background:linear-gradient(to left, var(--gold-soft), transparent);margin-top:10px;}
-
   .para{margin:0 0 20px;padding:12px 14px;border-radius:6px;cursor:pointer;border:1px solid transparent;}
+  .para.no-audio{cursor:default;}
   .para:hover{background:rgba(63,164,160,.10);}
   .para.active{background:#dcf1ee;border-color:var(--gold-soft);}
   .para-ar{
@@ -200,7 +190,15 @@
     padding-inline-start:14px;margin-top:8px;padding-top:8px;
     border-top:1px dashed #cfe4de;
   }
-  .para-note b{color:#3d6b64;font-weight:600;}
+  .para-note b{color:#3d6b64;font-weight:600;display:block;margin-bottom:6px;}
+  .fn-list{list-style:decimal;margin:0;padding-inline-start:20px;}
+  .fn-list li{margin-bottom:8px;}
+  .fn-list li:last-child{margin-bottom:0;}
+  .fn-ar{
+    display:block;font-family:var(--font-ar);font-size:1.05rem;line-height:1.7;
+    direction:rtl;text-align:right;color:#3d6b64;margin-bottom:2px;
+  }
+  .fn-id{display:block;color:#5c7d78;}
 
   .empty-state{
     margin-top:20px;padding:26px 24px;border:1px dashed #a9d1cb;border-radius:6px;
@@ -215,14 +213,14 @@
   .empty-state a{color:var(--rubric);text-decoration:none;border-bottom:1px dotted var(--rubric);}
 
   /* ---------- SIDEBAR ---------- */
-  #sidebar{flex:0 0 300px;width:300px;background:var(--panel);border-left:1px solid var(--panel-line);overflow-y:auto;order:2;}
+  #sidebar{flex:0 0 300px;width:300px;background:var(--panel);border-left:1px solid var(--panel-line);overflow-y:auto;order:2;display:flex;flex-direction:column;}
   .sidebar-search{position:sticky;top:0;background:var(--panel);padding:14px 14px 10px;border-bottom:1px solid var(--panel-line);z-index:2;}
   .sidebar-search input{
     width:100%;padding:9px 10px;background:var(--ink-2);border:1px solid var(--panel-line);
     border-radius:3px;color:var(--soft-text);font-family:var(--font-ui);font-size:.85rem;outline:none;
   }
   .sidebar-search input:focus{border-color:var(--gold);}
-  ul.book-list{list-style:none;margin:0;padding:6px 8px 24px;}
+  ul.book-list{list-style:none;margin:0;padding:6px 8px 24px;flex:1;}
   ul.book-list li{margin-bottom:2px;}
   .book-link{
     display:flex;align-items:center;gap:10px;width:100%;text-align:right;
@@ -242,20 +240,62 @@
   .book-name-ar{font-family:var(--font-ar);font-size:.95rem;direction:rtl;text-align:right;display:block;line-height:1.3;}
   .book-name-id{display:block;font-size:.67rem;color:var(--muted-text);margin-top:1px;}
 
+  .sidebar-note{
+    flex:0 0 auto;font-family:var(--font-id);font-size:.66rem;line-height:1.6;color:var(--muted-text);
+    padding:12px 14px 16px;border-top:1px solid var(--panel-line);background:var(--panel);
+  }
+
   #sidebarBackdrop{display:none;}
+
+  /* ---------- PLAYER BAR ---------- */
+  .player-bar{
+    flex:0 0 auto;display:flex;align-items:center;gap:12px;
+    height:60px;padding:0 16px;background:var(--panel);border-top:1px solid var(--panel-line);z-index:10;
+  }
+  .player-toggle{
+    flex:0 0 auto;width:38px;height:38px;border-radius:50%;background:var(--gold);
+    color:#062522;border:none;cursor:pointer;font-size:.85rem;
+    display:flex;align-items:center;justify-content:center;transition:background .15s, transform .1s;
+  }
+  .player-toggle:hover{background:#5cc0bc;}
+  .player-toggle:active{transform:scale(.92);}
+  .player-toggle:disabled{opacity:.4;cursor:default;}
+  .player-info{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px;}
+  .player-title{
+    font-family:var(--font-id);font-size:.78rem;color:var(--soft-text);
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer;
+    background:none;border:none;padding:0;text-align:left;
+  }
+  .player-title:hover{color:var(--gold);}
+  .player-title:disabled{cursor:default;color:var(--muted-text);}
+  .player-time{display:flex;align-items:center;gap:8px;}
+  .player-time span{font-family:var(--font-ui);font-size:.66rem;color:var(--muted-text);flex:0 0 auto;width:40px;}
+  .player-time span.dur{text-align:right;}
+  .player-seek{
+    flex:1;-webkit-appearance:none;appearance:none;height:4px;border-radius:2px;
+    background:var(--panel-line);outline:none;cursor:pointer;
+  }
+  .player-seek::-webkit-slider-thumb{
+    -webkit-appearance:none;appearance:none;width:12px;height:12px;border-radius:50%;
+    background:var(--gold);cursor:pointer;border:2px solid var(--ink);
+  }
+  .player-seek::-moz-range-thumb{
+    width:12px;height:12px;border-radius:50%;background:var(--gold);cursor:pointer;border:2px solid var(--ink);
+  }
 
   @media (max-width: 860px){
     #menuToggle{display:flex;align-items:center;justify-content:center;}
     .harakat-toggle .harakat-label{display:none;}
     #sidebar{
-      position:fixed;top:56px;right:0;bottom:0;transform:translateX(100%);
+      position:fixed;top:56px;right:0;bottom:60px;transform:translateX(100%);
       transition:transform .22s ease;z-index:40;box-shadow:-10px 0 30px rgba(0,0,0,.4);
     }
     #sidebar.open{transform:translateX(0);}
-    #sidebarBackdrop.open{display:block;position:fixed;inset:56px 0 0 0;background:rgba(0,0,0,.4);z-index:35;}
+    #sidebarBackdrop.open{display:block;position:fixed;inset:56px 0 60px 0;background:rgba(0,0,0,.4);z-index:35;}
     .content-inner{padding:24px 18px 70px;}
     .book-title-ar{font-size:1.7rem;}
     .para-ar{font-size:1.32rem;}
+    .player-time span{width:32px;}
   }
 </style>
 </head>
@@ -312,7 +352,21 @@
         <input id="searchBooks" type="text" placeholder="Cari doa / dzikir…">
       </div>
       <ul class="book-list" id="bookList"></ul>
+      <div class="sidebar-note" id="sidebarNote"></div>
     </nav>
+  </div>
+
+  <div class="player-bar">
+    <button id="playerToggle" class="player-toggle" type="button" aria-label="Putar/Jeda" disabled>▶</button>
+    <div class="player-info">
+      <button id="playerTitle" class="player-title" type="button" disabled>Memuat audio…</button>
+      <div class="player-time">
+        <span id="playerCurrent">00:00</span>
+        <input id="playerSeek" class="player-seek" type="range" min="0" max="100" value="0" step="0.1">
+        <span id="playerDuration" class="dur">00:00</span>
+      </div>
+    </div>
+    <audio id="bookAudio" preload="metadata"></audio>
   </div>
 </div>
 
@@ -343,6 +397,7 @@
   var DATA = null;
   var currentBookIndex = 0;
   var initialized = false;
+  var isDraggingSeek = false;
 
   function initApp(){
     if(initialized){ return; }
@@ -353,6 +408,7 @@
         DATA = json;
         renderSidebar();
         renderBook(0);
+        setupPlayer();
       })
       .catch(function(err){
         document.getElementById("contentInner").innerHTML =
@@ -369,10 +425,10 @@
     DATA.books.forEach(function(book, idx){
       var li = document.createElement("li");
       var btn = document.createElement("button");
-      var hasContent = book.sections && book.sections.length > 0;
+      var hasContent = book.text && book.text.length > 0;
       btn.className = "book-link" + (idx === currentBookIndex ? " active" : "") + (hasContent ? " has-content" : "");
       btn.setAttribute("data-idx", idx);
-      var badge = book.no > 0 ? String(book.no).padStart(2,"0") : "•";
+      var badge = badgeForBook(book);
       btn.innerHTML =
         '<span class="book-num">' + badge + '</span>' +
         '<span class="book-names">' +
@@ -386,6 +442,9 @@
       li.appendChild(btn);
       list.appendChild(li);
     });
+
+    var note = document.getElementById("sidebarNote");
+    note.textContent = (DATA.meta && DATA.meta.source_note) ? DATA.meta.source_note : "";
   }
 
   function markActiveInSidebar(idx){
@@ -395,12 +454,11 @@
     });
   }
 
-  function roundelSVG(){
-    return '<svg class="roundel" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">' +
-      '<circle cx="15" cy="15" r="13" fill="none" stroke="#1c7d78" stroke-width="1.2"/>' +
-      '<circle cx="15" cy="15" r="8.5" fill="none" stroke="#3fa4a0" stroke-width="1"/>' +
-      '<circle cx="15" cy="15" r="2.6" fill="#1c7d78"/>' +
-      '</svg>';
+  function badgeForBook(book){
+    if(/^\d+$/.test(book.id)){
+      return String(parseInt(book.id, 10)).padStart(2, "0");
+    }
+    return "•";
   }
 
   function renderBook(idx){
@@ -408,46 +466,37 @@
     var book = DATA.books[idx];
     markActiveInSidebar(idx);
 
+    var badge = badgeForBook(book);
+    var hasBookAudio = (book.start !== null && book.start !== undefined);
+
     var html = '';
     html += '<div class="book-header">';
-    html += '  <div class="book-eyebrow">Menu ' + (book.no > 0 ? String(book.no).padStart(2,"0") : "—") + ' &middot; ' + (idx+1) + ' dari ' + DATA.books.length + '</div>';
-    html += '  <h1 class="book-title-ar" data-ar-full="' + encodeURIComponent(book.title_ar) + '">' + escapeHtml(book.title_ar) + '</h1>';
+    html += '  <div class="book-eyebrow">Menu ' + (badge !== "•" ? badge : "—") + ' &middot; ' + (idx+1) + ' dari ' + DATA.books.length + '</div>';
+    html += '  <div class="book-title-row">';
+    if(hasBookAudio){
+      html += '    <button class="sec-play-btn" data-play-seek="' + book.start + '" aria-label="Putar/Jeda menu ini" type="button">▶</button>';
+    }
+    html += '    <h1 class="book-title-ar" data-ar-full="' + encodeURIComponent(book.title_ar) + '">' + escapeHtml(book.title_ar) + '</h1>';
+    html += '  </div>';
     html += '  <p class="book-title-id">' + book.title_id + '</p>';
-    html += '  <a class="book-source-link" href="' + book.source_url + '" target="_blank" rel="noopener">Rujukan teks di imadislam.com ↗</a>';
+    html += '  <a class="book-source-link" href="https://www.imadislam.com/hisnulmuslim" target="_blank" rel="noopener">Rujukan teks di imadislam.com ↗</a>';
     html += '</div>';
 
-    html += '<audio id="bookAudio" preload="none" src="' + ((DATA.meta.audio_base||'') + (book.audio_file||'')) + '"></audio>';
-
-    if(!book.sections || book.sections.length === 0){
+    if(!book.text || book.text.length === 0){
       html += '<div class="empty-state">';
       html += '  <div class="icon">📜</div>';
       html += '  <h3>Teks &amp; terjemahan belum diisi</h3>';
       html += '  <p>Menu ini akan dilengkapi pada sesi berikutnya: teks Arab berharakat lengkap, ' +
-              'terjemahan Indonesia, catatan kaki, dan timestamp audio per kalimat akan ditambahkan ke <code>data.json</code>.</p>';
+              'terjemahan Indonesia, dan catatan kaki akan ditambahkan ke <code>data.json</code>.</p>';
       html += '</div>';
     } else {
-      book.sections.forEach(function(sec){
-        var secSeek = sec.start != null ? sec.start : 0;
-        var secStartAttr = sec.start != null ? ' data-start="' + sec.start + '"' : '';
-        html += '<div class="section-block">';
-        html += '  <div class="section-marker" data-seek="' + secSeek + '"' + secStartAttr + '>' +
-                '    <button class="sec-play-btn" data-play-seek="' + secSeek + '" aria-label="Putar/Jeda bagian ini" type="button">▶</button>' +
-                roundelSVG() +
-                '    <div class="section-titles">' +
-                '      <div class="section-title-ar" data-ar-full="' + encodeURIComponent(sec.title_ar || '') + '">' + escapeHtml(sec.title_ar || '') + '</div>' +
-                (sec.title_id ? '<div class="section-title-id">' + sec.title_id + '</div>' : '') +
-                '    </div>' +
-                '  </div>';
-        html += '  <div class="section-rule"></div>';
-        (sec.paragraphs || []).forEach(function(p){
-          html += '<div class="para" data-start="' + p.start + '" data-end="' + p.end + '" data-seek="' + p.start + '">';
-          html += '  <div class="para-ar" data-ar-full="' + encodeURIComponent(p.ar || '') + '">' + escapeHtml(p.ar || '') + '</div>';
-          html += '  <div class="para-id' + (p.id ? '' : ' placeholder') + '">' + (p.id || 'Terjemahan belum diisi.') + '</div>';
-          if(p.footnote){
-            html += '  <div class="para-note"><b>Takhrij / catatan:</b> ' + p.footnote + '</div>';
-          }
-          html += '</div>';
-        });
+      book.text.forEach(function(p){
+        var hasTime = (p.start !== null && p.start !== undefined && p.end !== null && p.end !== undefined);
+        var seekAttrs = hasTime ? ' data-seek="' + p.start + '" data-start="' + p.start + '" data-end="' + p.end + '"' : '';
+        html += '<div class="para' + (hasTime ? '' : ' no-audio') + '"' + seekAttrs + '>';
+        html += '  <div class="para-ar" data-ar-full="' + encodeURIComponent(p.ar || '') + '">' + escapeHtml(p.ar || '') + '</div>';
+        html += '  <div class="para-id' + (p.id ? '' : ' placeholder') + '">' + (p.id || 'Terjemahan belum diisi.') + '</div>';
+        html += renderFootnotes(p);
         html += '</div>';
       });
     }
@@ -456,21 +505,92 @@
     document.getElementById("content").scrollTop = 0;
     lastActiveAnchorEl = null;
     applyGundulMode();
-    wireAudioEvents();
     wireSeekableElements();
-    wireSectionPlayButtons();
+    wireBookPlayButton();
+    var audioEl = document.getElementById("bookAudio");
+    if(audioEl){ updatePlaybackUI(audioEl.currentTime, !audioEl.paused); }
   }
 
-  // ---------- CUSTOM AUDIO PLAYER ----------
-  function wireAudioEvents(){
+  function renderFootnotes(p){
+    var fnAr = p.footnote_ar || [];
+    var fnId = p.footnote_id || [];
+    var count = Math.max(fnAr.length, fnId.length);
+    if(count === 0){ return ''; }
+    var html = '<div class="para-note"><b>Takhrij / catatan:</b><ol class="fn-list">';
+    for(var i = 0; i < count; i++){
+      var ar = fnAr[i] || '';
+      var id = fnId[i] || '';
+      html += '<li>';
+      if(ar){
+        html += '<span class="fn-ar" data-ar-full="' + encodeURIComponent(ar) + '">' + escapeHtml(ar) + '</span>';
+      }
+      if(id){
+        html += '<span class="fn-id">' + id + '</span>';
+      }
+      html += '</li>';
+    }
+    html += '</ol></div>';
+    return html;
+  }
+
+  // ---------- CUSTOM AUDIO PLAYER (single continuous file for whole kitab) ----------
+  function setupPlayer(){
     var audioEl = document.getElementById("bookAudio");
-    if(!audioEl){ return; }
+    var toggleBtn = document.getElementById("playerToggle");
+    var titleBtn = document.getElementById("playerTitle");
+    var seekEl = document.getElementById("playerSeek");
+
+    if(!DATA.meta || !DATA.meta.audio_base){
+      titleBtn.textContent = "Audio tidak tersedia";
+      return;
+    }
+    audioEl.src = DATA.meta.audio_base;
+    toggleBtn.disabled = false;
+    titleBtn.disabled = false;
+    titleBtn.textContent = "—";
+
+    audioEl.addEventListener("loadedmetadata", function(){
+      seekEl.max = audioEl.duration || 0;
+      document.getElementById("playerDuration").textContent = formatTime(audioEl.duration);
+    });
     audioEl.addEventListener("play", function(){ updatePlaybackUI(audioEl.currentTime, true); });
     audioEl.addEventListener("pause", function(){ updatePlaybackUI(audioEl.currentTime, false); });
     audioEl.addEventListener("ended", function(){ updatePlaybackUI(audioEl.currentTime, false); });
     audioEl.addEventListener("timeupdate", function(){
       updatePlaybackUI(audioEl.currentTime, !audioEl.paused);
     });
+
+    toggleBtn.addEventListener("click", function(){
+      if(audioEl.paused){ audioEl.play(); } else { audioEl.pause(); }
+    });
+
+    titleBtn.addEventListener("click", function(){
+      var activeIdx = getActiveBookIndexForTime(audioEl.currentTime);
+      if(activeIdx >= 0 && activeIdx !== currentBookIndex){
+        renderBook(activeIdx);
+      }
+    });
+
+    seekEl.addEventListener("pointerdown", function(){ isDraggingSeek = true; });
+    seekEl.addEventListener("pointerup", function(){ isDraggingSeek = false; });
+    seekEl.addEventListener("input", function(){
+      if(!isNaN(audioEl.duration)){
+        audioEl.currentTime = parseFloat(seekEl.value);
+      }
+    });
+  }
+
+  function formatTime(t){
+    if(isNaN(t) || t == null){ return "00:00"; }
+    t = Math.max(0, Math.floor(t));
+    var h = Math.floor(t / 3600);
+    var m = Math.floor((t % 3600) / 60);
+    var s = t % 60;
+    var pad = function(n){ return String(n).padStart(2, "0"); };
+    if(h > 0){
+      return h + ":" + pad(m) + ":" + pad(s);
+    }
+    return pad(m) + ":" + pad(s);
   }
 
   function wireSeekableElements(){
@@ -486,45 +606,55 @@
     });
   }
 
-  function getActiveSectionSeek(t){
-    var markers = document.querySelectorAll(".sec-play-btn[data-play-seek]");
-    var candidate = null;
-    markers.forEach(function(el){
-      var s = parseFloat(el.getAttribute("data-play-seek"));
-      if(!isNaN(s) && s <= t){
-        if(candidate === null || s > candidate){ candidate = s; }
+  function wireBookPlayButton(){
+    var audioEl = document.getElementById("bookAudio");
+    var btn = document.querySelector(".sec-play-btn");
+    if(!btn){ return; }
+    btn.addEventListener("click", function(e){
+      e.stopPropagation();
+      var seek = parseFloat(btn.getAttribute("data-play-seek"));
+      if(!audioEl || isNaN(seek)){ return; }
+      if(!audioEl.paused && Math.abs(audioEl.currentTime - seek) < 1.5){
+        audioEl.pause();
+      } else {
+        audioEl.currentTime = seek;
+        audioEl.play();
       }
     });
-    return candidate;
   }
 
-  function wireSectionPlayButtons(){
-    var audioEl = document.getElementById("bookAudio");
-    document.querySelectorAll(".sec-play-btn").forEach(function(btn){
-      btn.addEventListener("click", function(e){
-        e.stopPropagation();
-        var seek = parseFloat(btn.getAttribute("data-play-seek"));
-        if(!audioEl || isNaN(seek)){ return; }
-        var activeSeek = getActiveSectionSeek(audioEl.currentTime);
-        if(!audioEl.paused && activeSeek !== null && Math.abs(activeSeek - seek) < 0.001){
-          audioEl.pause();
-        } else {
-          audioEl.currentTime = seek;
-          audioEl.play();
-        }
-      });
+  function getActiveBookIndexForTime(t){
+    var activeIdx = -1;
+    DATA.books.forEach(function(b, i){
+      if(b.start !== null && b.start !== undefined && b.start <= t){ activeIdx = i; }
     });
+    return activeIdx;
   }
 
   function updatePlaybackUI(t, isPlaying){
     highlightActiveParagraph(t);
-    var activeSeek = isPlaying ? getActiveSectionSeek(t) : null;
-    document.querySelectorAll(".sec-play-btn").forEach(function(btn){
-      var seek = parseFloat(btn.getAttribute("data-play-seek"));
-      var isActive = isPlaying && activeSeek !== null && Math.abs(seek - activeSeek) < 0.001;
-      btn.textContent = isActive ? "❚❚" : "▶";
-      btn.classList.toggle("active", isActive);
-    });
+
+    var toggleBtn = document.getElementById("playerToggle");
+    toggleBtn.textContent = isPlaying ? "❚❚" : "▶";
+
+    if(!isDraggingSeek){
+      document.getElementById("playerSeek").value = t;
+      document.getElementById("playerCurrent").textContent = formatTime(t);
+    }
+
+    var activeIdx = getActiveBookIndexForTime(t);
+    var titleBtn = document.getElementById("playerTitle");
+    if(activeIdx >= 0){
+      titleBtn.textContent = "Sedang diputar: " + DATA.books[activeIdx].title_id;
+    }
+
+    var bookBtn = document.querySelector(".sec-play-btn[data-play-seek]");
+    if(bookBtn){
+      var seek = parseFloat(bookBtn.getAttribute("data-play-seek"));
+      var isActive = isPlaying && !isNaN(seek) && Math.abs(t - seek) < 9999 && activeIdx === currentBookIndex;
+      bookBtn.textContent = isActive ? "❚❚" : "▶";
+      bookBtn.classList.toggle("active", isActive);
+    }
   }
 
   var lastActiveAnchorEl = null;
@@ -548,7 +678,7 @@
   }
 
   function getActiveTimeAnchor(t){
-    var anchors = document.querySelectorAll(".section-marker[data-start], .para[data-start]");
+    var anchors = document.querySelectorAll(".para[data-start]");
     var active = null;
     anchors.forEach(function(el){
       var start = parseFloat(el.getAttribute("data-start"));
