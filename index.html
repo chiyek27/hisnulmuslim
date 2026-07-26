@@ -432,7 +432,7 @@
       btn.innerHTML =
         '<span class="book-num">' + badge + '</span>' +
         '<span class="book-names">' +
-          '<span class="book-name-ar">' + book.title_ar + '</span>' +
+          '<span class="book-name-ar" data-ar-full="' + encodeURIComponent(book.title_ar) + '">' + escapeHtml(book.title_ar) + '</span>' +
           '<span class="book-name-id">' + book.title_id + '</span>' +
         '</span>';
       btn.addEventListener("click", function(){
@@ -454,6 +454,17 @@
     });
   }
 
+  function scrollBookLinkIntoView(idx){
+    var link = document.querySelector('.book-link[data-idx="' + idx + '"]');
+    var container = document.getElementById("sidebar");
+    if(!link || !container){ return; }
+    var containerRect = container.getBoundingClientRect();
+    var linkRect = link.getBoundingClientRect();
+    var linkTopWithinContainer = (linkRect.top - containerRect.top) + container.scrollTop;
+    var targetScrollTop = linkTopWithinContainer - (containerRect.height / 2) + (linkRect.height / 2);
+    container.scrollTo({ top: Math.max(targetScrollTop, 0), behavior: "smooth" });
+  }
+
   function badgeForBook(book){
     if(/^\d+$/.test(book.id)){
       return String(parseInt(book.id, 10)).padStart(2, "0");
@@ -465,6 +476,7 @@
     currentBookIndex = idx;
     var book = DATA.books[idx];
     markActiveInSidebar(idx);
+    scrollBookLinkIntoView(idx);
 
     var badge = badgeForBook(book);
     var hasBookAudio = (book.start !== null && book.start !== undefined);
@@ -508,7 +520,7 @@
     wireSeekableElements();
     wireBookPlayButton();
     var audioEl = document.getElementById("bookAudio");
-    if(audioEl){ updatePlaybackUI(audioEl.currentTime, !audioEl.paused); }
+    if(audioEl){ updatePlaybackUI(audioEl.currentTime, !audioEl.paused, false); }
   }
 
   function renderFootnotes(p){
@@ -631,7 +643,15 @@
     return activeIdx;
   }
 
-  function updatePlaybackUI(t, isPlaying){
+  function updatePlaybackUI(t, isPlaying, allowAutoSwitch){
+    var switchIdx = getActiveBookIndexForTime(t);
+    if(allowAutoSwitch !== false && switchIdx >= 0 && switchIdx !== currentBookIndex){
+      // Playback (baik karena berjalan terus maupun karena seek/player-time digeser)
+      // sudah masuk ke book lain: buka book itu otomatis lalu lanjutkan sinkronisasi UI.
+      renderBook(switchIdx);
+      return;
+    }
+
     highlightActiveParagraph(t);
 
     var toggleBtn = document.getElementById("playerToggle");
