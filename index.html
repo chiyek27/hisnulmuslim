@@ -183,6 +183,15 @@
     font-family:var(--font-ar);font-size:1.55rem;line-height:2.2;
     direction:rtl;text-align:right;color:var(--ink-text);margin-bottom:8px;
   }
+  .para-ar .w{
+    transition:background-color .15s ease, color .15s ease;
+    border-radius:4px;padding:0 2px;cursor:pointer;
+  }
+  .para-ar .w:hover{background:rgba(63,164,160,.18);}
+  .para-ar .w.active{
+    background:var(--gold);color:#0e2a33;
+    box-shadow:0 0 0 1px var(--gold-soft);
+  }
   .para-id{font-family:var(--font-id);font-size:.98rem;line-height:1.5;color:#23453f;}
   .para-id.placeholder{color:#8fb0ac;font-style:italic;}
   .para-note{
