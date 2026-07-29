@@ -169,8 +169,7 @@
   }
   .flash-fullscreen-btn{
     position:absolute;top:14px;right:16px;background:var(--parchment-2);border:1px solid #cfe4de;
-    color:#2f7671;min-width:34px;height:34px;padding:0 10px;border-radius:8px;cursor:pointer;font-size:.78rem;
-    font-family:var(--font-ui);font-weight:600;letter-spacing:.02em;
+    color:#2f7671;width:34px;height:34px;border-radius:8px;cursor:pointer;font-size:1rem;
     display:flex;align-items:center;justify-content:center;transition:background .12s;
   }
   .flash-fullscreen-btn:hover{background:#d5ece7;}
@@ -291,6 +290,14 @@
 
   /* ---------- SIDEBAR ---------- */
   #sidebar{flex:0 0 300px;width:300px;background:var(--panel);border-left:1px solid var(--panel-line);overflow-y:auto;order:2;display:flex;flex-direction:column;}
+  .sidebar-toolbar{
+    flex:0 0 auto;display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;
+    padding:14px 14px 10px;border-bottom:1px solid var(--panel-line);
+  }
+  .sidebar-toolbar .view-toggle{flex:0 0 auto;}
+  .sidebar-toolbar .harakat-toggle{flex:0 0 auto;}
+  .sidebar-toolbar .view-btn .label-full{display:none;}
+  .sidebar-toolbar .view-btn .label-short{display:inline;}
   .sidebar-search{position:sticky;top:0;background:var(--panel);padding:14px 14px 10px;border-bottom:1px solid var(--panel-line);z-index:2;}
   .sidebar-search input{
     width:100%;padding:9px 10px;background:var(--ink-2);border:1px solid var(--panel-line);
@@ -377,7 +384,6 @@
     .flash-word-big{font-size:2.6rem;}
     .flash-card{padding:44px 16px 16px;height:min(82vh,620px);}
     .flash-context{font-size:1rem;line-height:2;}
-    .flash-fullscreen-btn{font-size:.7rem;min-width:auto;padding:0 8px;}
     .view-btn .label-full{display:none;}
     .view-btn .label-short{display:inline;}
   }
@@ -417,17 +423,6 @@
   <div class="topbar">
     <div class="brand">حصن المسلم<small>Hisnul Muslim &middot; Sa'id bin Ali Al-Qahthani</small></div>
     <div class="spacer"></div>
-    <div class="view-toggle" id="viewToggle">
-      <button id="viewNormalBtn" class="view-btn active" type="button" title="Tampilan Biasa"><span class="label-full">Tampilan Biasa</span><span class="label-short">Biasa</span></button>
-      <button id="viewFlashBtn" class="view-btn" type="button" title="Flashcard"><span class="label-full">Flashcard</span><span class="label-short">Flash</span></button>
-    </div>
-    <div class="harakat-toggle" title="Tampilkan teks Arab tanpa harakat">
-      <span class="harakat-label">بدون تشكيل</span>
-      <label class="switch">
-        <input type="checkbox" id="harakatCheckbox">
-        <span class="switch-slider"></span>
-      </label>
-    </div>
     <button id="menuToggle" aria-label="Buka daftar menu">☰</button>
   </div>
 
@@ -436,7 +431,7 @@
 
     <div id="flashView">
       <div class="flash-card" id="flashCard">
-        <button class="flash-fullscreen-btn" id="flashFullscreenBtn" type="button" title="Layar penuh">FS</button>
+        <button class="flash-fullscreen-btn" id="flashFullscreenBtn" type="button" title="Layar penuh">⛶</button>
         <div class="flash-main">
           <div class="flash-eyebrow" id="flashEyebrow">Flashcard</div>
           <div class="flash-word-big" id="flashWordBig">—</div>
@@ -448,6 +443,19 @@
 
     <div id="sidebarBackdrop"></div>
     <nav id="sidebar">
+      <div class="sidebar-toolbar">
+        <div class="view-toggle" id="viewToggle">
+          <button id="viewNormalBtn" class="view-btn active" type="button" title="Tampilan Biasa"><span class="label-full">Tampilan Biasa</span><span class="label-short">Biasa</span></button>
+          <button id="viewFlashBtn" class="view-btn" type="button" title="Flashcard"><span class="label-full">Flashcard</span><span class="label-short">Flash</span></button>
+        </div>
+        <div class="harakat-toggle" title="Tampilkan teks Arab tanpa harakat">
+          <span class="harakat-label">بدون تشكيل</span>
+          <label class="switch">
+            <input type="checkbox" id="harakatCheckbox">
+            <span class="switch-slider"></span>
+          </label>
+        </div>
+      </div>
       <div class="sidebar-search">
         <input id="searchBooks" type="text" placeholder="Cari doa / dzikir…">
       </div>
@@ -907,10 +915,12 @@
       }
     });
     document.addEventListener("fullscreenchange", function(){
-      btn.textContent = document.fullscreenElement ? "Tutup" : "FS";
+      btn.textContent = document.fullscreenElement ? "×" : "⛶";
       btn.title = document.fullscreenElement ? "Keluar layar penuh" : "Layar penuh";
     });
   }
+
+  var lastFlashDisplayWordEl = null;
 
   function scrollActiveContextWordIntoView(container){
     var activeEl = container.querySelector(".flash-ctx-word.active");
@@ -931,6 +941,7 @@
 
     var activePara = document.querySelector("#contentInner .para.active") || document.querySelector("#contentInner .para");
     if(!activePara){
+      lastFlashDisplayWordEl = null;
       flashWordBig.textContent = "—";
       flashTranslation.textContent = "";
       flashContext.innerHTML = "";
@@ -943,6 +954,7 @@
 
     var wordEls = activePara.querySelectorAll(".word");
     if(wordEls.length === 0){
+      lastFlashDisplayWordEl = null;
       var arDiv = activePara.querySelector(".para-ar");
       var idDiv = activePara.querySelector(".para-id");
       flashWordBig.textContent = arDiv ? arDiv.textContent : "";
@@ -951,14 +963,22 @@
       return;
     }
 
-    var activeWordEl = activePara.querySelector(".word.active-word") || wordEls[0];
+    var activeWordEl = activePara.querySelector(".word.active-word");
+    if(!activeWordEl){
+      if(lastFlashDisplayWordEl && activePara.contains(lastFlashDisplayWordEl)){
+        activeWordEl = lastFlashDisplayWordEl;
+      } else {
+        activeWordEl = wordEls[0];
+      }
+    }
+    lastFlashDisplayWordEl = activeWordEl;
     flashWordBig.textContent = activeWordEl.textContent;
     var tr = activeWordEl.getAttribute("data-tr");
     flashTranslation.textContent = tr ? decodeURIComponent(tr) : "";
 
     var html = "";
     wordEls.forEach(function(el){
-      var isActive = el.classList.contains("active-word");
+      var isActive = (el === activeWordEl);
       var start = el.getAttribute("data-start");
       html += '<span class="flash-ctx-word' + (isActive ? " active" : "") + '"' +
         (start !== null ? ' data-seek-word="' + start + '"' : "") + ">" +
