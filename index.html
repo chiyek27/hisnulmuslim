@@ -187,6 +187,8 @@
     display:inline;border-radius:4px;padding:1px 3px;margin:0 -3px;
     transition:background .12s ease, color .12s ease;
   }
+  .para-ar .word[data-start]{cursor:pointer;}
+  .para-ar .word[data-start]:hover{background:rgba(63,164,160,.22);}
   .para-ar .word.active-word{
     background:var(--rubric);color:#fbfffe;
   }
@@ -539,6 +541,7 @@
     lastActiveAnchorEl = null;
     applyGundulMode();
     wireSeekableElements();
+    wireWordElements();
     wireBookPlayButton();
     var audioEl = document.getElementById("bookAudio");
     if(audioEl){ updatePlaybackUI(audioEl.currentTime, !audioEl.paused, false); }
@@ -651,6 +654,20 @@
     document.querySelectorAll("[data-seek]").forEach(function(el){
       el.addEventListener("click", function(){
         var t = parseFloat(el.getAttribute("data-seek"));
+        if(audioEl && !isNaN(t)){
+          audioEl.currentTime = t;
+          audioEl.play();
+        }
+      });
+    });
+  }
+
+  function wireWordElements(){
+    var audioEl = document.getElementById("bookAudio");
+    document.querySelectorAll(".word[data-start]").forEach(function(el){
+      el.addEventListener("click", function(e){
+        e.stopPropagation();
+        var t = parseFloat(el.getAttribute("data-start"));
         if(audioEl && !isNaN(t)){
           audioEl.currentTime = t;
           audioEl.play();
