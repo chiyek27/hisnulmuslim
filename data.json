@@ -1412,51 +1412,61 @@
           "words": [
             {
               "word": "الْحَمْدُ",
+              "id": "Segala puji",
               "start": 1888.284,
               "end": 1888.624
             },
             {
               "word": "لِلَّهِ",
+              "id": "bagi Allah",
               "start": 1888.724,
               "end": 1889.044
             },
             {
               "word": "وَحْدَهُ،",
+              "id": "semata",
               "start": 1889.144,
               "end": 1889.445
             },
             {
               "word": "وَالصَّلَاةُ",
+              "id": "dan shalawat",
               "start": 1890.665,
               "end": 1891.2450000000001
             },
             {
               "word": "وَالسَّلَامُ",
+              "id": "dan salam",
               "start": 1891.345,
               "end": 1891.906
             },
             {
               "word": "عَلَىٰ",
+              "id": "atas",
               "start": 1892.026,
               "end": 1892.226
             },
             {
               "word": "مَنْ",
+              "id": "orang yang",
               "start": 1892.366,
               "end": 1892.526
             },
             {
               "word": "لَا",
+              "id": "tidak ada",
               "start": 1892.566,
               "end": 1892.686
             },
             {
               "word": "نَبِيَّ",
+              "id": "nabi",
               "start": 1892.826,
               "end": 1893.126
             },
             {
               "word": "بَعْدَهُ",
+              "id": "setelahnya",
               "start": 1893.246,
               "end": 1893.586
             }
@@ -1476,79 +1486,334 @@
           "words": [
             {
               "word": "أَعُوذُ",
+              "id": "Aku berlindung",
               "start": 1896.308,
               "end": 1896.708
             },
             {
               "word": "بِاللَّهِ",
+              "id": "kepada Allah",
               "start": 1896.788,
               "end": 1897.288
             },
             {
               "word": "مِنَ",
+              "id": "dari",
               "start": 1897.4080000000001,
               "end": 1897.528
             },
             {
               "word": "الشَّيْطَانِ",
+              "id": "setan",
               "start": 1897.588,
               "end": 1898.249
             },
             {
               "word": "الرَّجِيمِ",
+              "id": "yang terkutuk",
               "start": 1898.309,
               "end": 1898.909
             },
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            {
+              "word": "{اللَّهُ",
+              "id": "Allah",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "لَا",
+              "id": "tidak ada",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "إِلَٰهَ",
+              "id": "sesembahan (yang haq)",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "إِلَّا",
+              "id": "selain",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "هُوَ",
+              "id": "Dia",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "الْحَيُّ",
+              "id": "Yang Maha Hidup",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "الْقَيُّومُ",
+              "id": "Yang terus mengurus makhluk-Nya",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "لَا",
+              "id": "tidak",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "تَأْخُذُهُ",
+              "id": "menyentuh-Nya",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "سِنَةٌ",
+              "id": "kantuk",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "وَلَا",
+              "id": "dan tidak",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "نَوْمٌ",
+              "id": "tidur",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "لَهُ",
+              "id": "milik-Nya",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "مَا",
+              "id": "apa yang",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "فِي",
+              "id": "ada di",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "السَّمَاوَاتِ",
+              "id": "langit",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "وَمَا",
+              "id": "dan apa yang",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "فِي",
+              "id": "ada di",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "الْأَرْضِ",
+              "id": "bumi",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "مَنْ",
+              "id": "siapakah",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "ذَا",
+              "id": "yang",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "الَّذِي",
+              "id": "yang",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "يَشْفَعُ",
+              "id": "dapat memberi syafaat",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "عِنْدَهُ",
+              "id": "di sisi-Nya",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "إِلَّا",
+              "id": "kecuali",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "بِإِذْنِهِ",
+              "id": "dengan izin-Nya",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "يَعْلَمُ",
+              "id": "Dia mengetahui",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "مَا",
+              "id": "apa yang",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "بَيْنَ",
+              "id": "di antara",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "أَيْدِيهِمْ",
+              "id": "hadapan mereka",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "وَمَا",
+              "id": "dan apa yang",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "خَلْفَهُمْ",
+              "id": "di belakang mereka",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "وَلَا",
+              "id": "dan tidak",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "يُحِيطُونَ",
+              "id": "mereka meliputi",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "بِشَيْءٍ",
+              "id": "sesuatu apapun",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "مِنْ",
+              "id": "dari",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "عِلْمِهِ",
+              "id": "ilmu-Nya",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "إِلَّا",
+              "id": "kecuali",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "بِمَا",
+              "id": "dengan apa yang",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "شَاءَ",
+              "id": "Dia kehendaki",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "وَسِعَ",
+              "id": "meliputi",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "كُرْسِيُّهُ",
+              "id": "kursi-Nya",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "السَّمَاوَاتِ",
+              "id": "langit",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "وَالْأَرْضَ",
+              "id": "dan bumi",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "وَلَا",
+              "id": "dan tidak",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "يَئُودُهُ",
+              "id": "memberatkan-Nya",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "حِفْظُهُمَا",
+              "id": "menjaga keduanya",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "وَهُوَ",
+              "id": "dan Dia",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "الْعَلِيُّ",
+              "id": "Yang Maha Tinggi",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "الْعَظِيمُ}",
+              "id": "Yang Maha Agung",
+              "start": null,
+              "end": null
+            }
           ]
         },
         {
@@ -1565,189 +1830,505 @@
           "words": [
             {
               "word": "بِسْمِ",
+              "id": "Dengan nama",
               "start": 1902.871,
               "end": 1903.111
             },
             {
               "word": "اللَّهِ",
+              "id": "Allah",
               "start": 1903.191,
               "end": 1903.571
             },
             {
               "word": "الرَّحْمَٰنِ",
+              "id": "Yang Maha Pengasih",
               "start": 1903.671,
               "end": 1904.251
             },
             {
               "word": "الرَّحِيمِ",
+              "id": "Yang Maha Penyayang",
               "start": 1904.3310000000001,
               "end": 1904.872
             },
             {
               "word": "{قُلْ",
+              "id": "Katakanlah",
               "start": 1906.872,
               "end": 1907.053
             },
             {
               "word": "هُوَ",
+              "id": "Dia",
               "start": 1907.153,
               "end": 1907.313
             },
             {
               "word": "اللَّهُ",
+              "id": "Allah",
               "start": 1907.393,
               "end": 1907.7730000000001
             },
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
+            {
+              "word": "أَحَدٌ",
+              "id": "Yang Maha Esa",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "*",
+              "id": "(pemisah ayat)",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "اللَّهُ",
+              "id": "Allah",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "الصَّمَدُ",
+              "id": "tempat bergantung segala sesuatu",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "*",
+              "id": "(pemisah ayat)",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "لَمْ",
+              "id": "tidak",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "يَلِدْ",
+              "id": "beranak",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "وَلَمْ",
+              "id": "dan tidak",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "يُولَدْ",
+              "id": "diperanakkan",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "*",
+              "id": "(pemisah ayat)",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "وَلَمْ",
+              "id": "dan tidak",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "يَكُنْ",
+              "id": "ada",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "لَهُ",
+              "id": "bagi-Nya",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "كُفُوًا",
+              "id": "yang setara",
+              "start": null,
+              "end": null
+            },
             {
               "word": "أَحَدٌ}",
+              "id": "seorang pun",
               "start": 1907.913,
               "end": 1908.213
             },
             {
               "word": "بِسْمِ",
+              "id": "Dengan nama",
               "start": 1909.314,
               "end": 1909.534
             },
             {
               "word": "اللَّهِ",
+              "id": "Allah",
               "start": 1909.594,
               "end": 1909.894
             },
             {
               "word": "الرَّحْمَٰنِ",
+              "id": "Yang Maha Pengasih",
               "start": 1909.974,
               "end": 1910.534
             },
             {
               "word": "الرَّحِيمِ",
+              "id": "Yang Maha Penyayang",
               "start": 1910.614,
               "end": 1911.134
             },
             {
               "word": "{قُلْ",
+              "id": "Katakanlah",
               "start": 1912.755,
               "end": 1912.955
             },
             {
               "word": "أَعُوذُ",
+              "id": "aku berlindung",
               "start": 1913.115,
               "end": 1913.575
             },
             {
               "word": "بِرَبِّ",
+              "id": "kepada Rabb",
               "start": 1913.676,
               "end": 1914.016
             },
             {
               "word": "الْفَلَقِ",
+              "id": "waktu subuh",
               "start": 1914.096,
               "end": 1914.556
             },
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
+            {
+              "word": "*",
+              "id": "(pemisah ayat)",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "مِنْ",
+              "id": "dari",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "شَرِّ",
+              "id": "kejahatan",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "مَا",
+              "id": "apa yang",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "خَلَقَ",
+              "id": "Dia ciptakan",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "*",
+              "id": "(pemisah ayat)",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "وَمِنْ",
+              "id": "dan dari",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "شَرِّ",
+              "id": "kejahatan",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "غَاسِقٍ",
+              "id": "malam gelap gulita",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "إِذَا",
+              "id": "apabila",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "وَقَبَ",
+              "id": "telah tiba",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "*",
+              "id": "(pemisah ayat)",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "وَمِنْ",
+              "id": "dan dari",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "شَرِّ",
+              "id": "kejahatan",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "النَّفَّاثَاتِ",
+              "id": "para penyihir yang meniup",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "فِي",
+              "id": "pada",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "الْعُقَدِ",
+              "id": "buhul-buhul tali",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "*",
+              "id": "(pemisah ayat)",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "وَمِنْ",
+              "id": "dan dari",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "شَرِّ",
+              "id": "kejahatan",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "حَاسِدٍ",
+              "id": "orang yang dengki",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "إِذَا",
+              "id": "apabila",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "حَسَدَ}",
+              "id": "ia dengki",
+              "start": null,
+              "end": null
+            },
             {
               "word": "بِسْمِ",
+              "id": "Dengan nama",
               "start": 1916.608,
               "end": 1916.848
             },
             {
               "word": "اللَّهِ",
+              "id": "Allah",
               "start": 1916.9080000000001,
               "end": 1917.228
             },
             {
               "word": "الرَّحْمَٰنِ",
+              "id": "Yang Maha Pengasih",
               "start": 1917.308,
               "end": 1917.8880000000001
             },
             {
               "word": "الرَّحِيمِ",
+              "id": "Yang Maha Penyayang",
               "start": 1917.948,
               "end": 1918.469
             },
             {
               "word": "{قُلْ",
+              "id": "Katakanlah",
               "start": 1920.929,
               "end": 1921.1290000000001
             },
             {
               "word": "أَعُوذُ",
+              "id": "aku berlindung",
               "start": 1921.309,
               "end": 1921.809
             },
             {
               "word": "بِرَبِّ",
+              "id": "kepada Rabb",
               "start": 1921.909,
               "end": 1922.27
             },
             {
               "word": "النَّاسِ",
+              "id": "manusia",
               "start": 1922.3500000000001,
               "end": 1923.01
             },
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
+            {
+              "word": "*",
+              "id": "(pemisah ayat)",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "مَلِكِ",
+              "id": "Raja",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "النَّاسِ",
+              "id": "manusia",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "*",
+              "id": "(pemisah ayat)",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "إِلَٰهِ",
+              "id": "sesembahan",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "النَّاسِ",
+              "id": "manusia",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "*",
+              "id": "(pemisah ayat)",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "مِنْ",
+              "id": "dari",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "شَرِّ",
+              "id": "kejahatan",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "الْوَسْوَاسِ",
+              "id": "bisikan",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "الْخَنَّاسِ",
+              "id": "yang bersembunyi",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "*",
+              "id": "(pemisah ayat)",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "الَّذِي",
+              "id": "yang",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "يُوَسْوِسُ",
+              "id": "membisikkan kejahatan",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "فِي",
+              "id": "ke dalam",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "صُدُورِ",
+              "id": "dada",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "النَّاسِ",
+              "id": "manusia",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "*",
+              "id": "(pemisah ayat)",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "مِنَ",
+              "id": "dari golongan",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "الْجِنَّةِ",
+              "id": "jin",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "وَالنَّاسِ}",
+              "id": "dan manusia",
+              "start": null,
+              "end": null
+            },
             {
               "word": "(ثَلَاثَ",
+              "id": "tiga",
               "start": 1924.21,
               "end": 1924.73
             },
             {
               "word": "مَرَّاتٍ)",
+              "id": "kali",
               "start": 1924.83,
               "end": 1925.3500000000001
             }
@@ -1771,318 +2352,424 @@
           "words": [
             {
               "word": "أَصْبَحْنَا",
+              "id": "Kami memasuki waktu pagi",
               "start": 1930.352,
               "end": 1931.012
             },
             {
               "word": "وَأَصْبَحَ",
+              "id": "dan telah menjadi",
               "start": 1931.332,
               "end": 1931.872
             },
             {
               "word": "الْمُلْكُ",
+              "id": "kerajaan",
               "start": 1931.992,
               "end": 1932.372
             },
             {
               "word": "لِلَّهِ،",
+              "id": "milik Allah",
               "start": 1932.492,
               "end": 1932.892
             },
             {
               "word": "وَالْحَمْدُ",
+              "id": "dan segala puji",
               "start": 1934.093,
               "end": 1934.633
             },
             {
               "word": "لِلَّهِ،",
+              "id": "bagi Allah",
               "start": 1934.753,
               "end": 1935.133
             },
             {
               "word": "لَا",
+              "id": "tidak ada",
               "start": 1936.534,
               "end": 1936.654
             },
             {
               "word": "إِلَٰهَ",
+              "id": "sesembahan yang haq",
               "start": 1937.2740000000001,
               "end": 1937.674
             },
             {
               "word": "إِلَّا",
+              "id": "selain",
               "start": 1937.854,
               "end": 1938.054
             },
             {
               "word": "اللَّهُ",
+              "id": "Allah",
               "start": 1938.114,
               "end": 1938.574
             },
             {
               "word": "وَحْدَهُ",
+              "id": "Yang Maha Esa",
               "start": 1938.714,
               "end": 1939.134
             },
             {
               "word": "لَا",
+              "id": "tidak ada",
               "start": 1939.374,
               "end": 1939.4940000000001
             },
             {
               "word": "شَرِيكَ",
+              "id": "sekutu",
               "start": 1939.654,
               "end": 1940.0140000000001
             },
             {
               "word": "لَهُ،",
+              "id": "bagi-Nya",
               "start": 1940.114,
               "end": 1940.2350000000001
             },
             {
               "word": "لَهُ",
+              "id": "bagi-Nya",
               "start": 1941.4750000000001,
               "end": 1941.635
             },
             {
               "word": "الْمُلْكُ",
+              "id": "kerajaan",
               "start": 1941.755,
               "end": 1942.275
             },
             {
               "word": "وَلَهُ",
+              "id": "dan bagi-Nya",
               "start": 1942.415,
               "end": 1942.695
             },
             {
               "word": "الْحَمْدُ",
+              "id": "segala puji",
               "start": 1942.795,
               "end": 1943.295
             },
             {
               "word": "وَهُوَ",
+              "id": "dan Dia",
               "start": 1943.415,
               "end": 1943.675
             },
             {
               "word": "عَلَىٰ",
+              "id": "atas",
               "start": 1943.816,
               "end": 1944.036
             },
             {
               "word": "كُلِّ",
+              "id": "segala",
               "start": 1944.256,
               "end": 1944.496
             },
             {
               "word": "شَيْءٍ",
+              "id": "sesuatu",
               "start": 1944.656,
               "end": 1944.896
             },
             {
               "word": "قَدِيرٌ،",
+              "id": "Maha Kuasa",
               "start": 1945.076,
               "end": 1945.4560000000001
             },
             {
               "word": "رَبِّ",
+              "id": "Wahai Rabbku",
               "start": 1947.2759999999998,
               "end": 1947.436
             },
             {
               "word": "أَسْأَلُكَ",
+              "id": "aku memohon kepada-Mu",
               "start": 1947.576,
               "end": 1947.9769999999999
             },
             {
               "word": "خَيْرَ",
+              "id": "kebaikan",
               "start": 1948.097,
               "end": 1948.317
             },
             {
               "word": "مَا",
+              "id": "apa yang",
               "start": 1948.417,
               "end": 1948.5369999999998
             },
             {
               "word": "فِي",
+              "id": "pada",
               "start": 1948.617,
               "end": 1948.7369999999999
             },
             {
               "word": "هَٰذَا",
+              "id": "ini",
               "start": 1948.837,
               "end": 1949.077
             },
             {
               "word": "الْيَوْمِ",
+              "id": "hari",
               "start": 1949.137,
               "end": 1949.4579999999999
             },
             {
               "word": "وَخَيْرَ",
+              "id": "dan kebaikan",
               "start": 1950.5179999999998,
               "end": 1951.019
             },
             {
               "word": "مَا",
+              "id": "apa yang",
               "start": 1951.119,
               "end": 1951.2389999999998
             },
             {
               "word": "بَعْدَهُ",
+              "id": "sesudahnya",
               "start": 1951.379,
               "end": 1951.7389999999998
             },
             {
               "word": "وَأَعُوذُ",
+              "id": "dan aku berlindung",
               "start": 1953.04,
               "end": 1953.6
             },
             {
               "word": "بِكَ",
+              "id": "kepada-Mu",
               "start": 1953.6999999999998,
               "end": 1953.8609999999999
             },
             {
               "word": "مِنْ",
+              "id": "dari",
               "start": 1953.981,
               "end": 1954.1009999999999
             },
             {
               "word": "شَرِّ",
+              "id": "kejahatan",
               "start": 1954.201,
               "end": 1954.4409999999998
             },
             {
               "word": "مَا",
+              "id": "apa yang",
               "start": 1954.561,
               "end": 1954.6809999999998
             },
             {
               "word": "فِي",
+              "id": "pada",
               "start": 1954.841,
               "end": 1954.961
             },
             {
               "word": "هَٰذَا",
+              "id": "ini",
               "start": 1955.1409999999998,
               "end": 1955.462
             },
             {
               "word": "الْيَوْمِ",
+              "id": "hari",
               "start": 1955.522,
               "end": 1955.942
             },
             {
               "word": "وَشَرِّ",
+              "id": "dan kejahatan",
               "start": 1956.0819999999999,
               "end": 1956.542
             },
             {
               "word": "مَا",
+              "id": "apa yang",
               "start": 1956.6619999999998,
               "end": 1956.782
             },
             {
               "word": "بَعْدَهُ",
+              "id": "sesudahnya",
               "start": 1956.903,
               "end": 1957.243
             },
             {
               "word": "رَبِّ",
+              "id": "Wahai Rabbku",
               "start": 1959.144,
               "end": 1959.3239999999998
             },
             {
               "word": "أَعُوذُ",
+              "id": "aku berlindung",
               "start": 1959.464,
               "end": 1959.7849999999999
             },
             {
               "word": "بِكَ",
+              "id": "kepada-Mu",
               "start": 1959.8449999999998,
               "end": 1960.0049999999999
             },
             {
               "word": "مِنَ",
+              "id": "dari",
               "start": 1960.105,
               "end": 1960.225
             },
             {
               "word": "الْكَسَلِ",
+              "id": "sifat malas",
               "start": 1960.2849999999999,
               "end": 1960.705
             },
             {
               "word": "وَسُوءِ",
+              "id": "dan buruknya",
               "start": 1961.846,
               "end": 1962.2859999999998
             },
             {
               "word": "الْكِبَرِ،",
+              "id": "usia tua (pikun)",
               "start": 1962.386,
               "end": 1962.807
             },
             {
               "word": "رَبِّ",
+              "id": "Wahai Rabbku",
               "start": 1965.028,
               "end": 1965.2479999999998
             },
             {
               "word": "أَعُوذُ",
+              "id": "aku berlindung",
               "start": 1965.388,
               "end": 1965.789
             },
             {
               "word": "بِكَ",
+              "id": "kepada-Mu",
               "start": 1965.889,
               "end": 1966.029
             },
             {
               "word": "مِنْ",
+              "id": "dari",
               "start": 1966.1689999999999,
               "end": 1966.289
             },
             {
               "word": "عَذَابٍ",
+              "id": "siksa",
               "start": 1966.389,
               "end": 1966.829
             },
             {
               "word": "فِي",
+              "id": "di",
               "start": 1967.029,
               "end": 1967.1499999999999
             },
             {
               "word": "النَّارِ",
+              "id": "neraka",
               "start": 1967.1899999999998,
               "end": 1967.6699999999998
             },
             {
               "word": "وَعَذَابٍ",
+              "id": "dan siksa",
               "start": 1967.81,
               "end": 1968.4099999999999
             },
             {
               "word": "فِي",
+              "id": "di",
               "start": 1968.571,
               "end": 1968.6909999999998
             },
             {
               "word": "الْقَبْرِ.",
+              "id": "kubur",
               "start": 1968.692,
               "end": 1969.1109999999999
             },
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            {
+              "word": "وَإِذَا",
+              "id": "dan apabila",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "أَمْسَىٰ",
+              "id": "masuk waktu sore",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "قَالَ",
+              "id": "ia mengucapkan",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "ذَٰلِكَ",
+              "id": "itu",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "أَيْضًا:",
+              "id": "juga",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "أَمْسَيْنَا",
+              "id": "kami memasuki waktu sore",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "وَأَمْسَىٰ",
+              "id": "dan telah menjadi",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "الْمُلْكُ",
+              "id": "kerajaan",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "لِلَّهِ.",
+              "id": "milik Allah",
+              "start": null,
+              "end": null
+            }
           ]
         },
         {
@@ -2101,122 +2788,151 @@
           "words": [
             {
               "word": "اللَّهُمَّ",
+              "id": "Ya Allah",
               "start": 1985.473,
               "end": 1985.954
             },
             {
               "word": "بِكَ",
+              "id": "dengan-Mu",
               "start": 1986.154,
               "end": 1986.334
             },
             {
               "word": "أَصْبَحْنَا",
+              "id": "kami memasuki waktu pagi",
               "start": 1986.494,
               "end": 1987.054
             },
             {
               "word": "وَبِكَ",
+              "id": "dan dengan-Mu",
               "start": 1988.455,
               "end": 1988.776
             },
             {
               "word": "أَمْسَيْنَا",
+              "id": "kami memasuki waktu sore",
               "start": 1988.936,
               "end": 1989.556
             },
             {
               "word": "وَبِكَ",
+              "id": "dan dengan-Mu",
               "start": 1990.877,
               "end": 1991.177
             },
             {
               "word": "نَحْيَا",
+              "id": "kami hidup",
               "start": 1991.317,
               "end": 1991.738
             },
             {
               "word": "وَبِكَ",
+              "id": "dan dengan-Mu",
               "start": 1992.098,
               "end": 1992.398
             },
             {
               "word": "نَمُوتُ",
+              "id": "kami mati",
               "start": 1992.518,
               "end": 1992.999
             },
             {
               "word": "وَإِلَيْكَ",
+              "id": "dan kepada-Mu",
               "start": 1994.079,
               "end": 1994.64
             },
             {
               "word": "النُّشُورُ.",
+              "id": "kebangkitan",
               "start": 1994.72,
               "end": 1995.32
             },
             {
               "word": "وَإِذَا",
+              "id": "dan apabila",
               "start": 1996.781,
               "end": 1997.101
             },
             {
               "word": "أَمْسَىٰ",
+              "id": "masuk waktu sore",
               "start": 1997.222,
               "end": 1997.522
             },
-            null,
+            {
+              "word": "فَلْيَقُلْ:",
+              "id": "hendaklah ia mengucapkan",
+              "start": null,
+              "end": null
+            },
             {
               "word": "اللَّهُمَّ",
+              "id": "Ya Allah",
               "start": 1999.383,
               "end": 1999.723
             },
             {
               "word": "بِكَ",
+              "id": "dengan-Mu",
               "start": 1999.863,
               "end": 2000.0240000000001
             },
             {
               "word": "أَمْسَيْنَا،",
+              "id": "kami memasuki waktu sore",
               "start": 2000.164,
               "end": 2000.804
             },
             {
               "word": "وَبِكَ",
+              "id": "dan dengan-Mu",
               "start": 2001.044,
               "end": 2001.344
             },
             {
               "word": "أَصْبَحْنَا،",
+              "id": "kami memasuki waktu pagi",
               "start": 2001.525,
               "end": 2002.165
             },
             {
               "word": "وَبِكَ",
+              "id": "dan dengan-Mu",
               "start": 2002.405,
               "end": 2002.685
             },
             {
               "word": "نَحْيَا",
+              "id": "kami hidup",
               "start": 2002.825,
               "end": 2003.186
             },
             {
               "word": "وَبِكَ",
+              "id": "dan dengan-Mu",
               "start": 2003.406,
               "end": 2003.686
             },
             {
               "word": "نَمُوتُ،",
+              "id": "kami mati",
               "start": 2003.826,
               "end": 2004.246
             },
             {
               "word": "وَإِلَيْكَ",
+              "id": "dan kepada-Mu",
               "start": 2005.067,
               "end": 2005.667
             },
             {
               "word": "الْمَصِيرُ.",
+              "id": "tempat kembali",
               "start": 2005.768,
               "end": 2006.328
             }
@@ -2238,177 +2954,217 @@
           "words": [
             {
               "word": "اللَّهُمَّ",
+              "id": "Ya Allah",
               "start": 2009.646,
               "end": 2010.026
             },
             {
               "word": "أَنْتَ",
+              "id": "Engkau",
               "start": 2010.166,
               "end": 2010.326
             },
             {
               "word": "رَبِّي",
+              "id": "Rabbku",
               "start": 2010.426,
               "end": 2010.727
             },
             {
               "word": "لَا",
+              "id": "tidak ada",
               "start": 2010.867,
               "end": 2010.987
             },
             {
               "word": "إِلَٰهَ",
+              "id": "sesembahan",
               "start": 2011.247,
               "end": 2011.647
             },
             {
               "word": "إِلَّا",
+              "id": "selain",
               "start": 2011.827,
               "end": 2012.068
             },
             {
               "word": "أَنْتَ",
+              "id": "Engkau",
               "start": 2012.1879999999999,
               "end": 2012.528
             },
             {
               "word": "خَلَقْتَنِي",
+              "id": "Engkau menciptakanku",
               "start": 2013.709,
               "end": 2014.389
             },
             {
               "word": "وَأَنَا",
+              "id": "dan aku",
               "start": 2014.65,
               "end": 2014.97
             },
             {
               "word": "عَبْدُكَ",
+              "id": "hamba-Mu",
               "start": 2015.03,
               "end": 2015.49
             },
             {
               "word": "وَأَنَا",
+              "id": "dan aku",
               "start": 2016.891,
               "end": 2017.191
             },
             {
               "word": "عَلَىٰ",
+              "id": "berada di atas",
               "start": 2017.271,
               "end": 2017.452
             },
             {
               "word": "عَهْدِكَ",
+              "id": "janji setiaku pada-Mu",
               "start": 2017.612,
               "end": 2018.092
             },
             {
               "word": "وَوَعْدِكَ",
+              "id": "dan janji-Mu",
               "start": 2018.232,
               "end": 2018.8129999999999
             },
             {
               "word": "مَا",
+              "id": "semampu",
               "start": 2018.933,
               "end": 2019.0529999999999
             },
             {
               "word": "اسْتَطَعْتُ",
+              "id": "yang aku sanggupi",
               "start": 2019.073,
               "end": 2019.613
             },
             {
               "word": "أَعُوذُ",
+              "id": "aku berlindung",
               "start": 2021.374,
               "end": 2021.715
             },
             {
               "word": "بِكَ",
+              "id": "kepada-Mu",
               "start": 2021.795,
               "end": 2021.955
             },
             {
               "word": "مِنْ",
+              "id": "dari",
               "start": 2022.075,
               "end": 2022.195
             },
             {
               "word": "شَرِّ",
+              "id": "keburukan",
               "start": 2022.295,
               "end": 2022.515
             },
             {
               "word": "مَا",
+              "id": "apa yang",
               "start": 2022.615,
               "end": 2022.7359999999999
             },
             {
               "word": "صَنَعْتُ",
+              "id": "aku perbuat",
               "start": 2022.856,
               "end": 2023.296
             },
             {
               "word": "أَبُوءُ",
+              "id": "aku mengakui",
               "start": 2024.777,
               "end": 2025.137
             },
             {
               "word": "لَكَ",
+              "id": "kepada-Mu",
               "start": 2025.277,
               "end": 2025.458
             },
             {
               "word": "بِنِعْمَتِكَ",
+              "id": "nikmat-Mu",
               "start": 2025.578,
               "end": 2026.298
             },
-            null,
+            {
+              "word": "عَلَيَّ",
+              "id": "atasku",
+              "start": null,
+              "end": null
+            },
             {
               "word": "وَأَبُوءُ",
+              "id": "dan aku mengakui",
               "start": 2027.6589999999999,
               "end": 2028.26
             },
             {
               "word": "بِذَنْبِي",
+              "id": "dosaku",
               "start": 2028.4,
               "end": 2028.86
             },
             {
               "word": "فَاغْفِرْ",
+              "id": "maka ampunilah",
               "start": 2030.061,
               "end": 2030.561
             },
             {
               "word": "لِي",
+              "id": "aku",
               "start": 2030.681,
               "end": 2030.801
             },
             {
               "word": "فَإِنَّهُ",
+              "id": "karena sesungguhnya",
               "start": 2031.042,
               "end": 2031.642
             },
             {
               "word": "لَا",
+              "id": "tidak",
               "start": 2031.942,
               "end": 2032.062
             },
             {
               "word": "يَغْفِرُ",
+              "id": "mengampuni",
               "start": 2032.283,
               "end": 2032.703
             },
             {
               "word": "الذُّنُوبَ",
+              "id": "dosa-dosa",
               "start": 2032.783,
               "end": 2033.363
             },
             {
               "word": "إِلَّا",
+              "id": "kecuali",
               "start": 2033.543,
               "end": 2033.7839999999999
             },
             {
               "word": "أَنْتَ",
+              "id": "Engkau",
               "start": 2033.904,
               "end": 2034.084
             }
@@ -2430,136 +3186,163 @@
           "words": [
             {
               "word": "اللَّهُمَّ",
+              "id": "Ya Allah",
               "start": 2039.13,
               "end": 2039.51
             },
             {
               "word": "إِنِّي",
+              "id": "sesungguhnya aku",
               "start": 2039.63,
               "end": 2039.89
             },
             {
               "word": "أَصْبَحْتُ",
+              "id": "memasuki waktu pagi",
               "start": 2040.03,
               "end": 2040.53
             },
             {
               "word": "أُشْهِدُكَ",
+              "id": "aku menjadikan-Mu saksi",
               "start": 2040.69,
               "end": 2041.291
             },
             {
               "word": "وَأُشْهِدُ",
+              "id": "dan aku menjadikan saksi",
               "start": 2041.451,
               "end": 2042.031
             },
             {
               "word": "حَمَلَةَ",
+              "id": "para pemikul",
               "start": 2042.211,
               "end": 2042.5520000000001
             },
             {
               "word": "عَرْشِكَ،",
+              "id": "'Arsy-Mu",
               "start": 2042.712,
               "end": 2043.172
             },
             {
               "word": "وَمَلَائِكَتَكَ",
+              "id": "dan para malaikat-Mu",
               "start": 2044.493,
               "end": 2045.493
             },
             {
               "word": "وَجَمِيعَ",
+              "id": "dan seluruh",
               "start": 2046.414,
               "end": 2046.934
             },
             {
               "word": "خَلْقِكَ،",
+              "id": "makhluk-Mu",
               "start": 2047.074,
               "end": 2047.534
             },
             {
               "word": "أَنَّكَ",
+              "id": "bahwa Engkau",
               "start": 2048.675,
               "end": 2048.935
             },
             {
               "word": "أَنْتَ",
+              "id": "Engkau",
               "start": 2049.075,
               "end": 2049.235
             },
             {
               "word": "اللَّهُ",
+              "id": "Allah",
               "start": 2049.3160000000003,
               "end": 2049.656
             },
             {
               "word": "لَا",
+              "id": "tidak ada",
               "start": 2049.796,
               "end": 2049.916
             },
             {
               "word": "إِلَٰهَ",
+              "id": "sesembahan",
               "start": 2050.476,
               "end": 2050.896
             },
             {
               "word": "إِلَّا",
+              "id": "selain",
               "start": 2051.077,
               "end": 2051.397
             },
             {
               "word": "أَنْتَ",
+              "id": "Engkau",
               "start": 2051.5370000000003,
               "end": 2051.877
             },
             {
               "word": "وَحْدَكَ",
+              "id": "Yang Maha Esa",
               "start": 2052.738,
               "end": 2053.2780000000002
             },
             {
               "word": "لَا",
+              "id": "tidak ada",
               "start": 2053.438,
               "end": 2053.558
             },
             {
               "word": "شَرِيكَ",
+              "id": "sekutu",
               "start": 2053.7780000000002,
               "end": 2054.158
             },
             {
               "word": "لَكَ،",
+              "id": "bagi-Mu",
               "start": 2054.258,
               "end": 2054.459
             },
             {
               "word": "وَأَنَّ",
+              "id": "dan bahwa",
               "start": 2055.5190000000002,
               "end": 2055.839
             },
             {
               "word": "مُحَمَّدًا",
+              "id": "Muhammad",
               "start": 2055.959,
               "end": 2056.58
             },
             {
               "word": "عَبْدُكَ",
+              "id": "hamba-Mu",
               "start": 2056.82,
               "end": 2057.34
             },
             {
               "word": "وَرَسُولُكَ",
+              "id": "dan utusan-Mu",
               "start": 2057.5,
               "end": 2058.221
             },
             {
               "word": "(أَرْبَعَ",
+              "id": "empat",
               "start": 2060.902,
               "end": 2061.223
             },
             {
               "word": "مَرَّاتٍ)",
+              "id": "kali",
               "start": 2061.343,
               "end": 2061.803
             }
@@ -2581,96 +3364,115 @@
           "words": [
             {
               "word": "اللَّهُمَّ",
+              "id": "Ya Allah",
               "start": 2065.428,
               "end": 2065.788
             },
             {
               "word": "مَا",
+              "id": "apa",
               "start": 2065.888,
               "end": 2066.008
             },
             {
               "word": "أَصْبَحَ",
+              "id": "ada pada waktu pagi",
               "start": 2066.108,
               "end": 2066.429
             },
             {
               "word": "بِي",
+              "id": "padaku",
               "start": 2066.529,
               "end": 2066.649
             },
             {
               "word": "مِنْ",
+              "id": "berupa",
               "start": 2066.749,
               "end": 2066.909
             },
             {
               "word": "نِعْمَةٍ",
+              "id": "nikmat",
               "start": 2066.969,
               "end": 2067.269
             },
             {
               "word": "أَوْ",
+              "id": "atau",
               "start": 2067.689,
               "end": 2067.809
             },
             {
               "word": "بِأَحَدٍ",
+              "id": "pada seseorang",
               "start": 2067.909,
               "end": 2068.349
             },
             {
               "word": "مِنْ",
+              "id": "dari",
               "start": 2068.509,
               "end": 2068.65
             },
             {
               "word": "خَلْقِكَ",
+              "id": "makhluk-Mu",
               "start": 2068.77,
               "end": 2069.33
             },
             {
               "word": "فَمِنْكَ",
+              "id": "maka itu dari-Mu",
               "start": 2069.47,
               "end": 2069.95
             },
             {
               "word": "وَحْدَكَ",
+              "id": "semata",
               "start": 2070.09,
               "end": 2070.53
             },
             {
               "word": "لَا",
+              "id": "tidak ada",
               "start": 2070.67,
               "end": 2070.791
             },
             {
               "word": "شَرِيكَ",
+              "id": "sekutu",
               "start": 2070.931,
               "end": 2071.291
             },
             {
               "word": "لَكَ،",
+              "id": "bagi-Mu",
               "start": 2071.411,
               "end": 2071.591
             },
             {
               "word": "فَلَكَ",
+              "id": "maka bagi-Mu",
               "start": 2073.172,
               "end": 2073.472
             },
             {
               "word": "الْحَمْدُ",
+              "id": "segala puji",
               "start": 2073.572,
               "end": 2074.112
             },
             {
               "word": "وَلَكَ",
+              "id": "dan bagi-Mu",
               "start": 2074.272,
               "end": 2074.532
             },
             {
               "word": "الشُّكْرُ",
+              "id": "segala syukur",
               "start": 2074.632,
               "end": 2075.032
             }
@@ -2690,165 +3492,217 @@
           "words": [
             {
               "word": "اللَّهُمَّ",
+              "id": "Ya Allah",
               "start": 2078.854,
               "end": 2079.254
             },
             {
               "word": "عَافِنِي",
+              "id": "berilah aku 'afiat",
               "start": 2079.394,
               "end": 2079.935
             },
             {
               "word": "فِي",
+              "id": "pada",
               "start": 2080.075,
               "end": 2080.195
             },
             {
               "word": "بَدَنِي،",
+              "id": "badanku",
               "start": 2080.335,
               "end": 2080.695
             },
             {
               "word": "اللَّهُمَّ",
+              "id": "Ya Allah",
               "start": 2082.416,
               "end": 2082.8559999999998
             },
             {
               "word": "عَافِنِي",
+              "id": "berilah aku 'afiat",
               "start": 2082.976,
               "end": 2083.556
             },
             {
               "word": "فِي",
+              "id": "pada",
               "start": 2083.716,
               "end": 2083.837
             },
             {
               "word": "سَمْعِي،",
+              "id": "pendengaranku",
               "start": 2084.037,
               "end": 2084.377
             },
             {
               "word": "اللَّهُمَّ",
+              "id": "Ya Allah",
               "start": 2086.017,
               "end": 2086.478
             },
             {
               "word": "عَافِنِي",
+              "id": "berilah aku 'afiat",
               "start": 2086.598,
               "end": 2087.178
             },
             {
               "word": "فِي",
+              "id": "pada",
               "start": 2087.318,
               "end": 2087.438
             },
             {
               "word": "بَصَرِي،",
+              "id": "penglihatanku",
               "start": 2087.578,
               "end": 2087.978
             },
             {
               "word": "لَا",
+              "id": "tidak ada",
               "start": 2089.359,
               "end": 2089.479
             },
             {
               "word": "إِلَٰهَ",
+              "id": "sesembahan",
               "start": 2090.219,
               "end": 2090.62
             },
             {
               "word": "إِلَّا",
+              "id": "selain",
               "start": 2090.8,
               "end": 2091.02
             },
-            null,
+            {
+              "word": "أَنْتَ.",
+              "id": "Engkau",
+              "start": null,
+              "end": null
+            },
             {
               "word": "اللَّهُمَّ",
+              "id": "Ya Allah",
               "start": 2093.312,
               "end": 2093.713
             },
             {
               "word": "إِنِّي",
+              "id": "sesungguhnya aku",
               "start": 2093.853,
               "end": 2094.133
             },
             {
               "word": "أَعُوذُ",
+              "id": "berlindung",
               "start": 2094.333,
               "end": 2094.794
             },
             {
               "word": "بِكَ",
+              "id": "kepada-Mu",
               "start": 2094.914,
               "end": 2095.074
             },
             {
               "word": "مِنَ",
+              "id": "dari",
               "start": 2095.234,
               "end": 2095.375
             },
             {
               "word": "الْكُفْرِ،",
+              "id": "kekufuran",
               "start": 2095.435,
               "end": 2095.915
             },
             {
               "word": "وَالْفَقْرِ،",
+              "id": "dan kefakiran",
               "start": 2095.995,
               "end": 2096.536
             },
-            null,
-            null,
-            null,
+            {
+              "word": "اللَّهُمَّ",
+              "id": "Ya Allah",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "إِنِّي",
+              "id": "sesungguhnya aku",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "أَعُوذُ",
+              "id": "berlindung",
+              "start": null,
+              "end": null
+            },
             {
               "word": "بِكَ",
+              "id": "kepada-Mu",
               "start": 2098.999,
               "end": 2099.159
             },
             {
               "word": "مِنْ",
+              "id": "dari",
               "start": 2099.279,
               "end": 2099.419
             },
             {
               "word": "عَذَابِ",
+              "id": "siksa",
               "start": 2099.519,
               "end": 2099.94
             },
             {
               "word": "الْقَبْرِ",
+              "id": "kubur",
               "start": 2100.04,
               "end": 2100.46
             },
             {
               "word": "لَا",
+              "id": "tidak ada",
               "start": 2101.761,
               "end": 2101.882
             },
             {
               "word": "إِلَٰهَ",
+              "id": "sesembahan",
               "start": 2102.622,
               "end": 2103.103
             },
             {
               "word": "إِلَّا",
+              "id": "selain",
               "start": 2103.303,
               "end": 2103.563
             },
             {
               "word": "أَنْتَ",
+              "id": "Engkau",
               "start": 2103.683,
               "end": 2104.043
             },
             {
               "word": "(ثَلَاثَ",
+              "id": "tiga",
               "start": 2107.626,
               "end": 2108.007
             },
             {
               "word": "مَرَّاتٍ)",
+              "id": "kali",
               "start": 2108.107,
               "end": 2108.567
             }
@@ -2868,71 +3722,85 @@
           "words": [
             {
               "word": "حَسْبِيَ",
+              "id": "Cukuplah bagiku",
               "start": 2112.55,
               "end": 2112.971
             },
             {
               "word": "اللَّهُ",
+              "id": "Allah",
               "start": 2113.051,
               "end": 2113.451
             },
             {
               "word": "لَا",
+              "id": "tidak ada",
               "start": 2113.591,
               "end": 2113.711
             },
             {
               "word": "إِلَٰهَ",
+              "id": "sesembahan",
               "start": 2114.332,
               "end": 2114.732
             },
             {
               "word": "إِلَّا",
+              "id": "selain",
               "start": 2114.932,
               "end": 2115.252
             },
             {
               "word": "هُوَ",
+              "id": "Dia",
               "start": 2115.453,
               "end": 2115.613
             },
             {
               "word": "عَلَيْهِ",
+              "id": "kepada-Nya",
               "start": 2115.713,
               "end": 2116.093
             },
             {
               "word": "تَوَكَّلْتُ",
+              "id": "aku bertawakal",
               "start": 2116.233,
               "end": 2116.974
             },
             {
               "word": "وَهُوَ",
+              "id": "dan Dia",
               "start": 2117.074,
               "end": 2117.354
             },
             {
               "word": "رَبُّ",
+              "id": "Rabb (pemilik)",
               "start": 2117.454,
               "end": 2117.674
             },
             {
               "word": "الْعَرْشِ",
+              "id": "'Arsy",
               "start": 2117.795,
               "end": 2118.175
             },
             {
               "word": "الْعَظِيمِ",
+              "id": "yang agung",
               "start": 2118.235,
               "end": 2118.755
             },
             {
               "word": "(سَبْعَ",
+              "id": "tujuh",
               "start": 2120.196,
               "end": 2120.477
             },
             {
               "word": "مَرَّاتٍ)",
+              "id": "kali",
               "start": 2120.537,
               "end": 2120.977
             }
@@ -2952,211 +3820,253 @@
           "words": [
             {
               "word": "اللَّهُمَّ",
+              "id": "Ya Allah",
               "start": 2124.66,
               "end": 2125.04
             },
             {
               "word": "إِنِّي",
+              "id": "sesungguhnya aku",
               "start": 2125.181,
               "end": 2125.421
             },
             {
               "word": "أَسْأَلُكَ",
+              "id": "memohon kepada-Mu",
               "start": 2125.561,
               "end": 2126.041
             },
             {
               "word": "الْعَفْوَ",
+              "id": "ampunan",
               "start": 2126.141,
               "end": 2126.522
             },
             {
               "word": "وَالْعَافِيَةَ",
+              "id": "dan keselamatan",
               "start": 2126.642,
               "end": 2127.322
             },
             {
               "word": "فِي",
+              "id": "dalam",
               "start": 2127.923,
               "end": 2128.043
             },
             {
               "word": "الدُّنْيَا",
+              "id": "dunia",
               "start": 2128.063,
               "end": 2128.583
             },
             {
               "word": "وَالْآخِرَةِ،",
+              "id": "dan akhirat",
               "start": 2128.763,
               "end": 2129.324
             },
             {
               "word": "اللَّهُمَّ",
+              "id": "Ya Allah",
               "start": 2131.284,
               "end": 2131.6240000000003
             },
             {
               "word": "إِنِّي",
+              "id": "sesungguhnya aku",
               "start": 2131.764,
               "end": 2131.985
             },
             {
               "word": "أَسْأَلُكَ",
+              "id": "memohon kepada-Mu",
               "start": 2132.125,
               "end": 2132.565
             },
             {
               "word": "الْعَفْوَ",
+              "id": "ampunan",
               "start": 2132.6450000000004,
               "end": 2133.045
             },
             {
               "word": "وَالْعَافِيَةَ",
+              "id": "dan keselamatan",
               "start": 2133.1450000000004,
               "end": 2133.786
             },
             {
               "word": "فِي",
+              "id": "dalam",
               "start": 2134.827,
               "end": 2134.947
             },
             {
               "word": "دِينِي",
+              "id": "agamaku",
               "start": 2135.2070000000003,
               "end": 2135.6070000000004
             },
             {
               "word": "وَدُنْيَايَ",
+              "id": "duniaku",
               "start": 2135.7870000000003,
               "end": 2136.588
             },
             {
               "word": "وَأَهْلِي",
+              "id": "keluargaku",
               "start": 2136.748,
               "end": 2137.248
             },
             {
               "word": "وَمَالِي،",
+              "id": "dan hartaku",
               "start": 2137.3680000000004,
               "end": 2137.829
             },
             {
               "word": "اللَّهُمَّ",
+              "id": "Ya Allah",
               "start": 2139.8900000000003,
               "end": 2140.3300000000004
             },
             {
               "word": "اسْتُرْ",
+              "id": "tutupilah",
               "start": 2140.3900000000003,
               "end": 2140.6710000000003
             },
             {
               "word": "عَوْرَاتِي",
+              "id": "auratku (cela-celaku)",
               "start": 2140.7110000000002,
               "end": 2141.271
             },
             {
               "word": "وَآمِنْ",
+              "id": "dan amankanlah",
               "start": 2142.8720000000003,
               "end": 2143.6730000000002
             },
             {
               "word": "رَوْعَاتِي،",
+              "id": "rasa takutku",
               "start": 2143.713,
               "end": 2144.373
             },
             {
               "word": "اللَّهُمَّ",
+              "id": "Ya Allah",
               "start": 2146.4150000000004,
               "end": 2146.755
             },
             {
               "word": "احْفَظْنِي",
+              "id": "jagalah aku",
               "start": 2146.795,
               "end": 2147.255
             },
             {
               "word": "مِنْ",
+              "id": "dari",
               "start": 2147.375,
               "end": 2147.5150000000003
             },
             {
               "word": "بَيْنِ",
+              "id": "arah",
               "start": 2147.5550000000003,
               "end": 2147.8360000000002
             },
             {
               "word": "يَدَيَّ",
+              "id": "depanku",
               "start": 2147.916,
               "end": 2148.2960000000003
             },
             {
               "word": "وَمِنْ",
+              "id": "dan dari",
               "start": 2148.436,
               "end": 2148.6960000000004
             },
             {
               "word": "خَلْفِي",
+              "id": "belakangku",
               "start": 2148.8160000000003,
               "end": 2149.237
             },
             {
               "word": "وَعَنْ",
+              "id": "dan dari",
               "start": 2150.5980000000004,
               "end": 2150.858
             },
             {
               "word": "يَمِينِي",
+              "id": "kananku",
               "start": 2150.958,
               "end": 2151.5780000000004
             },
             {
               "word": "وَعَنْ",
+              "id": "dan dari",
               "start": 2151.7780000000002,
               "end": 2152.059
             },
             {
               "word": "شِمَالِي",
+              "id": "kiriku",
               "start": 2152.159,
               "end": 2152.699
             },
             {
               "word": "وَمِنْ",
+              "id": "dan dari",
               "start": 2154.0800000000004,
               "end": 2154.36
             },
             {
               "word": "فَوْقِي",
+              "id": "atasku",
               "start": 2154.44,
               "end": 2154.8610000000003
             },
             {
               "word": "وَأَعُوذُ",
+              "id": "dan aku berlindung",
               "start": 2156.302,
               "end": 2157.0020000000004
             },
             {
               "word": "بِعَظَمَتِكَ",
+              "id": "dengan keagungan-Mu",
               "start": 2157.1220000000003,
               "end": 2157.8830000000003
             },
             {
               "word": "أَنْ",
+              "id": "agar",
               "start": 2158.043,
               "end": 2158.163
             },
             {
               "word": "أُغْتَالَ",
+              "id": "aku disambar celaka",
               "start": 2158.2630000000004,
               "end": 2158.8630000000003
             },
             {
               "word": "مِنْ",
+              "id": "dari",
               "start": 2158.983,
               "end": 2159.103
             },
             {
               "word": "تَحْتِي",
+              "id": "bawahku",
               "start": 2159.184,
               "end": 2159.5640000000003
             }
@@ -3176,172 +4086,211 @@
           "words": [
             {
               "word": "اللَّهُمَّ",
+              "id": "Ya Allah",
               "start": 2163.413,
               "end": 2163.8129999999996
             },
             {
               "word": "عَالِمَ",
+              "id": "Yang Maha Mengetahui",
               "start": 2163.913,
               "end": 2164.2729999999997
             },
             {
               "word": "الْغَيْبِ",
+              "id": "yang ghaib",
               "start": 2164.3529999999996,
               "end": 2164.6929999999998
             },
             {
               "word": "وَالشَّهَادَةِ،",
+              "id": "dan yang nyata",
               "start": 2164.7929999999997,
               "end": 2165.433
             },
             {
               "word": "فَاطِرَ",
+              "id": "Pencipta",
               "start": 2167.0339999999997,
               "end": 2167.5139999999997
             },
             {
               "word": "السَّمَاوَاتِ",
+              "id": "langit",
               "start": 2167.634,
               "end": 2168.5539999999996
             },
             {
               "word": "وَالْأَرْضِ،",
+              "id": "dan bumi",
               "start": 2168.694,
               "end": 2169.174
             },
             {
               "word": "رَبَّ",
+              "id": "Rabb (Penguasa)",
               "start": 2170.555,
               "end": 2170.7949999999996
             },
             {
               "word": "كُلِّ",
+              "id": "segala",
               "start": 2170.935,
               "end": 2171.1549999999997
             },
             {
               "word": "شَيْءٍ",
+              "id": "sesuatu",
               "start": 2171.3349999999996,
               "end": 2171.6349999999998
             },
-            null,
+            {
+              "word": "وَمَلِيكَهُ،",
+              "id": "dan pemiliknya",
+              "start": null,
+              "end": null
+            },
             {
               "word": "أَشْهَدُ",
+              "id": "aku bersaksi",
               "start": 2174.256,
               "end": 2174.5559999999996
             },
             {
               "word": "أَنْ",
+              "id": "bahwa",
               "start": 2174.676,
               "end": 2174.796
             },
             {
               "word": "لَا",
+              "id": "tidak ada",
               "start": 2174.836,
               "end": 2174.9559999999997
             },
             {
               "word": "إِلَٰهَ",
+              "id": "sesembahan",
               "start": 2175.4559999999997,
               "end": 2175.8559999999998
             },
             {
               "word": "إِلَّا",
+              "id": "selain",
               "start": 2176.0159999999996,
               "end": 2176.256
             },
             {
               "word": "أَنْتَ",
+              "id": "Engkau",
               "start": 2176.3759999999997,
               "end": 2176.7169999999996
             },
             {
               "word": "أَعُوذُ",
+              "id": "aku berlindung",
               "start": 2178.2169999999996,
               "end": 2178.6169999999997
             },
             {
               "word": "بِكَ",
+              "id": "kepada-Mu",
               "start": 2178.7169999999996,
               "end": 2178.877
             },
             {
               "word": "مِنْ",
+              "id": "dari",
               "start": 2179.017,
               "end": 2179.1369999999997
             },
             {
               "word": "شَرِّ",
+              "id": "kejahatan",
               "start": 2179.2369999999996,
               "end": 2179.477
             },
             {
               "word": "نَفْسِي",
+              "id": "diriku",
               "start": 2179.5969999999998,
               "end": 2179.977
             },
             {
               "word": "وَمِنْ",
+              "id": "dan dari",
               "start": 2180.198,
               "end": 2180.4579999999996
             },
             {
               "word": "شَرِّ",
+              "id": "kejahatan",
               "start": 2180.558,
               "end": 2180.8179999999998
             },
             {
               "word": "الشَّيْطَانِ",
+              "id": "setan",
               "start": 2180.9179999999997,
               "end": 2181.558
             },
             {
               "word": "وَشِرْكِهِ",
+              "id": "dan sekutunya (godaan syiriknya)",
               "start": 2181.678,
               "end": 2182.178
             },
             {
               "word": "وَأَنْ",
+              "id": "dan agar tidak",
               "start": 2184.499,
               "end": 2184.739
             },
             {
               "word": "أَقْتَرِفَ",
+              "id": "aku berbuat",
               "start": 2184.819,
               "end": 2185.239
             },
             {
               "word": "عَلَىٰ",
+              "id": "atas",
               "start": 2185.379,
               "end": 2185.5789999999997
             },
             {
               "word": "نَفْسِي",
+              "id": "diriku",
               "start": 2185.7189999999996,
               "end": 2186.0789999999997
             },
             {
               "word": "سُوءًا",
+              "id": "keburukan",
               "start": 2186.259,
               "end": 2186.7189999999996
             },
             {
               "word": "أَوْ",
+              "id": "atau",
               "start": 2186.999,
               "end": 2187.1189999999997
             },
             {
               "word": "أَجُرَّهُ",
+              "id": "aku menyeretnya",
               "start": 2187.2799999999997,
               "end": 2187.7799999999997
             },
             {
               "word": "إِلَىٰ",
+              "id": "kepada",
               "start": 2188.04,
               "end": 2188.2
             },
             {
               "word": "مُسْلِمٍ",
+              "id": "seorang muslim",
               "start": 2188.2999999999997,
               "end": 2188.68
             }
@@ -3361,91 +4310,109 @@
           "words": [
             {
               "word": "بِسْمِ",
+              "id": "Dengan menyebut nama",
               "start": 2194.342,
               "end": 2194.583
             },
             {
               "word": "اللَّهِ",
+              "id": "Allah",
               "start": 2194.643,
               "end": 2194.9429999999998
             },
             {
               "word": "الَّذِي",
+              "id": "yang",
               "start": 2195.043,
               "end": 2195.323
             },
             {
               "word": "لَا",
+              "id": "tidak",
               "start": 2195.5029999999997,
               "end": 2195.623
             },
             {
               "word": "يَضُرُّ",
+              "id": "membahayakan",
               "start": 2195.783,
               "end": 2196.2239999999997
             },
             {
               "word": "مَعَ",
+              "id": "bersama",
               "start": 2196.384,
               "end": 2196.524
             },
             {
               "word": "اسْمِهِ",
+              "id": "nama-Nya",
               "start": 2196.584,
               "end": 2196.944
             },
             {
               "word": "شَيْءٌ",
+              "id": "sesuatu apapun",
               "start": 2197.2439999999997,
               "end": 2197.585
             },
             {
               "word": "فِي",
+              "id": "di",
               "start": 2197.805,
               "end": 2197.9249999999997
             },
             {
               "word": "الْأَرْضِ",
+              "id": "bumi",
               "start": 2197.9449999999997,
               "end": 2198.3849999999998
             },
             {
               "word": "وَلَا",
+              "id": "dan tidak",
               "start": 2198.525,
               "end": 2198.746
             },
             {
               "word": "فِي",
+              "id": "di",
               "start": 2198.826,
               "end": 2198.946
             },
             {
               "word": "السَّمَاءِ",
+              "id": "langit",
               "start": 2198.966,
               "end": 2199.526
             },
             {
               "word": "وَهُوَ",
+              "id": "dan Dia",
               "start": 2200.667,
               "end": 2200.947
             },
             {
               "word": "السَّمِيعُ",
+              "id": "Maha Mendengar",
               "start": 2201.047,
               "end": 2201.6079999999997
             },
             {
               "word": "الْعَلِيمُ",
+              "id": "Maha Mengetahui",
               "start": 2201.728,
               "end": 2202.188
             },
             {
               "word": "(ثَلَاثَ",
+              "id": "tiga",
               "start": 2203.889,
               "end": 2204.29
             },
             {
               "word": "مَرَّاتٍ)",
+              "id": "kali",
               "start": 2204.37,
               "end": 2204.83
             }
@@ -3465,66 +4432,79 @@
           "words": [
             {
               "word": "رَضِيتُ",
+              "id": "Aku ridha",
               "start": 2208.793,
               "end": 2209.2529999999997
             },
             {
               "word": "بِاللَّهِ",
+              "id": "dengan Allah",
               "start": 2209.393,
               "end": 2209.834
             },
             {
               "word": "رَبًّا،",
+              "id": "sebagai Rabb",
               "start": 2209.9539999999997,
               "end": 2210.274
             },
             {
               "word": "وَبِالْإِسْلَامِ",
+              "id": "dan dengan Islam",
               "start": 2211.775,
               "end": 2212.616
             },
             {
               "word": "دِينًا",
+              "id": "sebagai agama",
               "start": 2212.756,
               "end": 2213.116
             },
             {
               "word": "وَبِمُحَمَّدٍ",
+              "id": "dan dengan Muhammad",
               "start": 2214.497,
               "end": 2215.3179999999998
             },
             {
               "word": "صَلَّى",
+              "id": "semoga bershalawat",
               "start": 2215.618,
               "end": 2215.918
             },
             {
               "word": "اللَّهُ",
+              "id": "Allah",
               "start": 2215.938,
               "end": 2216.418
             },
             {
               "word": "عَلَيْهِ",
+              "id": "kepadanya",
               "start": 2216.578,
               "end": 2216.979
             },
             {
               "word": "وَسَلَّمَ",
+              "id": "dan memberi salam",
               "start": 2217.159,
               "end": 2217.819
             },
             {
               "word": "نَبِيًّا",
+              "id": "sebagai Nabi",
               "start": 2217.939,
               "end": 2218.42
             },
             {
               "word": "(ثَلَاثَ",
+              "id": "tiga",
               "start": 2220.152,
               "end": 2220.552
             },
             {
               "word": "مَرَّاتٍ)",
+              "id": "kali",
               "start": 2220.652,
               "end": 2221.132
             }
@@ -3544,81 +4524,97 @@
           "words": [
             {
               "word": "يَا",
+              "id": "Wahai",
               "start": 2224.3540000000003,
               "end": 2224.474
             },
             {
               "word": "حَيُّ",
+              "id": "Yang Maha Hidup",
               "start": 2224.954,
               "end": 2225.214
             },
             {
               "word": "يَا",
+              "id": "wahai",
               "start": 2225.3740000000003,
               "end": 2225.495
             },
             {
               "word": "قَيُّومُ",
+              "id": "Yang terus mengurus makhluk-Nya",
               "start": 2225.755,
               "end": 2226.335
             },
             {
               "word": "بِرَحْمَتِكَ",
+              "id": "dengan rahmat-Mu",
               "start": 2227.7560000000003,
               "end": 2228.476
             },
             {
               "word": "أَسْتَغِيثُ",
+              "id": "aku memohon pertolongan",
               "start": 2228.636,
               "end": 2229.396
             },
             {
               "word": "أَصْلِحْ",
+              "id": "perbaikilah",
               "start": 2230.777,
               "end": 2231.277
             },
             {
               "word": "لِي",
+              "id": "untukku",
               "start": 2231.377,
               "end": 2231.4970000000003
             },
             {
               "word": "شَأْنِي",
+              "id": "urusanku",
               "start": 2231.7580000000003,
               "end": 2232.178
             },
             {
               "word": "كُلَّهُ",
+              "id": "seluruhnya",
               "start": 2232.378,
               "end": 2232.7380000000003
             },
             {
               "word": "وَلَا",
+              "id": "dan jangan",
               "start": 2234.239,
               "end": 2234.4790000000003
             },
             {
               "word": "تَكِلْنِي",
+              "id": "Engkau serahkan aku",
               "start": 2234.639,
               "end": 2235.219
             },
             {
               "word": "إِلَىٰ",
+              "id": "kepada",
               "start": 2235.4590000000003,
               "end": 2235.639
             },
             {
               "word": "نَفْسِي",
+              "id": "diriku sendiri",
               "start": 2235.819,
               "end": 2236.2000000000003
             },
             {
               "word": "طَرْفَةَ",
+              "id": "sekejap",
               "start": 2236.4,
               "end": 2236.86
             },
             {
               "word": "عَيْنٍ",
+              "id": "mata",
               "start": 2236.98,
               "end": 2237.34
             }
@@ -3642,127 +4638,157 @@
           "words": [
             {
               "word": "أَصْبَحْنَا",
+              "id": "Kami memasuki waktu pagi",
               "start": 2241.242,
               "end": 2241.942
             },
             {
               "word": "وَأَصْبَحَ",
+              "id": "dan telah menjadi",
               "start": 2242.283,
               "end": 2242.803
             },
             {
               "word": "الْمُلْكُ",
+              "id": "kerajaan",
               "start": 2242.9230000000002,
               "end": 2243.283
             },
             {
               "word": "لِلَّهِ",
+              "id": "milik Allah",
               "start": 2243.4030000000002,
               "end": 2243.8830000000003
             },
             {
               "word": "رَبِّ",
+              "id": "Rabb",
               "start": 2244.023,
               "end": 2244.223
             },
             {
               "word": "الْعَالَمِينَ،",
+              "id": "semesta alam",
               "start": 2244.3230000000003,
               "end": 2244.864
             },
             {
               "word": "اللَّهُمَّ",
+              "id": "Ya Allah",
               "start": 2247.252,
               "end": 2247.632
             },
             {
               "word": "إِنِّي",
+              "id": "sesungguhnya aku",
               "start": 2247.792,
               "end": 2248.052
             },
             {
               "word": "أَسْأَلُكَ",
+              "id": "memohon kepada-Mu",
               "start": 2248.212,
               "end": 2248.6730000000002
             },
             {
               "word": "خَيْرَ",
+              "id": "kebaikan",
               "start": 2248.813,
               "end": 2249.053
             },
             {
               "word": "هَٰذَا",
+              "id": "ini",
               "start": 2249.1730000000002,
               "end": 2249.413
             },
             {
               "word": "الْيَوْمِ:",
+              "id": "hari",
               "start": 2249.453,
               "end": 2249.833
             },
             {
               "word": "فَتْحَهُ،",
+              "id": "kemenangannya",
               "start": 2251.134,
               "end": 2251.694
             },
             {
               "word": "وَنَصْرَهُ،",
+              "id": "dan pertolongannya",
               "start": 2252.054,
               "end": 2252.674
             },
             {
               "word": "وَنُورَهُ،",
+              "id": "dan cahayanya",
               "start": 2252.8740000000003,
               "end": 2253.295
             },
             {
               "word": "وَبَرَكَتَهُ،",
+              "id": "dan keberkahannya",
               "start": 2254.535,
               "end": 2255.255
             },
-            null,
+            {
+              "word": "وَهُدَاهُ،",
+              "id": "dan petunjuknya",
+              "start": null,
+              "end": null
+            },
             {
               "word": "وَأَعُوذُ",
+              "id": "dan aku berlindung",
               "start": 2257.3360000000002,
               "end": 2257.936
             },
             {
               "word": "بِكَ",
+              "id": "kepada-Mu",
               "start": 2258.016,
               "end": 2258.197
             },
             {
               "word": "مِنْ",
+              "id": "dari",
               "start": 2258.317,
               "end": 2258.437
             },
             {
               "word": "شَرِّ",
+              "id": "kejahatan",
               "start": 2258.5370000000003,
               "end": 2258.777
             },
             {
               "word": "مَا",
+              "id": "apa yang",
               "start": 2258.897,
               "end": 2259.0170000000003
             },
             {
               "word": "فِيهِ",
+              "id": "ada padanya",
               "start": 2259.217,
               "end": 2259.5570000000002
             },
             {
               "word": "وَشَرِّ",
+              "id": "dan kejahatan",
               "start": 2259.717,
               "end": 2260.137
             },
             {
               "word": "مَا",
+              "id": "apa yang",
               "start": 2260.257,
               "end": 2260.377
             },
             {
               "word": "بَعْدَهُ",
+              "id": "sesudahnya",
               "start": 2260.497,
               "end": 2260.858
             }
@@ -3784,126 +4810,151 @@
           "words": [
             {
               "word": "أَصْبَحْنَا",
+              "id": "Kami memasuki waktu pagi",
               "start": 2264.199,
               "end": 2264.919
             },
             {
               "word": "عَلَىٰ",
+              "id": "di atas",
               "start": 2265.119,
               "end": 2265.339
             },
             {
               "word": "فِطْرَةِ",
+              "id": "fitrah",
               "start": 2265.6,
               "end": 2265.98
             },
             {
               "word": "الْإِسْلَامِ",
+              "id": "Islam",
               "start": 2266.16,
               "end": 2266.76
             },
             {
               "word": "وَعَلَىٰ",
+              "id": "dan di atas",
               "start": 2268.361,
               "end": 2268.761
             },
             {
               "word": "كَلِمَةِ",
+              "id": "kalimat",
               "start": 2269.041,
               "end": 2269.381
             },
             {
               "word": "الْإِخْلَاصِ،",
+              "id": "keikhlasan (tauhid)",
               "start": 2269.541,
               "end": 2270.161
             },
             {
               "word": "وَعَلَىٰ",
+              "id": "dan di atas",
               "start": 2271.6620000000003,
               "end": 2272.022
             },
             {
               "word": "دِينِ",
+              "id": "agama",
               "start": 2272.1820000000002,
               "end": 2272.442
             },
             {
               "word": "نَبِيِّنَا",
+              "id": "nabi kami",
               "start": 2272.562,
               "end": 2273.123
             },
             {
               "word": "مُحَمَّدٍ",
+              "id": "Muhammad",
               "start": 2273.263,
               "end": 2273.823
             },
             {
               "word": "صَلَّى",
+              "id": "semoga bershalawat",
               "start": 2274.123,
               "end": 2274.4230000000002
             },
             {
               "word": "اللَّهُ",
+              "id": "Allah",
               "start": 2274.443,
               "end": 2274.8630000000003
             },
             {
               "word": "عَلَيْهِ",
+              "id": "kepadanya",
               "start": 2275.023,
               "end": 2275.384
             },
             {
               "word": "وَسَلَّمَ",
+              "id": "dan memberi salam",
               "start": 2275.524,
               "end": 2276.044
             },
             {
               "word": "وَعَلَىٰ",
+              "id": "dan di atas",
               "start": 2277.824,
               "end": 2278.224
             },
             {
               "word": "مِلَّةِ",
+              "id": "agama (millah)",
               "start": 2278.404,
               "end": 2278.7450000000003
             },
             {
               "word": "أَبِينَا",
+              "id": "bapak kami",
               "start": 2279.005,
               "end": 2279.465
             },
             {
               "word": "إِبْرَاهِيمَ",
+              "id": "Ibrahim",
               "start": 2279.645,
               "end": 2280.406
             },
             {
               "word": "حَنِيفًا",
+              "id": "yang lurus",
               "start": 2280.5260000000003,
               "end": 2281.0860000000002
             },
             {
               "word": "مُسْلِمًا",
+              "id": "yang berserah diri",
               "start": 2281.246,
               "end": 2281.7470000000003
             },
             {
               "word": "وَمَا",
+              "id": "dan bukanlah",
               "start": 2282.9480000000003,
               "end": 2283.208
             },
             {
               "word": "كَانَ",
+              "id": "dia (Ibrahim)",
               "start": 2283.4880000000003,
               "end": 2283.9280000000003
             },
             {
               "word": "مِنَ",
+              "id": "termasuk golongan",
               "start": 2284.0480000000002,
               "end": 2284.188
             },
             {
               "word": "الْمُشْرِكِينَ",
+              "id": "orang-orang musyrik",
               "start": 2284.248,
               "end": 2285.009
             }
@@ -3921,26 +4972,45 @@
           "start": 2289.23,
           "end": 2293.74,
           "words": [
-            null,
-            null,
+            {
+              "word": "مَنْ",
+              "id": "Barangsiapa",
+              "start": null,
+              "end": null
+            },
+            {
+              "word": "قَالَ:",
+              "id": "mengucapkan",
+              "start": null,
+              "end": null
+            },
             {
               "word": "سُبْحَانَ",
+              "id": "Maha Suci",
               "start": 2289.232,
               "end": 2289.8720000000003
             },
             {
               "word": "اللَّهِ",
+              "id": "Allah",
               "start": 2289.972,
               "end": 2290.5330000000004
             },
             {
               "word": "وَبِحَمْدِهِ",
+              "id": "dan segala puji bagi-Nya",
               "start": 2290.713,
               "end": 2291.353
             },
-            null,
+            {
+              "word": "(مِائَةَ",
+              "id": "seratus",
+              "start": null,
+              "end": null
+            },
             {
               "word": "مَرَّةٍ)",
+              "id": "kali",
               "start": 2293.4550000000004,
               "end": 2293.735
             }
@@ -3962,121 +5032,145 @@
           "words": [
             {
               "word": "لَا",
+              "id": "Tidak ada",
               "start": 2296.9570000000003,
               "end": 2297.077
             },
             {
               "word": "إِلَٰهَ",
+              "id": "sesembahan",
               "start": 2297.777,
               "end": 2298.1780000000003
             },
             {
               "word": "إِلَّا",
+              "id": "selain",
               "start": 2298.358,
               "end": 2298.558
             },
             {
               "word": "اللَّهُ",
+              "id": "Allah",
               "start": 2298.6380000000004,
               "end": 2299.098
             },
             {
               "word": "وَحْدَهُ",
+              "id": "Yang Maha Esa",
               "start": 2299.2180000000003,
               "end": 2299.639
             },
             {
               "word": "لَا",
+              "id": "tidak ada",
               "start": 2299.9190000000003,
               "end": 2300.039
             },
             {
               "word": "شَرِيكَ",
+              "id": "sekutu",
               "start": 2300.199,
               "end": 2300.579
             },
             {
               "word": "لَهُ،",
+              "id": "bagi-Nya",
               "start": 2300.679,
               "end": 2300.82
             },
             {
               "word": "لَهُ",
+              "id": "bagi-Nya",
               "start": 2302.26,
               "end": 2302.4210000000003
             },
             {
               "word": "الْمُلْكُ",
+              "id": "kerajaan",
               "start": 2302.541,
               "end": 2303.041
             },
             {
               "word": "وَلَهُ",
+              "id": "dan bagi-Nya",
               "start": 2303.221,
               "end": 2303.4610000000002
             },
             {
               "word": "الْحَمْدُ",
+              "id": "segala puji",
               "start": 2303.561,
               "end": 2304.0620000000004
             },
             {
               "word": "وَهُوَ",
+              "id": "dan Dia",
               "start": 2305.1820000000002,
               "end": 2305.4230000000002
             },
             {
               "word": "عَلَىٰ",
+              "id": "atas",
               "start": 2305.543,
               "end": 2305.8030000000003
             },
             {
               "word": "كُلِّ",
+              "id": "segala",
               "start": 2306.063,
               "end": 2306.2830000000004
             },
             {
               "word": "شَيْءٍ",
+              "id": "sesuatu",
               "start": 2306.443,
               "end": 2306.723
             },
             {
               "word": "قَدِيرٌ",
+              "id": "Maha Kuasa",
               "start": 2306.924,
               "end": 2307.324
             },
             {
               "word": "(عَشْرَ",
+              "id": "sepuluh",
               "start": 2309.016,
               "end": 2309.2360000000003
             },
             {
               "word": "مَرَّاتٍ)",
+              "id": "kali",
               "start": 2309.3160000000003,
               "end": 2309.7760000000003
             },
             {
               "word": "(أَوْ",
+              "id": "atau",
               "start": 2310.897,
               "end": 2311.0370000000003
             },
             {
               "word": "مَرَّةً",
+              "id": "sekali",
               "start": 2311.317,
               "end": 2311.5570000000002
             },
             {
               "word": "وَاحِدَةً",
+              "id": "saja",
               "start": 2311.837,
               "end": 2312.217
             },
             {
               "word": "عِنْدَ",
+              "id": "ketika",
               "start": 2312.657,
               "end": 2312.837
             },
             {
               "word": "الْكَسَلِ)",
+              "id": "malas",
               "start": 2312.897,
               "end": 2313.377
             }
@@ -4096,102 +5190,127 @@
           "words": [
             {
               "word": "لَا",
+              "id": "Tidak ada",
               "start": 2317.878,
               "end": 2317.998
             },
             {
               "word": "إِلَٰهَ",
+              "id": "sesembahan",
               "start": 2318.699,
               "end": 2319.079
             },
             {
               "word": "إِلَّا",
+              "id": "selain",
               "start": 2319.239,
               "end": 2319.4590000000003
             },
             {
               "word": "اللَّهُ",
+              "id": "Allah",
               "start": 2319.5190000000002,
               "end": 2319.9790000000003
             },
             {
               "word": "وَحْدَهُ",
+              "id": "Yang Maha Esa",
               "start": 2320.119,
               "end": 2320.539
             },
             {
               "word": "لَا",
+              "id": "tidak ada",
               "start": 2320.799,
               "end": 2320.9190000000003
             },
             {
               "word": "شَرِيكَ",
+              "id": "sekutu",
               "start": 2321.099,
               "end": 2321.4790000000003
             },
             {
               "word": "لَهُ،",
+              "id": "bagi-Nya",
               "start": 2321.579,
               "end": 2321.699
             },
             {
               "word": "لَهُ",
+              "id": "bagi-Nya",
               "start": 2323.08,
               "end": 2323.2200000000003
             },
             {
               "word": "الْمُلْكُ",
+              "id": "kerajaan",
               "start": 2323.34,
               "end": 2323.82
             },
             {
               "word": "وَلَهُ",
+              "id": "dan bagi-Nya",
               "start": 2323.96,
               "end": 2324.2200000000003
             },
             {
               "word": "الْحَمْدُ",
+              "id": "segala puji",
               "start": 2324.32,
               "end": 2324.84
             },
             {
               "word": "وَهُوَ",
+              "id": "dan Dia",
               "start": 2324.98,
               "end": 2325.2200000000003
             },
             {
               "word": "عَلَىٰ",
+              "id": "atas",
               "start": 2325.34,
               "end": 2325.561
             },
             {
               "word": "كُلِّ",
+              "id": "segala",
               "start": 2325.821,
               "end": 2326.041
             },
             {
               "word": "شَيْءٍ",
+              "id": "sesuatu",
               "start": 2326.201,
               "end": 2326.4410000000003
             },
             {
               "word": "قَدِيرٌ",
+              "id": "Maha Kuasa",
               "start": 2326.621,
               "end": 2327.001
             },
-            null,
+            {
+              "word": "(مِائَةَ",
+              "id": "seratus",
+              "start": null,
+              "end": null
+            },
             {
               "word": "مَرَّةٍ",
+              "id": "kali",
               "start": 2329.042,
               "end": 2329.362
             },
             {
               "word": "إِذَا",
+              "id": "apabila",
               "start": 2329.862,
               "end": 2330.022
             },
             {
               "word": "أَصْبَحَ)",
+              "id": "memasuki waktu pagi",
               "start": 2330.1620000000003,
               "end": 2330.502
             }
@@ -4211,72 +5330,91 @@
           "words": [
             {
               "word": "سُبْحَانَ",
+              "id": "Maha Suci",
               "start": 2334.3030000000003,
               "end": 2334.8630000000003
             },
             {
               "word": "اللَّهِ",
+              "id": "Allah",
               "start": 2334.963,
               "end": 2335.3430000000003
             },
             {
               "word": "وَبِحَمْدِهِ",
+              "id": "dan segala puji bagi-Nya",
               "start": 2335.483,
               "end": 2336.083
             },
             {
               "word": "عَدَدَ",
+              "id": "sebanyak",
               "start": 2337.284,
               "end": 2337.5840000000003
             },
             {
               "word": "خَلْقِهِ",
+              "id": "makhluk-Nya",
               "start": 2337.724,
               "end": 2338.0440000000003
             },
-            null,
+            {
+              "word": "وَرِضَا",
+              "id": "dan seridha",
+              "start": null,
+              "end": null
+            },
             {
               "word": "نَفْسِهِ",
+              "id": "diri-Nya",
               "start": 2339.776,
               "end": 2340.216
             },
             {
               "word": "وَزِنَةَ",
+              "id": "dan seberat",
               "start": 2341.357,
               "end": 2341.837
             },
             {
               "word": "عَرْشِهِ",
+              "id": "'Arsy-Nya",
               "start": 2341.957,
               "end": 2342.417
             },
             {
               "word": "وَمِدَادَ",
+              "id": "dan sebanyak tinta (untuk menulis)",
               "start": 2343.357,
               "end": 2344.097
             },
             {
               "word": "كَلِمَاتِهِ",
+              "id": "kalimat-kalimat-Nya",
               "start": 2344.257,
               "end": 2344.918
             },
             {
               "word": "(ثَلَاثَ",
+              "id": "tiga",
               "start": 2346.118,
               "end": 2346.518
             },
             {
               "word": "مَرَّاتٍ",
+              "id": "kali",
               "start": 2346.598,
               "end": 2347.138
             },
             {
               "word": "إِذَا",
+              "id": "apabila",
               "start": 2347.518,
               "end": 2347.678
             },
             {
               "word": "أَصْبَحَ)",
+              "id": "memasuki waktu pagi",
               "start": 2347.818,
               "end": 2348.178
             }
@@ -4296,56 +5434,67 @@
           "words": [
             {
               "word": "اللَّهُمَّ",
+              "id": "Ya Allah",
               "start": 2352.2200000000003,
               "end": 2352.6
             },
             {
               "word": "إِنِّي",
+              "id": "sesungguhnya aku",
               "start": 2352.76,
               "end": 2353.02
             },
             {
               "word": "أَسْأَلُكَ",
+              "id": "memohon kepada-Mu",
               "start": 2353.18,
               "end": 2353.68
             },
             {
               "word": "عِلْمًا",
+              "id": "ilmu",
               "start": 2353.8,
               "end": 2354.14
             },
             {
               "word": "نَافِعًا،",
+              "id": "yang bermanfaat",
               "start": 2354.2200000000003,
               "end": 2354.7000000000003
             },
             {
               "word": "وَرِزْقًا",
+              "id": "dan rezeki",
               "start": 2355.9610000000002,
               "end": 2356.541
             },
             {
               "word": "طَيِّبًا،",
+              "id": "yang baik",
               "start": 2356.741,
               "end": 2357.241
             },
             {
               "word": "وَعَمَلًا",
+              "id": "dan amalan",
               "start": 2358.581,
               "end": 2359.121
             },
             {
               "word": "مُتَقَبَّلًا",
+              "id": "yang diterima",
               "start": 2359.301,
               "end": 2360.042
             },
             {
               "word": "(إِذَا",
+              "id": "apabila",
               "start": 2361.402,
               "end": 2361.602
             },
             {
               "word": "أَصْبَحَ)",
+              "id": "memasuki waktu pagi",
               "start": 2361.762,
               "end": 2362.1420000000003
             }
@@ -4363,35 +5512,51 @@
           "start": 2365.98,
           "end": 2371.99,
           "words": [
-            null,
+            {
+              "word": "أَسْتَغْفِرُ",
+              "id": "Aku memohon ampun kepada",
+              "start": null,
+              "end": null
+            },
             {
               "word": "اللَّهَ",
+              "id": "Allah",
               "start": 2366.703,
               "end": 2367.284
             },
             {
               "word": "وَأَتُوبُ",
+              "id": "dan aku bertaubat",
               "start": 2367.444,
               "end": 2368.164
             },
             {
               "word": "إِلَيْهِ",
+              "id": "kepada-Nya",
               "start": 2368.324,
               "end": 2368.6040000000003
             },
-            null,
+            {
+              "word": "(مِائَةَ",
+              "id": "seratus",
+              "start": null,
+              "end": null
+            },
             {
               "word": "مَرَّةٍ",
+              "id": "kali",
               "start": 2370.764,
               "end": 2371.0440000000003
             },
             {
               "word": "فِي",
+              "id": "dalam",
               "start": 2371.425,
               "end": 2371.545
             },
             {
               "word": "الْيَوْمِ)",
+              "id": "sehari",
               "start": 2371.5460000000003,
               "end": 2371.985
             }
@@ -4411,61 +5576,73 @@
           "words": [
             {
               "word": "أَعُوذُ",
+              "id": "Aku berlindung",
               "start": 2375.487,
               "end": 2375.907
             },
             {
               "word": "بِكَلِمَاتِ",
+              "id": "dengan kalimat-kalimat",
               "start": 2376.007,
               "end": 2376.768
             },
             {
               "word": "اللَّهِ",
+              "id": "Allah",
               "start": 2376.8680000000004,
               "end": 2377.268
             },
             {
               "word": "التَّامَّاتِ",
+              "id": "yang sempurna",
               "start": 2377.3680000000004,
               "end": 2378.6290000000004
             },
             {
               "word": "مِنْ",
+              "id": "dari",
               "start": 2378.789,
               "end": 2378.909
             },
             {
               "word": "شَرِّ",
+              "id": "kejahatan",
               "start": 2379.049,
               "end": 2379.309
             },
             {
               "word": "مَا",
+              "id": "apa yang",
               "start": 2379.409,
               "end": 2379.529
             },
             {
               "word": "خَلَقَ",
+              "id": "Dia ciptakan",
               "start": 2379.6690000000003,
               "end": 2380.009
             },
             {
               "word": "(ثَلَاثَ",
+              "id": "tiga",
               "start": 2381.8700000000003,
               "end": 2382.21
             },
             {
               "word": "مَرَّاتٍ",
+              "id": "kali",
               "start": 2382.311,
               "end": 2382.791
             },
             {
               "word": "إِذَا",
+              "id": "apabila",
               "start": 2383.291,
               "end": 2383.451
             },
             {
               "word": "أَمْسَىٰ)",
+              "id": "masuk waktu sore",
               "start": 2383.5710000000004,
               "end": 2383.891
             }
@@ -4485,41 +5662,49 @@
           "words": [
             {
               "word": "اللَّهُمَّ",
+              "id": "Ya Allah",
               "start": 2387.453,
               "end": 2387.853
             },
             {
               "word": "صَلِّ",
+              "id": "berilah shalawat",
               "start": 2387.994,
               "end": 2388.2340000000004
             },
             {
               "word": "وَسَلِّمْ",
+              "id": "dan berilah salam",
               "start": 2388.3940000000002,
               "end": 2388.994
             },
             {
               "word": "عَلَىٰ",
+              "id": "atas",
               "start": 2389.114,
               "end": 2389.3340000000003
             },
             {
               "word": "نَبِيِّنَا",
+              "id": "nabi kami",
               "start": 2389.594,
               "end": 2390.215
             },
             {
               "word": "مُحَمَّدٍ",
+              "id": "Muhammad",
               "start": 2390.355,
               "end": 2390.855
             },
             {
               "word": "(عَشْرَ",
+              "id": "sepuluh",
               "start": 2392.556,
               "end": 2392.8160000000003
             },
             {
               "word": "مَرَّاتٍ)",
+              "id": "kali",
               "start": 2392.896,
               "end": 2393.3360000000002
             }
