@@ -183,15 +183,14 @@
     font-family:var(--font-ar);font-size:1.55rem;line-height:2.2;
     direction:rtl;text-align:right;color:var(--ink-text);margin-bottom:8px;
   }
-  .para-ar .w{
-    transition:background-color .15s ease, color .15s ease;
-    border-radius:4px;padding:0 2px;cursor:pointer;
+  .para-ar .word{
+    display:inline;border-radius:4px;padding:1px 3px;margin:0 -3px;
+    transition:background .12s ease, color .12s ease;
   }
-  .para-ar .w:hover{background:rgba(63,164,160,.18);}
-  .para-ar .w.active{
-    background:var(--gold);color:#0e2a33;
-    box-shadow:0 0 0 1px var(--gold-soft);
+  .para-ar .word.active-word{
+    background:var(--rubric);color:#fbfffe;
   }
+  .para.no-word-sync .para-ar .word{padding:0;margin:0;}
   .para-id{font-family:var(--font-id);font-size:.98rem;line-height:1.5;color:#23453f;}
   .para-id.placeholder{color:#8fb0ac;font-style:italic;}
   .para-note{
@@ -525,9 +524,10 @@
     } else {
       book.text.forEach(function(p){
         var hasTime = (p.start !== null && p.start !== undefined && p.end !== null && p.end !== undefined);
+        var hasWords = Array.isArray(p.words) && p.words.length > 0;
         var seekAttrs = hasTime ? ' data-seek="' + p.start + '" data-start="' + p.start + '" data-end="' + p.end + '"' : '';
-        html += '<div class="para' + (hasTime ? '' : ' no-audio') + '"' + seekAttrs + '>';
-        html += '  <div class="para-ar" data-ar-full="' + encodeURIComponent(p.ar || '') + '">' + escapeHtml(p.ar || '') + '</div>';
+        html += '<div class="para' + (hasTime ? '' : ' no-audio') + (hasWords ? '' : ' no-word-sync') + '"' + seekAttrs + '>';
+        html += '  ' + renderParaAr(p, hasWords);
         html += '  <div class="para-id' + (p.id ? '' : ' placeholder') + '">' + (p.id || 'Terjemahan belum diisi.') + '</div>';
         html += renderFootnotes(p);
         html += '</div>';
@@ -542,6 +542,26 @@
     wireBookPlayButton();
     var audioEl = document.getElementById("bookAudio");
     if(audioEl){ updatePlaybackUI(audioEl.currentTime, !audioEl.paused, false); }
+  }
+
+  function renderParaAr(p, hasWords){
+    var arText = p.ar || '';
+    if(!hasWords){
+      return '<div class="para-ar" data-ar-full="' + encodeURIComponent(arText) + '">' + escapeHtml(arText) + '</div>';
+    }
+    var tokens = arText.split(/\s+/).filter(function(t){ return t.length > 0; });
+    var timings = p.words;
+    var parts = [];
+    for(var i = 0; i < tokens.length; i++){
+      var tok = tokens[i];
+      var attrs = ' class="word" data-ar-full="' + encodeURIComponent(tok) + '"';
+      if(i < timings.length && timings[i] && timings[i].start != null && timings[i].end != null){
+        attrs += ' data-start="' + timings[i].start + '" data-end="' + timings[i].end + '"';
+      }
+      parts.push('<span' + attrs + '>' + escapeHtml(tok) + '</span>');
+    }
+    // outer wrapper intentionally has NO data-ar-full, so applyGundulMode only rewrites the word spans
+    return '<div class="para-ar">' + parts.join(' ') + '</div>';
   }
 
   function renderFootnotes(p){
@@ -709,6 +729,8 @@
       el.classList.toggle("active", isActive);
     });
 
+    highlightActiveWord(t);
+
     var activeAnchor = getActiveTimeAnchor(t);
     if(activeAnchor && activeAnchor !== lastActiveAnchorEl){
       lastActiveAnchorEl = activeAnchor;
@@ -716,6 +738,29 @@
     } else if(!activeAnchor){
       lastActiveAnchorEl = null;
     }
+  }
+
+  var lastActiveWordEl = null;
+
+  function highlightActiveWord(t){
+    var wordEls = document.querySelectorAll(".word[data-start]");
+    var activeEl = null;
+    wordEls.forEach(function(el){
+      var start = parseFloat(el.getAttribute("data-start"));
+      var end = parseFloat(el.getAttribute("data-end"));
+      var isActive = t >= start && t < end;
+      if(isActive){ activeEl = el; }
+      if(el !== lastActiveWordEl){
+        el.classList.toggle("active-word", isActive);
+      }
+    });
+    if(lastActiveWordEl && lastActiveWordEl !== activeEl){
+      lastActiveWordEl.classList.remove("active-word");
+    }
+    if(activeEl){
+      activeEl.classList.add("active-word");
+    }
+    lastActiveWordEl = activeEl;
   }
 
   function getActiveTimeAnchor(t){
