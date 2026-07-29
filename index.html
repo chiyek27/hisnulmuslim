@@ -141,6 +141,64 @@
     cursor:pointer;font-size:1.1rem;
   }
 
+  /* ---------- VIEW TOGGLE ---------- */
+  .view-toggle{
+    display:flex;gap:3px;background:var(--ink-2);border:1px solid var(--panel-line);
+    border-radius:20px;padding:3px;flex:0 0 auto;
+  }
+  .view-btn{
+    border:none;background:none;color:var(--muted-text);font-family:var(--font-ui);
+    font-size:.74rem;padding:6px 14px;border-radius:16px;cursor:pointer;
+    transition:background .15s,color .15s;white-space:nowrap;
+  }
+  .view-btn.active{background:var(--gold-soft);color:#062522;font-weight:600;}
+  .view-btn:hover:not(.active){color:var(--soft-text);}
+
+  /* ---------- FLASHCARD VIEW ---------- */
+  #flashView{
+    display:none;flex:1;min-width:0;background:var(--parchment);
+    align-items:center;justify-content:center;padding:24px;overflow-y:auto;
+  }
+  #flashView.active{display:flex;}
+  .flash-card{
+    position:relative;width:100%;max-width:720px;background:#fff;border-radius:14px;
+    border:1px solid #d9ece7;box-shadow:0 12px 40px rgba(18,58,70,.10);
+    padding:52px 36px 36px;text-align:center;
+  }
+  .flash-fullscreen-btn{
+    position:absolute;top:14px;right:16px;background:var(--parchment-2);border:1px solid #cfe4de;
+    color:#2f7671;width:34px;height:34px;border-radius:8px;cursor:pointer;font-size:1rem;
+    display:flex;align-items:center;justify-content:center;transition:background .12s;
+  }
+  .flash-fullscreen-btn:hover{background:#d5ece7;}
+  .flash-eyebrow{
+    font-family:var(--font-ui);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--gold-soft);margin-bottom:20px;
+  }
+  .flash-word-big{
+    font-family:var(--font-ar);font-size:4rem;line-height:1.35;direction:rtl;
+    color:var(--ink-text);margin-bottom:20px;word-break:break-word;
+  }
+  .flash-word-translation{
+    font-family:var(--font-id);font-size:1.3rem;color:#2f5651;margin-bottom:30px;min-height:1.6em;
+  }
+  .flash-context{
+    direction:rtl;font-family:var(--font-ar);font-size:1.15rem;line-height:2.3;
+    color:#7fa8a2;padding-top:20px;border-top:1px dashed #cfe4de;
+  }
+  .flash-ctx-word{cursor:pointer;padding:2px 5px;border-radius:5px;margin:0 -2px;transition:background .12s,color .12s;}
+  .flash-ctx-word:hover{background:rgba(63,164,160,.15);}
+  .flash-ctx-word.active{background:var(--rubric);color:#fff;}
+
+  .flash-card:fullscreen{
+    max-width:none;width:100vw;height:100vh;border-radius:0;display:flex;flex-direction:column;
+    align-items:center;justify-content:center;background:var(--parchment);
+  }
+  .flash-card:fullscreen .flash-word-big{font-size:7rem;}
+  .flash-card:fullscreen .flash-word-translation{font-size:2rem;}
+  .flash-card:fullscreen .flash-context{font-size:1.6rem;max-width:900px;}
+  .flash-card:fullscreen .flash-fullscreen-btn{top:24px;right:28px;}
+
   .main-row{flex:1;display:flex;min-height:0;}
 
   #content{flex:1;min-width:0;overflow-y:auto;background:var(--parchment);color:var(--ink-text);}
@@ -306,6 +364,9 @@
     .book-title-ar{font-size:1.7rem;}
     .para-ar{font-size:1.32rem;}
     .player-time span{width:32px;}
+    .view-btn{padding:6px 10px;font-size:.68rem;}
+    .flash-word-big{font-size:2.6rem;}
+    .flash-card{padding:44px 20px 28px;}
   }
 </style>
 </head>
@@ -343,6 +404,10 @@
   <div class="topbar">
     <div class="brand">حصن المسلم<small>Hisnul Muslim &middot; Sa'id bin Ali Al-Qahthani</small></div>
     <div class="spacer"></div>
+    <div class="view-toggle" id="viewToggle">
+      <button id="viewNormalBtn" class="view-btn active" type="button">Tampilan Biasa</button>
+      <button id="viewFlashBtn" class="view-btn" type="button">Flashcard</button>
+    </div>
     <div class="harakat-toggle" title="Tampilkan teks Arab tanpa harakat">
       <span class="harakat-label">بدون تشكيل</span>
       <label class="switch">
@@ -355,6 +420,16 @@
 
   <div class="main-row">
     <main id="content"><div class="content-inner" id="contentInner"></div></main>
+
+    <div id="flashView">
+      <div class="flash-card" id="flashCard">
+        <button class="flash-fullscreen-btn" id="flashFullscreenBtn" type="button" title="Layar penuh">⛶</button>
+        <div class="flash-eyebrow" id="flashEyebrow">Flashcard</div>
+        <div class="flash-word-big" id="flashWordBig">—</div>
+        <div class="flash-word-translation" id="flashWordTranslation"></div>
+        <div class="flash-context" id="flashContext"></div>
+      </div>
+    </div>
 
     <div id="sidebarBackdrop"></div>
     <nav id="sidebar">
@@ -412,6 +487,8 @@
   function initApp(){
     if(initialized){ return; }
     initialized = true;
+    wireViewToggle();
+    wireFlashFullscreen();
     fetch("data.json")
       .then(function(r){ return r.json(); })
       .then(function(json){
@@ -539,12 +616,14 @@
     document.getElementById("contentInner").innerHTML = html;
     document.getElementById("content").scrollTop = 0;
     lastActiveAnchorEl = null;
+    lastActiveWordEl = null;
     applyGundulMode();
     wireSeekableElements();
     wireWordElements();
     wireBookPlayButton();
     var audioEl = document.getElementById("bookAudio");
     if(audioEl){ updatePlaybackUI(audioEl.currentTime, !audioEl.paused, false); }
+    renderFlashcard();
   }
 
   function renderParaAr(p, hasWords){
@@ -560,6 +639,9 @@
       var attrs = ' class="word" data-ar-full="' + encodeURIComponent(tok) + '"';
       if(i < timings.length && timings[i] && timings[i].start != null && timings[i].end != null){
         attrs += ' data-start="' + timings[i].start + '" data-end="' + timings[i].end + '"';
+      }
+      if(i < timings.length && timings[i] && timings[i].id){
+        attrs += ' data-tr="' + encodeURIComponent(timings[i].id) + '"';
       }
       parts.push('<span' + attrs + '>' + escapeHtml(tok) + '</span>');
     }
@@ -778,6 +860,95 @@
       activeEl.classList.add("active-word");
     }
     lastActiveWordEl = activeEl;
+    renderFlashcard();
+  }
+
+  // ---------- VIEW TOGGLE (Tampilan Biasa <-> Flashcard) ----------
+  var currentView = "normal";
+
+  function setView(view){
+    currentView = view;
+    var isFlash = (view === "flash");
+    document.getElementById("content").style.display = isFlash ? "none" : "";
+    document.getElementById("flashView").classList.toggle("active", isFlash);
+    document.getElementById("viewNormalBtn").classList.toggle("active", !isFlash);
+    document.getElementById("viewFlashBtn").classList.toggle("active", isFlash);
+    if(isFlash){ renderFlashcard(); }
+  }
+
+  function wireViewToggle(){
+    document.getElementById("viewNormalBtn").addEventListener("click", function(){ setView("normal"); });
+    document.getElementById("viewFlashBtn").addEventListener("click", function(){ setView("flash"); });
+  }
+
+  function wireFlashFullscreen(){
+    var btn = document.getElementById("flashFullscreenBtn");
+    var card = document.getElementById("flashCard");
+    btn.addEventListener("click", function(){
+      if(!document.fullscreenElement){
+        if(card.requestFullscreen){ card.requestFullscreen(); }
+      } else {
+        document.exitFullscreen();
+      }
+    });
+    document.addEventListener("fullscreenchange", function(){
+      btn.textContent = document.fullscreenElement ? "×" : "⛶";
+    });
+  }
+
+  function renderFlashcard(){
+    var flashWordBig = document.getElementById("flashWordBig");
+    var flashTranslation = document.getElementById("flashWordTranslation");
+    var flashContext = document.getElementById("flashContext");
+    var flashEyebrow = document.getElementById("flashEyebrow");
+    if(!flashWordBig){ return; }
+
+    var activePara = document.querySelector("#contentInner .para.active") || document.querySelector("#contentInner .para");
+    if(!activePara){
+      flashWordBig.textContent = "—";
+      flashTranslation.textContent = "";
+      flashContext.innerHTML = "";
+      flashEyebrow.textContent = "Flashcard";
+      return;
+    }
+
+    var book = DATA.books[currentBookIndex];
+    flashEyebrow.textContent = book ? book.title_id : "Flashcard";
+
+    var wordEls = activePara.querySelectorAll(".word");
+    if(wordEls.length === 0){
+      var arDiv = activePara.querySelector(".para-ar");
+      var idDiv = activePara.querySelector(".para-id");
+      flashWordBig.textContent = arDiv ? arDiv.textContent : "";
+      flashTranslation.textContent = idDiv ? idDiv.textContent : "";
+      flashContext.innerHTML = "";
+      return;
+    }
+
+    var activeWordEl = activePara.querySelector(".word.active-word") || wordEls[0];
+    flashWordBig.textContent = activeWordEl.textContent;
+    var tr = activeWordEl.getAttribute("data-tr");
+    flashTranslation.textContent = tr ? decodeURIComponent(tr) : "";
+
+    var html = "";
+    wordEls.forEach(function(el){
+      var isActive = el.classList.contains("active-word");
+      var start = el.getAttribute("data-start");
+      html += '<span class="flash-ctx-word' + (isActive ? " active" : "") + '"' +
+        (start !== null ? ' data-seek-word="' + start + '"' : "") + ">" +
+        escapeHtml(el.textContent) + "</span> ";
+    });
+    flashContext.innerHTML = html;
+    flashContext.querySelectorAll("[data-seek-word]").forEach(function(el){
+      el.addEventListener("click", function(){
+        var t = parseFloat(el.getAttribute("data-seek-word"));
+        var audioEl = document.getElementById("bookAudio");
+        if(audioEl && !isNaN(t)){
+          audioEl.currentTime = t;
+          audioEl.play();
+        }
+      });
+    });
   }
 
   function getActiveTimeAnchor(t){
