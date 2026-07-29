@@ -188,11 +188,11 @@
     display:flex;align-items:center;justify-content:center;overflow:hidden;
   }
   .flash-word-translation{
-    font-family:var(--font-id);font-size:1.3rem;color:#2f5651;flex:1 1 0;min-height:0;width:100%;
+    font-family:var(--font-id);font-size:1.3rem;color:#2f5651;flex:0.5 1 0;min-height:0;width:100%;
     display:flex;align-items:center;justify-content:center;overflow:hidden;
   }
   .flash-context{
-    flex:1 1 0;min-height:0;overflow-y:auto;scroll-behavior:smooth;
+    flex:0.4 1 0;min-height:0;overflow-y:auto;scroll-behavior:smooth;
     direction:rtl;font-family:var(--font-ar);font-size:1.15rem;line-height:2.3;
     color:#7fa8a2;padding-top:20px;border-top:1px dashed #cfe4de;
   }
@@ -294,6 +294,7 @@
   /* ---------- SIDEBAR ---------- */
   #sidebar{flex:0 0 300px;width:300px;background:var(--panel);border-left:1px solid var(--panel-line);overflow-y:auto;order:2;display:flex;flex-direction:column;}
   .sidebar-toolbar{
+	position: sticky; top:0; background: var(--panel);
     flex:0 0 auto;display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;
     padding:14px 14px 10px;border-bottom:1px solid var(--panel-line);
   }
@@ -301,7 +302,7 @@
   .sidebar-toolbar .harakat-toggle{flex:0 0 auto;}
   .sidebar-toolbar .view-btn .label-full{display:none;}
   .sidebar-toolbar .view-btn .label-short{display:inline;}
-  .sidebar-search{position:sticky;top:0;background:var(--panel);padding:14px 14px 10px;border-bottom:1px solid var(--panel-line);z-index:2;}
+  .sidebar-search{position:sticky;top:56px;background:var(--panel);padding:14px 14px 10px;border-bottom:1px solid var(--panel-line);z-index:2;}
   .sidebar-search input{
     width:100%;padding:9px 10px;background:var(--ink-2);border:1px solid var(--panel-line);
     border-radius:3px;color:var(--soft-text);font-family:var(--font-ui);font-size:.85rem;outline:none;
