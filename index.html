@@ -153,6 +153,7 @@
   }
   .view-btn.active{background:var(--gold-soft);color:#062522;font-weight:600;}
   .view-btn:hover:not(.active){color:var(--soft-text);}
+  .view-btn .label-short{display:none;}
 
   /* ---------- FLASHCARD VIEW ---------- */
   #flashView{
@@ -161,42 +162,50 @@
   }
   #flashView.active{display:flex;}
   .flash-card{
-    position:relative;width:100%;max-width:720px;background:#fff;border-radius:14px;
+    position:relative;width:100%;max-width:720px;height:min(78vh,680px);background:#fff;border-radius:14px;
     border:1px solid #d9ece7;box-shadow:0 12px 40px rgba(18,58,70,.10);
-    padding:52px 36px 36px;text-align:center;
+    padding:52px 36px 24px;text-align:center;
+    display:flex;flex-direction:column;min-height:0;
   }
   .flash-fullscreen-btn{
     position:absolute;top:14px;right:16px;background:var(--parchment-2);border:1px solid #cfe4de;
-    color:#2f7671;width:34px;height:34px;border-radius:8px;cursor:pointer;font-size:1rem;
+    color:#2f7671;min-width:34px;height:34px;padding:0 10px;border-radius:8px;cursor:pointer;font-size:.78rem;
+    font-family:var(--font-ui);font-weight:600;letter-spacing:.02em;
     display:flex;align-items:center;justify-content:center;transition:background .12s;
   }
   .flash-fullscreen-btn:hover{background:#d5ece7;}
+  .flash-main{
+    flex:3 1 0;min-height:0;display:flex;flex-direction:column;
+    align-items:center;justify-content:center;overflow:hidden;
+  }
   .flash-eyebrow{
     font-family:var(--font-ui);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;
-    color:var(--gold-soft);margin-bottom:20px;
+    color:var(--gold-soft);margin-bottom:20px;flex:0 0 auto;
   }
   .flash-word-big{
     font-family:var(--font-ar);font-size:4rem;line-height:1.35;direction:rtl;
-    color:var(--ink-text);margin-bottom:20px;word-break:break-word;
+    color:var(--ink-text);margin-bottom:20px;word-break:break-word;flex:0 0 auto;
   }
   .flash-word-translation{
-    font-family:var(--font-id);font-size:1.3rem;color:#2f5651;margin-bottom:30px;min-height:1.6em;
+    font-family:var(--font-id);font-size:1.3rem;color:#2f5651;min-height:1.6em;flex:0 0 auto;
   }
   .flash-context{
+    flex:1 1 0;min-height:0;overflow-y:auto;scroll-behavior:smooth;
     direction:rtl;font-family:var(--font-ar);font-size:1.15rem;line-height:2.3;
-    color:#7fa8a2;padding-top:20px;border-top:1px dashed #cfe4de;
+    color:#7fa8a2;padding-top:20px;margin-top:10px;border-top:1px dashed #cfe4de;
   }
   .flash-ctx-word{cursor:pointer;padding:2px 5px;border-radius:5px;margin:0 -2px;transition:background .12s,color .12s;}
   .flash-ctx-word:hover{background:rgba(63,164,160,.15);}
   .flash-ctx-word.active{background:var(--rubric);color:#fff;}
 
   .flash-card:fullscreen{
-    max-width:none;width:100vw;height:100vh;border-radius:0;display:flex;flex-direction:column;
-    align-items:center;justify-content:center;background:var(--parchment);
+    max-width:none;width:100vw;height:100vh;border-radius:0;
+    align-items:center;background:var(--parchment);padding:64px 36px 36px;
   }
+  .flash-card:fullscreen .flash-main{max-width:900px;width:100%;margin:0 auto;}
   .flash-card:fullscreen .flash-word-big{font-size:7rem;}
   .flash-card:fullscreen .flash-word-translation{font-size:2rem;}
-  .flash-card:fullscreen .flash-context{font-size:1.6rem;max-width:900px;}
+  .flash-card:fullscreen .flash-context{font-size:1.6rem;max-width:900px;width:100%;margin-left:auto;margin-right:auto;}
   .flash-card:fullscreen .flash-fullscreen-btn{top:24px;right:28px;}
 
   .main-row{flex:1;display:flex;min-height:0;}
@@ -366,7 +375,11 @@
     .player-time span{width:32px;}
     .view-btn{padding:6px 10px;font-size:.68rem;}
     .flash-word-big{font-size:2.6rem;}
-    .flash-card{padding:44px 20px 28px;}
+    .flash-card{padding:44px 16px 16px;height:min(82vh,620px);}
+    .flash-context{font-size:1rem;line-height:2;}
+    .flash-fullscreen-btn{font-size:.7rem;min-width:auto;padding:0 8px;}
+    .view-btn .label-full{display:none;}
+    .view-btn .label-short{display:inline;}
   }
 </style>
 </head>
@@ -405,8 +418,8 @@
     <div class="brand">حصن المسلم<small>Hisnul Muslim &middot; Sa'id bin Ali Al-Qahthani</small></div>
     <div class="spacer"></div>
     <div class="view-toggle" id="viewToggle">
-      <button id="viewNormalBtn" class="view-btn active" type="button">Tampilan Biasa</button>
-      <button id="viewFlashBtn" class="view-btn" type="button">Flashcard</button>
+      <button id="viewNormalBtn" class="view-btn active" type="button" title="Tampilan Biasa"><span class="label-full">Tampilan Biasa</span><span class="label-short">Biasa</span></button>
+      <button id="viewFlashBtn" class="view-btn" type="button" title="Flashcard"><span class="label-full">Flashcard</span><span class="label-short">Flash</span></button>
     </div>
     <div class="harakat-toggle" title="Tampilkan teks Arab tanpa harakat">
       <span class="harakat-label">بدون تشكيل</span>
@@ -423,10 +436,12 @@
 
     <div id="flashView">
       <div class="flash-card" id="flashCard">
-        <button class="flash-fullscreen-btn" id="flashFullscreenBtn" type="button" title="Layar penuh">⛶</button>
-        <div class="flash-eyebrow" id="flashEyebrow">Flashcard</div>
-        <div class="flash-word-big" id="flashWordBig">—</div>
-        <div class="flash-word-translation" id="flashWordTranslation"></div>
+        <button class="flash-fullscreen-btn" id="flashFullscreenBtn" type="button" title="Layar penuh">FS</button>
+        <div class="flash-main">
+          <div class="flash-eyebrow" id="flashEyebrow">Flashcard</div>
+          <div class="flash-word-big" id="flashWordBig">—</div>
+          <div class="flash-word-translation" id="flashWordTranslation"></div>
+        </div>
         <div class="flash-context" id="flashContext"></div>
       </div>
     </div>
@@ -892,8 +907,19 @@
       }
     });
     document.addEventListener("fullscreenchange", function(){
-      btn.textContent = document.fullscreenElement ? "×" : "⛶";
+      btn.textContent = document.fullscreenElement ? "Tutup" : "FS";
+      btn.title = document.fullscreenElement ? "Keluar layar penuh" : "Layar penuh";
     });
+  }
+
+  function scrollActiveContextWordIntoView(container){
+    var activeEl = container.querySelector(".flash-ctx-word.active");
+    if(!activeEl){ return; }
+    var containerRect = container.getBoundingClientRect();
+    var elRect = activeEl.getBoundingClientRect();
+    var offset = (elRect.top + elRect.height / 2) - (containerRect.top + containerRect.height / 2);
+    if(Math.abs(offset) < 2){ return; }
+    container.scrollTop += offset;
   }
 
   function renderFlashcard(){
@@ -939,6 +965,7 @@
         escapeHtml(el.textContent) + "</span> ";
     });
     flashContext.innerHTML = html;
+    scrollActiveContextWordIntoView(flashContext);
     flashContext.querySelectorAll("[data-seek-word]").forEach(function(el){
       el.addEventListener("click", function(){
         var t = parseFloat(el.getAttribute("data-seek-word"));
