@@ -1498,7 +1498,57 @@
               "word": "الرَّجِيمِ",
               "start": 1898.309,
               "end": 1898.909
-            }
+            },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
           ]
         },
         {
@@ -1548,6 +1598,20 @@
               "start": 1907.393,
               "end": 1907.7730000000001
             },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
             {
               "word": "أَحَدٌ}",
               "start": 1907.913,
@@ -1593,6 +1657,29 @@
               "start": 1914.096,
               "end": 1914.556
             },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
             {
               "word": "بِسْمِ",
               "start": 1916.608,
@@ -1633,6 +1720,27 @@
               "start": 1922.3500000000001,
               "end": 1923.01
             },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
             {
               "word": "(ثَلَاثَ",
               "start": 1924.21,
@@ -1965,7 +2073,16 @@
               "word": "الْقَبْرِ.",
               "start": 1968.692,
               "end": 1969.1109999999999
-            }
+            },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
           ]
         },
         {
@@ -2047,6 +2164,7 @@
               "start": 1997.222,
               "end": 1997.522
             },
+            null,
             {
               "word": "اللَّهُمَّ",
               "start": 1999.383,
@@ -2243,6 +2361,7 @@
               "start": 2025.578,
               "end": 2026.298
             },
+            null,
             {
               "word": "وَأَبُوءُ",
               "start": 2027.6589999999999,
@@ -2644,6 +2763,7 @@
               "start": 2090.8,
               "end": 2091.02
             },
+            null,
             {
               "word": "اللَّهُمَّ",
               "start": 2093.312,
@@ -2679,6 +2799,9 @@
               "start": 2095.995,
               "end": 2096.536
             },
+            null,
+            null,
+            null,
             {
               "word": "بِكَ",
               "start": 2098.999,
@@ -3101,6 +3224,7 @@
               "start": 2171.3349999999996,
               "end": 2171.6349999999998
             },
+            null,
             {
               "word": "أَشْهَدُ",
               "start": 2174.256,
@@ -3596,6 +3720,7 @@
               "start": 2254.535,
               "end": 2255.255
             },
+            null,
             {
               "word": "وَأَعُوذُ",
               "start": 2257.3360000000002,
@@ -3796,6 +3921,8 @@
           "start": 2289.23,
           "end": 2293.74,
           "words": [
+            null,
+            null,
             {
               "word": "سُبْحَانَ",
               "start": 2289.232,
@@ -3811,6 +3938,7 @@
               "start": 2290.713,
               "end": 2291.353
             },
+            null,
             {
               "word": "مَرَّةٍ)",
               "start": 2293.4550000000004,
@@ -4051,6 +4179,7 @@
               "start": 2326.621,
               "end": 2327.001
             },
+            null,
             {
               "word": "مَرَّةٍ",
               "start": 2329.042,
@@ -4105,6 +4234,7 @@
               "start": 2337.724,
               "end": 2338.0440000000003
             },
+            null,
             {
               "word": "نَفْسِهِ",
               "start": 2339.776,
@@ -4233,6 +4363,7 @@
           "start": 2365.98,
           "end": 2371.99,
           "words": [
+            null,
             {
               "word": "اللَّهَ",
               "start": 2366.703,
@@ -4248,6 +4379,7 @@
               "start": 2368.324,
               "end": 2368.6040000000003
             },
+            null,
             {
               "word": "مَرَّةٍ",
               "start": 2370.764,
