@@ -175,18 +175,21 @@
   .flash-fullscreen-btn:hover{background:#d5ece7;}
   .flash-main{
     flex:3 1 0;min-height:0;display:flex;flex-direction:column;
-    align-items:center;justify-content:center;overflow:hidden;
+    align-items:center;overflow:hidden;
   }
   .flash-eyebrow{
     font-family:var(--font-ui);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;
-    color:var(--gold-soft);margin-bottom:20px;flex:0 0 auto;
+    color:var(--gold-soft);flex:1 1 0;min-height:0;width:100%;
+    display:flex;align-items:center;justify-content:center;overflow:hidden;
   }
   .flash-word-big{
     font-family:var(--font-ar);font-size:4rem;line-height:1.35;direction:rtl;
-    color:var(--ink-text);margin-bottom:20px;word-break:break-word;flex:0 0 auto;
+    color:var(--ink-text);word-break:break-word;flex:2 1 0;min-height:0;width:100%;
+    display:flex;align-items:center;justify-content:center;overflow:hidden;
   }
   .flash-word-translation{
-    font-family:var(--font-id);font-size:1.3rem;color:#2f5651;min-height:1.6em;flex:0 0 auto;
+    font-family:var(--font-id);font-size:1.3rem;color:#2f5651;flex:2 1 0;min-height:0;width:100%;
+    display:flex;align-items:center;justify-content:center;overflow:hidden;
   }
   .flash-context{
     flex:1 1 0;min-height:0;overflow-y:auto;scroll-behavior:smooth;
@@ -202,7 +205,7 @@
     align-items:center;background:var(--parchment);padding:64px 36px 36px;
   }
   .flash-card:fullscreen .flash-main{max-width:900px;width:100%;margin:0 auto;}
-  .flash-card:fullscreen .flash-word-big{font-size:7rem;}
+  .flash-card:fullscreen .flash-word-big{font-size:6rem;}
   .flash-card:fullscreen .flash-word-translation{font-size:2rem;}
   .flash-card:fullscreen .flash-context{font-size:1.6rem;max-width:900px;width:100%;margin-left:auto;margin-right:auto;}
   .flash-card:fullscreen .flash-fullscreen-btn{top:24px;right:28px;}
